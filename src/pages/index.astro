@@ -1,0 +1,99 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import NewsCard from '../components/NewsCard.astro';
+import AdBanner from '../components/AdBanner.astro';
+import { getCollection } from 'astro:content';
+import { t } from '../i18n/translations';
+import { getLocalizedPath, getCategorySlug } from '../i18n/utils';
+
+const lang = 'zh';
+const prefix = 'zh/';
+
+const allNews = await getCollection('news', ({ data, id }) => !data.draft && id.startsWith(prefix));
+const sortedNews = allNews.sort(
+  (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
+);
+
+const latestNews = sortedNews.slice(0, 9);
+const remainingNews = sortedNews.slice(6);
+
+const categories = [...new Set(sortedNews.map((n) => n.data.category))];
+---
+
+<BaseLayout title={t(lang, 'home')} description={t(lang, 'siteDescription')} lang={lang}>
+  <section class="mb-10">
+    <h1 class="text-3xl font-bold text-stu-dark dark:text-gray-100 mb-2">{t(lang, 'siteName')}</h1>
+    <p class="text-gray-500 dark:text-gray-400">{t(lang, 'siteDescription')}</p>
+  </section>
+
+  {latestNews.length > 0 && (
+    <section class="mb-12">
+      <div class="flex items-center justify-between mb-6">
+        <h2 class="text-2xl font-bold text-stu-dark dark:text-gray-100">{t(lang, 'latestNews')}</h2>
+        <a href={getLocalizedPath('/news/', lang)} class="text-sm text-stu-gold-dark hover:text-stu-gold transition-colors">
+          {t(lang, 'viewAll')} &rarr;
+        </a>
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        {latestNews.map((post) => (
+          <NewsCard
+            title={post.data.title}
+            href={`/news/${post.id.replace(prefix, '')}/`}
+            pubDate={post.data.pubDate}
+            description={post.data.description}
+            heroImage={post.data.heroImage}
+            category={post.data.category}
+            lang={lang}
+          />
+        ))}
+      </div>
+    </section>
+  )}
+
+  <AdBanner lang={lang} class="mb-12" />
+
+  {categories.length > 0 && (
+    <section class="mb-12">
+      <h2 class="text-2xl font-bold text-stu-dark dark:text-gray-100 mb-6">{t(lang, 'newsCategories')}</h2>
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+        {categories.map((cat) => {
+          const catSlug = getCategorySlug(cat, lang);
+          return (
+            <a
+              href={`/news/${catSlug}/`}
+              class="block p-6 bg-stu-cream dark:bg-stu-dark-light rounded-xl text-center hover:bg-stu-gold hover:text-white transition-colors group"
+            >
+              <span class="text-lg font-bold group-hover:text-white">{cat}</span>
+            </a>
+          );
+        })}
+      </div>
+    </section>
+  )}
+
+  {remainingNews.length > 0 && (
+    <section>
+      <h2 class="text-2xl font-bold text-stu-dark dark:text-gray-100 mb-6">{t(lang, 'moreNews')}</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        {remainingNews.map((post) => (
+          <NewsCard
+            title={post.data.title}
+            href={`/news/${post.id.replace(prefix, '')}/`}
+            pubDate={post.data.pubDate}
+            description={post.data.description}
+            heroImage={post.data.heroImage}
+            category={post.data.category}
+            lang={lang}
+          />
+        ))}
+      </div>
+    </section>
+  )}
+
+  {sortedNews.length === 0 && (
+    <div class="text-center py-20 text-gray-400">
+      <p class="text-xl">{t(lang, 'noNews')}</p>
+      <p class="mt-2">{t(lang, 'noNewsHint')} <code class="bg-stu-cream dark:bg-stu-dark-light px-2 py-1 rounded text-sm">src/content/news/{lang}/</code></p>
+    </div>
+  )}
+</BaseLayout>

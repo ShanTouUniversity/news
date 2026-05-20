@@ -1,0 +1,44 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { t } from '../../i18n/translations';
+
+const lang = 'en';
+---
+
+<BaseLayout title={t(lang, 'about')} description={t(lang, 'siteDescription')} lang={lang}>
+  <article class="max-w-4xl mx-auto">
+    <nav class="text-sm text-gray-400 dark:text-gray-500 mb-6">
+      <a href="/en/" class="hover:text-stu-gold">{t(lang, 'home')}</a>
+      <span class="mx-2">/</span>
+      <span class="text-gray-600 dark:text-gray-300">{t(lang, 'about')}</span>
+    </nav>
+
+    <h1 class="text-3xl font-bold text-stu-dark dark:text-gray-100 mb-6">{t(lang, 'aboutTitle')}</h1>
+
+    <div class="prose prose-lg max-w-none prose-headings:text-stu-dark dark:prose-headings:text-gray-100">
+      <p>
+        <strong>{t(lang, 'siteName')}</strong> {t(lang, 'aboutDescription')}
+      </p>
+
+      <div class="bg-stu-cream dark:bg-stu-dark-light border border-stu-cream-dark dark:border-white/10 rounded-lg p-4 not-prose my-6">
+        <p class="text-sm text-stu-gold-dark dark:text-stu-gold">
+          {t(lang, 'aboutDisclaimer')} <a href="https://www.stu.edu.cn/" class="text-stu-gold underline" target="_blank" rel="noopener">STU Official Site (stu.edu.cn)</a>.
+        </p>
+      </div>
+
+      <h2>{t(lang, 'aboutSource')}</h2>
+      <p>{t(lang, 'aboutSourceDesc')}</p>
+
+      <h2>{t(lang, 'aboutContact')}</h2>
+      <p>{t(lang, 'aboutContactDesc')}</p>
+      <ul>
+        <li>{t(lang, 'aboutContactEmail')}：<a href="mailto:news@ShanTou.University" class="text-stu-gold">news@ShanTou.University</a></li>
+        <li><a href="https://shantou.university/" target="_blank" rel="noopener">ShanTou.University</a> community</li>
+        <li>Submit an <a href="https://github.com/ShanTouUniversity/news" target="_blank" rel="noopener">GitHub</a> Issue or Pull Request</li>
+      </ul>
+
+      <h2>{t(lang, 'aboutDisclaimerTitle')}</h2>
+      <p>{t(lang, 'aboutDisclaimerDesc')}</p>
+    </div>
+  </article>
+</BaseLayout>

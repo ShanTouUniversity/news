@@ -1,0 +1,100 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import AdBanner from '../../../components/AdBanner.astro';
+import { getCollection, render } from 'astro:content';
+import { t } from '../../../i18n/translations';
+import { getCategorySlug } from '../../../i18n/utils';
+
+export const prerender = true;
+
+const lang = 'en';
+const prefix = 'en/';
+
+export async function getStaticPaths() {
+  const allNews = await getCollection('news', ({ data, id }) => !data.draft && id.startsWith('en/'));
+  return allNews.map((post) => ({
+    params: { slug: post.id.replace('en/', '') },
+    props: { post },
+  }));
+}
+
+const { post } = Astro.props;
+const { Content } = await render(post);
+
+const catSlug = getCategorySlug(post.data.category, lang);
+
+const dateStr = post.data.pubDate.toLocaleDateString('en-US', {
+  year: 'numeric',
+  month: 'long',
+  day: 'numeric',
+});
+
+const updatedStr = post.data.updatedDate?.toLocaleDateString('en-US', {
+  year: 'numeric',
+  month: 'long',
+  day: 'numeric',
+});
+
+const zhSlug = post.id.replace('en/', '');
+---
+
+<BaseLayout title={post.data.title} description={post.data.description} image={post.data.heroImage} lang={lang}>
+  <article class="max-w-4xl mx-auto">
+    <nav class="text-sm text-gray-400 dark:text-gray-500 mb-6">
+      <a href="/en/" class="hover:text-stu-gold">{t(lang, 'home')}</a>
+      <span class="mx-2">/</span>
+      <a href={`/en/news/${catSlug}/`} class="hover:text-stu-gold">{post.data.category}</a>
+      <span class="mx-2">/</span>
+      <span class="text-gray-600 dark:text-gray-300">{post.data.title}</span>
+    </nav>
+
+    <header class="mb-8">
+      <span class="inline-block px-3 py-1 bg-stu-gold/10 text-stu-gold text-sm font-medium rounded mb-4">
+        {post.data.category}
+      </span>
+      <h1 class="text-3xl md:text-4xl font-bold text-stu-dark dark:text-gray-100 leading-tight mb-4">
+        {post.data.title}
+      </h1>
+      <div class="flex flex-wrap items-center gap-4 text-sm text-gray-400">
+        <span>{t(lang, 'by')} {post.data.author}</span>
+        <time datetime={post.data.pubDate.toISOString()}>{dateStr}</time>
+        {updatedStr && (
+          <span>{t(lang, 'updatedOn')} <time datetime={post.data.updatedDate!.toISOString()}>{updatedStr}</time></span>
+        )}
+      </div>
+      {post.data.tags.length > 0 && (
+        <div class="flex flex-wrap gap-2 mt-4">
+          {post.data.tags.map((tag: string) => (
+            <span class="px-2 py-1 bg-stu-cream dark:bg-stu-dark-light text-gray-500 dark:text-gray-400 text-xs rounded">{tag}</span>
+          ))}
+        </div>
+      )}
+      <div class="mt-4">
+        <a href={`/news/${zhSlug}/`} class="text-xs text-stu-gold hover:underline">中文版 →</a>
+      </div>
+    </header>
+
+    {post.data.heroImage && (
+      <div class="mb-8 rounded-xl overflow-hidden">
+        <img src={post.data.heroImage} alt={post.data.title} class="w-full object-cover max-h-96" />
+      </div>
+    )}
+
+    <div class="prose prose-lg max-w-none
+      prose-headings:text-stu-dark dark:prose-headings:text-gray-100
+      prose-a:text-stu-gold-dark dark:prose-a:text-stu-gold prose-a:no-underline hover:prose-a:underline
+      prose-img:rounded-xl
+      prose-blockquote:border-stu-gold
+      prose-strong:text-stu-dark dark:prose-strong:text-gray-100">
+      <Content />
+    </div>
+
+    <AdBanner lang={lang} class="mt-8" />
+
+    <footer class="mt-12 pt-8 border-t border-stu-cream-dark dark:border-white/10">
+      <a href="/en/" class="text-stu-gold-dark dark:text-stu-gold hover:text-stu-gold transition-colors">
+        &larr; {t(lang, 'backToHome')}
+      </a>
+    </footer>
+  </article>
+</BaseLayout>

@@ -1,0 +1,84 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import NewsCard from '../../components/NewsCard.astro';
+import { getCollection } from 'astro:content';
+import { t } from '../../i18n/translations';
+import { getCategorySlug } from '../../i18n/utils';
+
+export const prerender = true;
+
+const lang = 'zh';
+const prefix = 'zh/';
+
+const slugToCategoryZh: Record<string, string> = {
+  campus: '校园新闻',
+  academic: '学术科研',
+  student: '学生活动',
+  media: '媒体聚焦',
+};
+
+export async function getStaticPaths() {
+  const allNews = await getCollection('news', ({ data, id }) => !data.draft && id.startsWith('zh/'));
+  const categories = [...new Set(allNews.map((n) => n.data.category))];
+
+  const slugsZh: Record<string, string> = {
+    '校园新闻': 'campus',
+    '校园动态': 'campus',
+    '学术科研': 'academic',
+    '学生活动': 'student',
+    '媒体聚焦': 'media',
+  };
+
+  const paths = categories.map((cat) => ({
+    params: { category: slugsZh[cat] || cat.toLowerCase().replace(/\s+/g, '-') },
+    props: { category: cat },
+  }));
+
+  paths.push({ params: { category: 'all' }, props: { category: '全部资讯' } });
+
+  return paths;
+}
+
+const { category } = Astro.props;
+const isAll = category === '全部资讯';
+
+const allNews = await getCollection('news', ({ data, id }) => !data.draft && id.startsWith(prefix));
+const filtered = isAll
+  ? allNews
+  : allNews.filter((n) => n.data.category === category || slugToCategoryZh[Astro.params.category!] === n.data.category);
+const sorted = filtered.sort(
+  (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
+);
+---
+
+<BaseLayout title={category} description={`汕大资讯 - ${category}`} lang={lang}>
+  <section class="mb-8">
+    <nav class="text-sm text-gray-400 dark:text-gray-500 mb-4">
+      <a href="/" class="hover:text-stu-gold">{t(lang, 'home')}</a>
+      <span class="mx-2">/</span>
+      <span>{category}</span>
+    </nav>
+    <h1 class="text-3xl font-bold text-stu-dark dark:text-gray-100">{category}</h1>
+  </section>
+
+  {sorted.length > 0 ? (
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      {sorted.map((post) => (
+        <NewsCard
+          title={post.data.title}
+          href={`/news/${post.id.replace(prefix, '')}/`}
+          pubDate={post.data.pubDate}
+          description={post.data.description}
+          heroImage={post.data.heroImage}
+          category={post.data.category}
+          lang={lang}
+        />
+      ))}
+    </div>
+  ) : (
+    <div class="text-center py-20 text-gray-400">
+      <p class="text-xl">{t(lang, 'noCategoryNews')}</p>
+      <a href="/" class="mt-4 inline-block text-stu-gold-dark hover:text-stu-gold">{t(lang, 'backToHome')} &rarr;</a>
+    </div>
+  )}
+</BaseLayout>

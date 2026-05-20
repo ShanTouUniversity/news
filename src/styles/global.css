@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    @apply bg-white text-stu-dark;
+}
+
+html.dark body {
+    @apply bg-stu-dark text-gray-100;
+}
+
+html.dark .bg-white {
+    @apply bg-stu-dark;
+}
+
+html.dark .bg-stu-cream {
+    @apply bg-stu-dark-light;
+}
+
+html.dark .border-stu-cream-dark {
+    @apply border-white/10;
+}
+
+html.dark .border-stu-gray-dark {
+    @apply border-white/10;
+}
+
+html.dark .text-gray-500 {
+    @apply text-gray-400;
+}
+
+html.dark .text-stu-dark {
+    @apply text-gray-100;
+}
+
+html.dark .prose {
+    @apply prose-invert;
+}
+
+html.dark .bg-gradient-to-br.from-stu-gold {
+    @apply from-stu-dark-light to-stu-dark;
+}

@@ -1,0 +1,52 @@
+---
+import { t } from '../i18n/translations';
+
+interface Props {
+  lang?: string;
+}
+
+const { lang = 'zh' } = Astro.props;
+const currentYear = new Date().getFullYear();
+---
+
+<footer class="bg-stu-dark text-white/60 mt-auto">
+  <div class="max-w-7xl mx-auto px-4 py-10">
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div>
+        <div class="flex items-center gap-3 mb-4">
+          <img src="/logo.webp" alt="ST.U" class="h-10 w-10 rounded-full object-cover" />
+          <div>
+            <div class="text-white font-bold">{t(lang, 'siteName')}</div>
+            <div class="text-xs text-stu-gold">{t(lang, 'siteNameEn')}</div>
+          </div>
+        </div>
+        <p class="text-sm leading-relaxed">
+          {t(lang, 'footerDesc')} {t(lang, 'footerOfficial')} <a href="https://www.stu.edu.cn/" class="text-stu-gold hover:underline" target="_blank" rel="noopener">stu.edu.cn</a>。
+        </p>
+      </div>
+
+      <div>
+        <h3 class="text-white font-bold mb-4">{t(lang, 'footerQuickLinks')}</h3>
+        <ul class="space-y-2 text-sm">
+          <li><a href={lang === 'en' ? '/en/' : '/'} class="hover:text-stu-gold transition-colors">{t(lang, 'home')}</a></li>
+          <li><a href={lang === 'en' ? '/en/news/campus/' : '/news/campus/'} class="hover:text-stu-gold transition-colors">{t(lang, 'campusNews')}</a></li>
+          <li><a href={lang === 'en' ? '/en/news/academic/' : '/news/academic/'} class="hover:text-stu-gold transition-colors">{t(lang, 'academic')}</a></li>
+          <li><a href={lang === 'en' ? '/en/news/student/' : '/news/student/'} class="hover:text-stu-gold transition-colors">{t(lang, 'student')}</a></li>
+          <li><a href={lang === 'en' ? '/en/about/' : '/about/'} class="hover:text-stu-gold transition-colors">{t(lang, 'about')}</a></li>
+          <li><a href="https://shantou.university/" class="hover:text-stu-gold transition-colors" target="_blank" rel="noopener">ShanTou.University</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h3 class="text-white font-bold mb-4">{t(lang, 'footerDisclaimer')}</h3>
+        <p class="text-sm leading-relaxed">
+          {t(lang, 'footerDisclaimerText')}
+        </p>
+      </div>
+    </div>
+
+    <div class="border-t border-white/10 mt-8 pt-6 text-center text-sm">
+      <p>&copy; {currentYear} {t(lang, 'footerCopyright')}</p>
+    </div>
+  </div>
+</footer>

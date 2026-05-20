@@ -1,0 +1,54 @@
+---
+import { getLocalizedPath } from '../i18n/utils';
+
+interface Props {
+  title: string;
+  href: string;
+  pubDate: Date;
+  description?: string;
+  heroImage?: string;
+  category?: string;
+  lang?: string;
+}
+
+const { title, href, pubDate, description, heroImage, category, lang = 'zh' } = Astro.props;
+
+const dateStr = pubDate.toLocaleDateString(lang === 'en' ? 'en-US' : 'zh-CN', {
+  year: 'numeric',
+  month: 'long',
+  day: 'numeric',
+});
+---
+
+<article class="group bg-white dark:bg-stu-dark rounded-xl border border-stu-gray-dark dark:border-white/10 hover:shadow-lg transition-all duration-300 overflow-hidden">
+  <a href={href} class="block">
+    {heroImage ? (
+      <div class="aspect-video overflow-hidden bg-stu-gray">
+        <img
+          src={heroImage}
+          alt={title}
+          loading="lazy"
+          class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+        />
+      </div>
+    ) : (
+      <div class="aspect-video bg-gradient-to-br from-stu-gold to-stu-gold-dark dark:from-stu-dark-light dark:to-stu-dark flex items-center justify-center">
+        <span class="text-white/30 text-4xl font-bold">STU</span>
+      </div>
+    )}
+    <div class="p-4">
+      {category && (
+        <span class="inline-block px-2 py-0.5 bg-stu-gold/10 text-stu-gold text-xs font-medium rounded mb-2">
+          {category}
+        </span>
+      )}
+      <h3 class="text-lg font-bold text-stu-dark dark:text-gray-100 group-hover:text-stu-gold-dark transition-colors line-clamp-2">
+        {title}
+      </h3>
+      {description && (
+        <p class="mt-2 text-sm text-gray-500 dark:text-gray-400 line-clamp-2">{description}</p>
+      )}
+      <time class="mt-3 block text-xs text-gray-400">{dateStr}</time>
+    </div>
+  </a>
+</article>

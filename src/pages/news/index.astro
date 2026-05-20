@@ -1,0 +1,46 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import NewsCard from '../../components/NewsCard.astro';
+import { getCollection } from 'astro:content';
+import { t } from '../../i18n/translations';
+
+const lang = 'zh';
+const prefix = 'zh/';
+
+const allNews = await getCollection('news', ({ data, id }) => !data.draft && id.startsWith(prefix));
+const sortedNews = allNews.sort(
+  (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
+);
+---
+
+<BaseLayout title={t(lang, 'allNews')} description={t(lang, 'siteDescription')} lang={lang}>
+  <section class="mb-8">
+    <nav class="text-sm text-gray-400 dark:text-gray-500 mb-4">
+      <a href="/" class="hover:text-stu-gold">{t(lang, 'home')}</a>
+      <span class="mx-2">/</span>
+      <span>{t(lang, 'allNews')}</span>
+    </nav>
+    <h1 class="text-3xl font-bold text-stu-dark dark:text-gray-100">{t(lang, 'allNews')}</h1>
+  </section>
+
+  {sortedNews.length > 0 ? (
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      {sortedNews.map((post) => (
+        <NewsCard
+          title={post.data.title}
+          href={`/news/${post.id.replace(prefix, '')}/`}
+          pubDate={post.data.pubDate}
+          description={post.data.description}
+          heroImage={post.data.heroImage}
+          category={post.data.category}
+          lang={lang}
+        />
+      ))}
+    </div>
+  ) : (
+    <div class="text-center py-20 text-gray-400">
+      <p class="text-xl">{t(lang, 'noNews')}</p>
+      <a href="/" class="mt-4 inline-block text-stu-gold-dark hover:text-stu-gold">{t(lang, 'backToHome')} &rarr;</a>
+    </div>
+  )}
+</BaseLayout>
