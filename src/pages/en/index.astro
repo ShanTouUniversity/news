@@ -14,27 +14,52 @@ const sortedNews = allNews.sort(
   (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
 );
 
-const latestNews = sortedNews.slice(0, 9);
-const remainingNews = sortedNews.slice(6);
+const featured = sortedNews[0];
+const latestNews = sortedNews.slice(1, 7);
+const restNews = sortedNews.slice(7);
 
 const categories = [...new Set(sortedNews.map((n) => n.data.category))];
+
+const categoryColors: Record<string, string> = {
+  'Campus News': 'amber',
+  'Academic': 'emerald',
+  'Student Life': 'sky',
+  'Media': 'rose',
+};
+
+const categoryIcons: Record<string, string> = {
+  'Campus News': '◆',
+  'Academic': '●',
+  'Student Life': '▲',
+  'Media': '■',
+};
 ---
 
 <BaseLayout title={t(lang, 'home')} description={t(lang, 'siteDescription')} lang={lang}>
-  <section class="mb-10">
-    <h1 class="text-3xl font-bold text-stu-dark dark:text-gray-100 mb-2">{t(lang, 'siteName')}</h1>
-    <p class="text-gray-500 dark:text-gray-400">{t(lang, 'siteDescription')}</p>
-  </section>
+  {featured && (
+    <section class="mb-10">
+      <NewsCard
+        title={featured.data.title}
+        href={`/en/news/${featured.id.replace(prefix, '')}/`}
+        pubDate={featured.data.pubDate}
+        description={featured.data.description}
+        heroImage={featured.data.heroImage}
+        category={featured.data.category}
+        lang={lang}
+        variant="featured"
+      />
+    </section>
+  )}
 
   {latestNews.length > 0 && (
     <section class="mb-12">
-      <div class="flex items-center justify-between mb-6">
-        <h2 class="text-2xl font-bold text-stu-dark dark:text-gray-100">{t(lang, 'latestNews')}</h2>
-        <a href="/en/news/" class="text-sm text-stu-gold-dark hover:text-stu-gold transition-colors">
-          {t(lang, 'viewAll')} &rarr;
+      <div class="flex items-center justify-between mb-5">
+        <h2 class="text-lg font-bold text-stu-dark dark:text-gray-100">{t(lang, 'latestNews')}</h2>
+        <a href="/en/news/" class="text-xs text-stu-gold-dark hover:text-stu-gold transition-colors font-medium">
+          {t(lang, 'viewAll')} →
         </a>
       </div>
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
         {latestNews.map((post) => (
           <NewsCard
             title={post.data.title}
@@ -54,16 +79,20 @@ const categories = [...new Set(sortedNews.map((n) => n.data.category))];
 
   {categories.length > 0 && (
     <section class="mb-12">
-      <h2 class="text-2xl font-bold text-stu-dark dark:text-gray-100 mb-6">{t(lang, 'newsCategories')}</h2>
-      <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+      <h2 class="text-lg font-bold text-stu-dark dark:text-gray-100 mb-4">{t(lang, 'newsCategories')}</h2>
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-3">
         {categories.map((cat) => {
           const catSlug = getCategorySlug(cat, lang);
+          const color = categoryColors[cat] || 'gold';
           return (
             <a
               href={`/en/news/${catSlug}/`}
-              class="block p-6 bg-stu-cream dark:bg-stu-dark-light rounded-xl text-center hover:bg-stu-gold hover:text-white transition-colors group"
+              class="group relative flex items-center gap-3 p-4 bg-white dark:bg-stu-dark rounded-xl border border-stu-gray-dark dark:border-white/10 hover:shadow-md hover:-translate-y-0.5 transition-all duration-300 overflow-hidden"
             >
-              <span class="text-lg font-bold group-hover:text-white">{cat}</span>
+              <span class={`flex-shrink-0 w-8 h-8 rounded-lg bg-${color}-500/10 text-${color}-600 dark:text-${color}-400 flex items-center justify-center text-sm`}>
+                {categoryIcons[cat] || '◆'}
+              </span>
+              <span class="font-semibold text-sm text-stu-dark dark:text-gray-100 group-hover:text-stu-gold-dark dark:group-hover:text-stu-gold transition-colors">{cat}</span>
             </a>
           );
         })}
@@ -71,20 +100,32 @@ const categories = [...new Set(sortedNews.map((n) => n.data.category))];
     </section>
   )}
 
-  {remainingNews.length > 0 && (
+  {restNews.length > 0 && (
     <section>
-      <h2 class="text-2xl font-bold text-stu-dark dark:text-gray-100 mb-6">{t(lang, 'moreNews')}</h2>
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-        {remainingNews.map((post) => (
-          <NewsCard
-            title={post.data.title}
+      <div class="flex items-center justify-between mb-5">
+        <h2 class="text-lg font-bold text-stu-dark dark:text-gray-100">{t(lang, 'moreNews')}</h2>
+      </div>
+      <div class="divide-y divide-stu-cream-dark dark:divide-white/10">
+        {restNews.map((post) => (
+          <a
             href={`/en/news/${post.id.replace(prefix, '')}/`}
-            pubDate={post.data.pubDate}
-            description={post.data.description}
-            heroImage={post.data.heroImage}
-            category={post.data.category}
-            lang={lang}
-          />
+            class="group flex items-start gap-4 py-4 first:pt-0 hover:bg-stu-cream/50 dark:hover:bg-stu-dark-light/50 -mx-3 px-3 rounded-lg transition-colors"
+          >
+            <time class="flex-shrink-0 text-xs text-gray-400 dark:text-gray-500 font-mono mt-1 w-16">
+              {post.data.pubDate.toLocaleDateString('en-US', { month: 'short', day: '2-digit' })}
+            </time>
+            <div class="flex-1 min-w-0">
+              <h3 class="text-sm font-semibold text-stu-dark dark:text-gray-100 group-hover:text-stu-gold-dark dark:group-hover:text-stu-gold transition-colors line-clamp-1">
+                {post.data.title}
+              </h3>
+              {post.data.description && (
+                <p class="mt-1 text-xs text-gray-400 dark:text-gray-500 line-clamp-1">{post.data.description}</p>
+              )}
+            </div>
+            {post.data.category && (
+              <span class="flex-shrink-0 text-xs text-gray-300 dark:text-gray-600 mt-1">{post.data.category}</span>
+            )}
+          </a>
         ))}
       </div>
     </section>
