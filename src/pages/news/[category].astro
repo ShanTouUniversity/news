@@ -15,6 +15,7 @@ const slugToCategoryZh: Record<string, string> = {
   academic: '学术科研',
   student: '学生活动',
   media: '媒体聚焦',
+  jobs: '就业招聘',
 };
 
 export async function getStaticPaths() {
@@ -27,6 +28,7 @@ export async function getStaticPaths() {
     '学术科研': 'academic',
     '学生活动': 'student',
     '媒体聚焦': 'media',
+    '就业招聘': 'jobs',
   };
 
   const paths = categories.map((cat) => ({

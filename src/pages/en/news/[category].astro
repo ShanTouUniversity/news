@@ -15,6 +15,7 @@ const slugToCategoryEn: Record<string, string> = {
   academic: 'Academic',
   student: 'Student Life',
   media: 'Media',
+  jobs: 'Jobs & Career',
 };
 
 export async function getStaticPaths() {
@@ -27,6 +28,7 @@ export async function getStaticPaths() {
     'Academic': 'academic',
     'Student Life': 'student',
     'Media': 'media',
+    'Jobs & Career': 'jobs',
   };
 
   const paths = categories.map((cat) => ({

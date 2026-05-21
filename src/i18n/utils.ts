@@ -26,6 +26,7 @@ export const categorySlugs: Record<string, Record<string, string>> = {
     '学术科研': 'academic',
     '学生活动': 'student',
     '媒体聚焦': 'media',
+    '就业招聘': 'jobs',
   },
   en: {
     'Campus News': 'campus',
@@ -33,6 +34,7 @@ export const categorySlugs: Record<string, Record<string, string>> = {
     'Academic': 'academic',
     'Student Life': 'student',
     'Media': 'media',
+    'Jobs & Career': 'jobs',
   },
 };
 
