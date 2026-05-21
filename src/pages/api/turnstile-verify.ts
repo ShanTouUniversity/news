@@ -1,5 +1,4 @@
-export async function onRequestPost(context) {
-  const { request, env } = context;
+export async function POST({ request, locals }) {
   const body = await request.json();
   const token = body?.token;
 
@@ -10,8 +9,9 @@ export async function onRequestPost(context) {
     });
   }
 
+  const secretKey = import.meta.env.TURNSTILE_SECRET_KEY;
   const formData = new FormData();
-  formData.append('secret', env.TURNSTILE_SECRET_KEY);
+  formData.append('secret', secretKey);
   formData.append('response', token);
 
   const result = await fetch('https://challenges.cloudflare.com/turnstile/v0/siteverify', {
