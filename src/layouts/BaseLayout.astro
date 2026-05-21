@@ -31,6 +31,8 @@ const dir = lang === 'en' ? 'ltr' : 'ltr';
     <AdBanner lang={lang} class="max-w-7xl mx-auto w-full px-4 pb-6" />
     <Footer lang={lang} />
 
+    <div class="cf-turnstile" data-sitekey="0x4AAAAAADTiuHGeQczrr_ga" data-callback="onTurnstileSuccess" data-theme="auto"></div>
+    <script is:inline src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
     <script is:inline>
       (function() {
         const stored = localStorage.getItem('theme');
@@ -38,6 +40,9 @@ const dir = lang === 'en' ? 'ltr' : 'ltr';
           document.documentElement.classList.add('dark');
         }
       })();
+      function onTurnstileSuccess(token) {
+        document.body.setAttribute('data-turnstile', 'passed');
+      }
     </script>
   </body>
 </html>
