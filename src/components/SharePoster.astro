@@ -11,10 +11,9 @@ interface Props {
   shareLabel: string;
   scanToRead: string;
   downloadLabel: string;
-  closeLabel: string;
 }
 
-const { title, description, category, author, date, url, siteName, lang, shareLabel, scanToRead, downloadLabel, closeLabel } = Astro.props;
+const { title, description, category, author, date, url, siteName, lang, shareLabel, scanToRead, downloadLabel } = Astro.props;
 ---
 
 <div id="share-poster-wrapper">
@@ -37,12 +36,12 @@ const { title, description, category, author, date, url, siteName, lang, shareLa
       </button>
 
       <div id="poster-container" class="overflow-hidden rounded-xl mb-4">
-        <div id="poster-card" data-url={url} data-lang={lang} data-site-name={siteName} data-scan-text={scanToRead}
+        <div id="poster-card" data-url={url}
           class="relative w-full bg-gradient-to-br from-[#FDF8F3] to-[#F5EDE3] p-6 flex flex-col"
           style="aspect-ratio: 3/4; font-family: system-ui, -apple-system, sans-serif;"
         >
           <div class="flex items-center gap-3 mb-5">
-            <img src="/logo.webp" alt="logo" class="w-10 h-10 rounded-full" />
+            <img src="/logo.webp" alt="logo" class="w-10 h-10 rounded-lg" />
             <div>
               <div class="text-[#2C2420] font-bold text-sm">{siteName}</div>
               <div class="text-[#AC7D51] text-xs">Shantou University News</div>
@@ -53,11 +52,11 @@ const { title, description, category, author, date, url, siteName, lang, shareLa
             {category}
           </span>
 
-          <h2 class="text-[#2C2420] font-bold text-lg leading-snug mb-2 line-clamp-3" style="display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;">
+          <h2 class="text-[#2C2420] font-bold text-lg leading-snug mb-2" style="display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;">
             {title}
           </h2>
 
-          <p class="text-[#8B6540] text-xs leading-relaxed mb-auto line-clamp-3" style="display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;">
+          <p class="text-[#8B6540] text-xs leading-relaxed mb-auto" style="display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;">
             {description}
           </p>
 
@@ -66,10 +65,10 @@ const { title, description, category, author, date, url, siteName, lang, shareLa
           </div>
 
           <div class="flex items-center gap-4 mt-5 pt-4 border-t border-[#AC7D51]/20">
-            <canvas id="poster-qrcode" class="w-24 h-24 rounded-lg bg-white p-1 shrink-0" style="image-rendering:pixelated;"></canvas>
+            <img id="poster-qrcode" alt="QR Code" class="w-24 h-24 rounded-lg bg-white p-1 shrink-0" />
             <div class="flex flex-col justify-center">
               <span class="text-[#2C2420] text-sm font-medium">{scanToRead}</span>
-              <span class="text-[#8B6540] text-xs mt-1 break-all">{url}</span>
+              <span class="text-[#8B6540] text-xs mt-1">news.shantou.university</span>
             </div>
           </div>
         </div>
@@ -78,7 +77,7 @@ const { title, description, category, author, date, url, siteName, lang, shareLa
       <div class="flex gap-3">
         <button id="poster-download" class="flex-1 flex items-center justify-center gap-2 px-4 py-2.5 bg-[#AC7D51] text-white rounded-lg hover:bg-[#8B6540] transition-colors text-sm font-medium">
           <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
           </svg>
           {downloadLabel}
         </button>
@@ -95,18 +94,21 @@ const { title, description, category, author, date, url, siteName, lang, shareLa
 
 <script>
   import QRCode from 'qrcode';
-  import html2canvas from 'html2canvas';
+  import { domToPng } from 'modern-screenshot';
 
   function initSharePoster() {
+    const wrapper = document.getElementById('share-poster-wrapper');
     const shareBtn = document.getElementById('share-btn');
     const modal = document.getElementById('share-modal');
     const closeBtn = document.getElementById('share-modal-close');
     const downloadBtn = document.getElementById('poster-download');
     const nativeShareBtn = document.getElementById('poster-share-native');
-    const qrCanvas = document.getElementById('poster-qrcode') as HTMLCanvasElement;
+    const qrImg = document.getElementById('poster-qrcode') as HTMLImageElement;
     const posterCard = document.getElementById('poster-card');
 
-    if (!shareBtn || !modal || !posterCard || !qrCanvas) return;
+    if (!shareBtn || !modal || !posterCard || !qrImg || !wrapper) return;
+    if (wrapper.dataset.initialized) return;
+    wrapper.dataset.initialized = 'true';
 
     const url = posterCard.dataset.url || window.location.href;
 
@@ -115,13 +117,23 @@ const { title, description, category, author, date, url, siteName, lang, shareLa
       nativeShareBtn?.classList.add('flex');
     }
 
+    function closeModal() {
+      modal.classList.add('hidden');
+      modal.classList.remove('flex');
+      document.body.style.overflow = '';
+    }
+
+    function onKeydown(e: KeyboardEvent) {
+      if (e.key === 'Escape') closeModal();
+    }
+
     shareBtn.addEventListener('click', async () => {
       modal.classList.remove('hidden');
       modal.classList.add('flex');
       document.body.style.overflow = 'hidden';
 
       try {
-        await QRCode.toCanvas(qrCanvas, url, {
+        qrImg.src = await QRCode.toDataURL(url, {
           width: 192,
           margin: 1,
           color: { dark: '#2C2420', light: '#FFFFFF' },
@@ -129,31 +141,31 @@ const { title, description, category, author, date, url, siteName, lang, shareLa
       } catch {}
     });
 
-    function closeModal() {
-      modal.classList.add('hidden');
-      modal.classList.remove('flex');
-      document.body.style.overflow = '';
-    }
-
     closeBtn?.addEventListener('click', closeModal);
     modal.addEventListener('click', (e) => {
       if (e.target === modal) closeModal();
     });
+    document.addEventListener('keydown', onKeydown);
+
+    async function capturePoster(): Promise<Blob> {
+      const dataUrl = await domToPng(posterCard!, {
+        scale: 2,
+        backgroundColor: '#FDF8F3',
+      });
+      const res = await fetch(dataUrl);
+      return await res.blob();
+    }
 
     downloadBtn?.addEventListener('click', async () => {
       if (!posterCard) return;
       downloadBtn.disabled = true;
       try {
-        const canvas = await html2canvas(posterCard, {
-          scale: 2,
-          useCORS: true,
-          backgroundColor: '#FDF8F3',
-          logging: false,
-        });
+        const blob = await capturePoster();
         const link = document.createElement('a');
-        link.download = `stu-news-poster.png`;
-        link.href = canvas.toDataURL('image/png');
+        link.download = 'stu-news-poster.png';
+        link.href = URL.createObjectURL(blob);
         link.click();
+        URL.revokeObjectURL(link.href);
       } finally {
         downloadBtn.disabled = false;
       }
@@ -163,23 +175,15 @@ const { title, description, category, author, date, url, siteName, lang, shareLa
       if (!posterCard || !navigator.share) return;
       nativeShareBtn.setAttribute('disabled', 'true');
       try {
-        const canvas = await html2canvas(posterCard, {
-          scale: 2,
-          useCORS: true,
-          backgroundColor: '#FDF8F3',
-          logging: false,
-        });
-        canvas.toBlob(async (blob) => {
-          if (!blob) return;
-          const file = new File([blob], 'stu-news-poster.png', { type: 'image/png' });
-          try {
-            await navigator.share({
-              title: document.title,
-              url: url,
-              files: [file],
-            });
-          } catch {}
-        }, 'image/png');
+        const blob = await capturePoster();
+        const file = new File([blob], 'stu-news-poster.png', { type: 'image/png' });
+        try {
+          await navigator.share({
+            title: document.title,
+            url: url,
+            files: [file],
+          });
+        } catch {}
       } finally {
         nativeShareBtn.removeAttribute('disabled');
       }
