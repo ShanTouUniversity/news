@@ -1,0 +1,191 @@
+---
+interface Props {
+  title: string;
+  description: string;
+  category: string;
+  author: string;
+  date: string;
+  url: string;
+  siteName: string;
+  lang: string;
+  shareLabel: string;
+  scanToRead: string;
+  downloadLabel: string;
+  closeLabel: string;
+}
+
+const { title, description, category, author, date, url, siteName, lang, shareLabel, scanToRead, downloadLabel, closeLabel } = Astro.props;
+---
+
+<div id="share-poster-wrapper">
+  <button
+    id="share-btn"
+    class="inline-flex items-center gap-2 px-4 py-2 bg-stu-gold/10 text-stu-gold hover:bg-stu-gold/20 rounded-lg transition-colors text-sm font-medium"
+  >
+    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.684 13.342C8.886 12.938 9 12.482 9 12c0-.482-.114-.938-.316-1.342m0 2.684a3 3 0 110-2.684m0 2.684l6.632 3.316m-6.632-6l6.632-3.316m0 0a3 3 0 105.367-2.684 3 3 0 00-5.367 2.684zm0 9.316a3 3 0 105.368 2.684 3 3 0 00-5.368-2.684z" />
+    </svg>
+    {shareLabel}
+  </button>
+
+  <div id="share-modal" class="fixed inset-0 z-[100] hidden items-center justify-center bg-black/60 backdrop-blur-sm">
+    <div class="bg-white dark:bg-gray-900 rounded-2xl shadow-2xl p-6 max-w-md w-full mx-4 relative">
+      <button id="share-modal-close" class="absolute top-3 right-3 p-1 text-gray-400 hover:text-gray-600 dark:hover:text-gray-200">
+        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+        </svg>
+      </button>
+
+      <div id="poster-container" class="overflow-hidden rounded-xl mb-4">
+        <div id="poster-card" data-url={url} data-lang={lang} data-site-name={siteName} data-scan-text={scanToRead}
+          class="relative w-full bg-gradient-to-br from-[#FDF8F3] to-[#F5EDE3] p-6 flex flex-col"
+          style="aspect-ratio: 3/4; font-family: system-ui, -apple-system, sans-serif;"
+        >
+          <div class="flex items-center gap-3 mb-5">
+            <img src="/logo.webp" alt="logo" class="w-10 h-10 rounded-full" />
+            <div>
+              <div class="text-[#2C2420] font-bold text-sm">{siteName}</div>
+              <div class="text-[#AC7D51] text-xs">Shantou University News</div>
+            </div>
+          </div>
+
+          <span class="inline-block self-start px-2.5 py-1 bg-[#AC7D51]/10 text-[#AC7D51] text-xs font-medium rounded mb-3">
+            {category}
+          </span>
+
+          <h2 class="text-[#2C2420] font-bold text-lg leading-snug mb-2 line-clamp-3" style="display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;">
+            {title}
+          </h2>
+
+          <p class="text-[#8B6540] text-xs leading-relaxed mb-auto line-clamp-3" style="display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;">
+            {description}
+          </p>
+
+          <div class="text-[#8B6540] text-xs mt-3">
+            {author} · {date}
+          </div>
+
+          <div class="flex items-center gap-4 mt-5 pt-4 border-t border-[#AC7D51]/20">
+            <canvas id="poster-qrcode" class="w-24 h-24 rounded-lg bg-white p-1 shrink-0" style="image-rendering:pixelated;"></canvas>
+            <div class="flex flex-col justify-center">
+              <span class="text-[#2C2420] text-sm font-medium">{scanToRead}</span>
+              <span class="text-[#8B6540] text-xs mt-1 break-all">{url}</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="flex gap-3">
+        <button id="poster-download" class="flex-1 flex items-center justify-center gap-2 px-4 py-2.5 bg-[#AC7D51] text-white rounded-lg hover:bg-[#8B6540] transition-colors text-sm font-medium">
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+          </svg>
+          {downloadLabel}
+        </button>
+        <button id="poster-share-native" class="flex-1 hidden items-center justify-center gap-2 px-4 py-2.5 border border-[#AC7D51] text-[#AC7D51] rounded-lg hover:bg-[#AC7D51]/10 transition-colors text-sm font-medium">
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.684 13.342C8.886 12.938 9 12.482 9 12c0-.482-.114-.938-.316-1.342m0 2.684a3 3 0 110-2.684m0 2.684l6.632 3.316m-6.632-6l6.632-3.316m0 0a3 3 0 105.367-2.684 3 3 0 00-5.367 2.684zm0 9.316a3 3 0 105.368 2.684 3 3 0 00-5.368-2.684z" />
+          </svg>
+          {shareLabel}
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  import QRCode from 'qrcode';
+  import html2canvas from 'html2canvas';
+
+  function initSharePoster() {
+    const shareBtn = document.getElementById('share-btn');
+    const modal = document.getElementById('share-modal');
+    const closeBtn = document.getElementById('share-modal-close');
+    const downloadBtn = document.getElementById('poster-download');
+    const nativeShareBtn = document.getElementById('poster-share-native');
+    const qrCanvas = document.getElementById('poster-qrcode') as HTMLCanvasElement;
+    const posterCard = document.getElementById('poster-card');
+
+    if (!shareBtn || !modal || !posterCard || !qrCanvas) return;
+
+    const url = posterCard.dataset.url || window.location.href;
+
+    if (navigator.share) {
+      nativeShareBtn?.classList.remove('hidden');
+      nativeShareBtn?.classList.add('flex');
+    }
+
+    shareBtn.addEventListener('click', async () => {
+      modal.classList.remove('hidden');
+      modal.classList.add('flex');
+      document.body.style.overflow = 'hidden';
+
+      try {
+        await QRCode.toCanvas(qrCanvas, url, {
+          width: 192,
+          margin: 1,
+          color: { dark: '#2C2420', light: '#FFFFFF' },
+        });
+      } catch {}
+    });
+
+    function closeModal() {
+      modal.classList.add('hidden');
+      modal.classList.remove('flex');
+      document.body.style.overflow = '';
+    }
+
+    closeBtn?.addEventListener('click', closeModal);
+    modal.addEventListener('click', (e) => {
+      if (e.target === modal) closeModal();
+    });
+
+    downloadBtn?.addEventListener('click', async () => {
+      if (!posterCard) return;
+      downloadBtn.disabled = true;
+      try {
+        const canvas = await html2canvas(posterCard, {
+          scale: 2,
+          useCORS: true,
+          backgroundColor: '#FDF8F3',
+          logging: false,
+        });
+        const link = document.createElement('a');
+        link.download = `stu-news-poster.png`;
+        link.href = canvas.toDataURL('image/png');
+        link.click();
+      } finally {
+        downloadBtn.disabled = false;
+      }
+    });
+
+    nativeShareBtn?.addEventListener('click', async () => {
+      if (!posterCard || !navigator.share) return;
+      nativeShareBtn.setAttribute('disabled', 'true');
+      try {
+        const canvas = await html2canvas(posterCard, {
+          scale: 2,
+          useCORS: true,
+          backgroundColor: '#FDF8F3',
+          logging: false,
+        });
+        canvas.toBlob(async (blob) => {
+          if (!blob) return;
+          const file = new File([blob], 'stu-news-poster.png', { type: 'image/png' });
+          try {
+            await navigator.share({
+              title: document.title,
+              url: url,
+              files: [file],
+            });
+          } catch {}
+        }, 'image/png');
+      } finally {
+        nativeShareBtn.removeAttribute('disabled');
+      }
+    });
+  }
+
+  initSharePoster();
+  document.addEventListener('astro:after-swap', initSharePoster);
+</script>

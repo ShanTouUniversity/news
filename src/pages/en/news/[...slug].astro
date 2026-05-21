@@ -1,6 +1,7 @@
 ---
 import BaseLayout from '../../../layouts/BaseLayout.astro';
 import AdBanner from '../../../components/AdBanner.astro';
+import SharePoster from '../../../components/SharePoster.astro';
 import { getCollection, render } from 'astro:content';
 import { t } from '../../../i18n/translations';
 import { getCategorySlug } from '../../../i18n/utils';
@@ -55,12 +56,28 @@ const zhSlug = post.id.replace('en/', '');
       <h1 class="text-3xl md:text-4xl font-bold text-stu-dark dark:text-gray-100 leading-tight mb-4">
         {post.data.title}
       </h1>
-      <div class="flex flex-wrap items-center gap-4 text-sm text-gray-400">
+      <div class="flex items-center gap-4 text-sm text-gray-400">
         <span>{t(lang, 'by')} {post.data.author}</span>
         <time datetime={post.data.pubDate.toISOString()}>{dateStr}</time>
         {updatedStr && (
           <span>{t(lang, 'updatedOn')} <time datetime={post.data.updatedDate!.toISOString()}>{updatedStr}</time></span>
         )}
+        <div class="ml-auto">
+          <SharePoster
+            title={post.data.title}
+            description={post.data.description || ''}
+            category={post.data.category}
+            author={post.data.author}
+            date={dateStr}
+            url={Astro.url.href}
+            siteName={t(lang, 'siteName')}
+            lang={lang}
+            shareLabel={t(lang, 'share')}
+            scanToRead={t(lang, 'shareScanToRead')}
+            downloadLabel={t(lang, 'shareDownload')}
+            closeLabel=""
+          />
+        </div>
       </div>
       {post.data.tags.length > 0 && (
         <div class="flex flex-wrap gap-2 mt-4">
