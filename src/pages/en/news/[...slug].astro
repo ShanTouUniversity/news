@@ -39,7 +39,18 @@ const updatedStr = post.data.updatedDate?.toLocaleDateString('en-US', {
 const zhSlug = post.id.replace('en/', '');
 ---
 
-<BaseLayout title={post.data.title} description={post.data.description} image={post.data.heroImage} lang={lang}>
+<BaseLayout
+  title={post.data.title}
+  description={post.data.description}
+  image={post.data.heroImage}
+  lang={lang}
+  type="article"
+  publishedDate={post.data.pubDate}
+  modifiedDate={post.data.updatedDate}
+  author={post.data.author}
+  section={post.data.category}
+  tags={post.data.tags}
+>
   <article class="max-w-4xl mx-auto">
     <nav class="text-sm text-gray-400 dark:text-gray-500 mb-6">
       <a href="/en/" class="hover:text-stu-gold">{t(lang, 'home')}</a>

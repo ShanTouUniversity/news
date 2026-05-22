@@ -3,7 +3,6 @@ import BaseHead from '../components/BaseHead.astro';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import AdBanner from '../components/AdBanner.astro';
-import { t } from '../i18n/translations';
 import { getLangFromUrl } from '../i18n/utils';
 import '../styles/global.css';
 
@@ -12,16 +11,43 @@ interface Props {
   description?: string;
   image?: string;
   lang?: string;
+  type?: 'website' | 'article';
+  publishedDate?: Date;
+  modifiedDate?: Date;
+  author?: string;
+  section?: string;
+  tags?: string[];
 }
 
-const { title, description, image, lang = getLangFromUrl(Astro.url) } = Astro.props;
-const dir = lang === 'en' ? 'ltr' : 'ltr';
+const {
+  title,
+  description,
+  image,
+  lang = getLangFromUrl(Astro.url),
+  type = 'website',
+  publishedDate,
+  modifiedDate,
+  author,
+  section,
+  tags,
+} = Astro.props;
 ---
 
 <!doctype html>
 <html lang={lang} class="">
   <head>
-    <BaseHead title={title} description={description} image={image} lang={lang} />
+    <BaseHead
+      title={title}
+      description={description}
+      image={image}
+      lang={lang}
+      type={type}
+      publishedDate={publishedDate}
+      modifiedDate={modifiedDate}
+      author={author}
+      section={section}
+      tags={tags}
+    />
   </head>
   <body class="min-h-screen flex flex-col" data-lang={lang}>
     <Header lang={lang} />

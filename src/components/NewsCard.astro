@@ -36,7 +36,7 @@ const accentColor = categoryColors[category || ''] || 'bg-stu-gold';
     <a href={href} class="block md:flex">
       {heroImage ? (
         <div class="md:w-2/5 aspect-video md:aspect-auto overflow-hidden">
-          <img src={heroImage} alt={title} loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+          <img src={heroImage} alt={title} loading={variant === 'featured' ? 'eager' : 'lazy'} fetchpriority={variant === 'featured' ? 'high' : undefined} class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
         </div>
       ) : (
         <div class="md:w-2/5 aspect-video md:aspect-auto bg-gradient-to-br from-stu-gold/20 via-stu-cream to-stu-gold/10 dark:from-stu-dark-light dark:via-stu-dark dark:to-stu-dark-light flex items-center justify-center relative overflow-hidden">

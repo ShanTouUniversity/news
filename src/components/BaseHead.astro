@@ -4,34 +4,203 @@ interface Props {
   description?: string;
   image?: string;
   lang?: string;
+  type?: 'website' | 'article';
+  publishedDate?: Date;
+  modifiedDate?: Date;
+  author?: string;
+  section?: string;
+  tags?: string[];
 }
 
-const { title, description, image, lang = 'zh' } = Astro.props;
+const {
+  title,
+  description,
+  image,
+  lang = 'zh',
+  type = 'website',
+  publishedDate,
+  modifiedDate,
+  author,
+  section,
+  tags,
+} = Astro.props;
+
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 const siteName = lang === 'en' ? 'STU News' : '汕大资讯';
+const siteUrl = Astro.site!.origin;
+const ogImage = image
+  ? new URL(image, Astro.site).toString()
+  : new URL('/logo.webp', Astro.site).toString();
+
+const websiteJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'WebSite',
+  name: siteName,
+  alternateName: lang === 'en' ? '汕大资讯' : 'Shantou University News',
+  url: siteUrl,
+  description: description || (lang === 'en' ? 'Unofficial Shantou University news & information platform' : '非官方的汕头大学新闻资讯平台'),
+  inLanguage: lang === 'en' ? 'en' : 'zh-CN',
+  publisher: {
+    '@type': 'Organization',
+    name: siteName,
+    url: siteUrl,
+    logo: {
+      '@type': 'ImageObject',
+      url: `${siteUrl}/logo.webp`,
+    },
+  },
+};
+
+let articleJsonLd = null;
+if (type === 'article' && publishedDate) {
+  const articleLd: Record<string, any> = {
+    '@context': 'https://schema.org',
+    '@type': 'NewsArticle',
+    headline: title,
+    description: description || '',
+    datePublished: publishedDate.toISOString(),
+    url: canonicalURL.toString(),
+    mainEntityOfPage: {
+      '@type': 'WebPage',
+      '@id': canonicalURL.toString(),
+    },
+    publisher: {
+      '@type': 'Organization',
+      name: siteName,
+      url: siteUrl,
+      logo: {
+        '@type': 'ImageObject',
+        url: `${siteUrl}/logo.webp`,
+      },
+    },
+    inLanguage: lang === 'en' ? 'en' : 'zh-CN',
+  };
+
+  if (modifiedDate) {
+    articleLd.dateModified = modifiedDate.toISOString();
+  }
+  if (author) {
+    articleLd.author = { '@type': 'Person', name: author };
+  }
+  if (section) {
+    articleLd.articleSection = section;
+  }
+  if (tags && tags.length > 0) {
+    articleLd.keywords = tags.join(', ');
+  }
+  if (image) {
+    articleLd.image = new URL(image, Astro.site).toString();
+  }
+
+  articleJsonLd = articleLd;
+}
+
+const breadcrumbJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    {
+      '@type': 'ListItem',
+      position: 1,
+      name: lang === 'en' ? 'Home' : '首页',
+      item: siteUrl,
+    },
+  ],
+};
+
+if (section) {
+  const catSlugMap: Record<string, Record<string, string>> = {
+    zh: {
+      '校园新闻': 'campus', '校园动态': 'campus', '学术科研': 'academic',
+      '学生活动': 'student', '媒体聚焦': 'media', '就业招聘': 'jobs',
+    },
+    en: {
+      'Campus News': 'campus', 'Academic': 'academic',
+      'Student Life': 'student', 'Media': 'media',
+    },
+  };
+  const slug = catSlugMap[lang]?.[section] || section.toLowerCase().replace(/\s+/g, '-');
+  const prefix = lang === 'en' ? '/en' : '';
+  breadcrumbJsonLd.itemListElements = [
+    breadcrumbJsonLd.itemListElement[0],
+    {
+      '@type': 'ListItem',
+      position: 2,
+      name: section,
+      item: `${siteUrl}${prefix}/news/${slug}/`,
+    },
+  ];
+  if (type === 'article') {
+    breadcrumbJsonLd.itemListElements.push({
+      '@type': 'ListItem',
+      position: 3,
+      name: title,
+      item: canonicalURL.toString(),
+    });
+  }
+} else if (type === 'article') {
+  breadcrumbJsonLd.itemListElements.push({
+    '@type': 'ListItem',
+    position: 2,
+    name: title,
+    item: canonicalURL.toString(),
+  });
+}
 ---
 
 <title>{`${title} | ${siteName}`}</title>
-<meta name="description" content={description} />
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="description" content={description} />
+<meta name="theme-color" content="#AC7D51" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="default" />
+<meta name="apple-mobile-web-app-title" content={siteName} />
 <link rel="canonical" href={canonicalURL} />
 <link rel="sitemap" href="/sitemap.xml" />
 <link rel="icon" type="image/webp" href="/logo.webp" />
+<link rel="alternate" type="application/rss+xml" title={lang === 'en' ? 'STU News RSS Feed' : '汕大资讯 RSS 订阅'} href={lang === 'en' ? '/en/rss.xml' : '/rss.xml'} />
 {lang === 'en' && <link rel="alternate" hreflang="zh" href={new URL(Astro.url.pathname.replace('/en', ''), Astro.site)} />}
+{lang === 'en' && <link rel="alternate" hreflang="x-default" href={new URL(Astro.url.pathname.replace('/en', ''), Astro.site)} />}
 {lang === 'zh' && <link rel="alternate" hreflang="en" href={new URL('/en' + Astro.url.pathname, Astro.site)} />}
+{lang === 'zh' && <link rel="alternate" hreflang="x-default" href={canonicalURL} />}
 
-<meta property="og:type" content="website" />
+<meta property="og:type" content={type === 'article' ? 'article' : 'website'} />
 <meta property="og:url" content={canonicalURL} />
 <meta property="og:title" content={`${title} | ${siteName}`} />
 <meta property="og:description" content={description} />
 <meta property="og:site_name" content={siteName} />
 <meta property="og:locale" content={lang === 'en' ? 'en_US' : 'zh_CN'} />
-{image && <meta property="og:image" content={new URL(image, Astro.site)} />}
+<meta property="og:image" content={ogImage} />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+
+{type === 'article' && publishedDate && (
+  <meta property="article:published_time" content={publishedDate.toISOString()} />
+)}
+{type === 'article' && modifiedDate && (
+  <meta property="article:modified_time" content={modifiedDate.toISOString()} />
+)}
+{type === 'article' && author && (
+  <meta property="article:author" content={author} />
+)}
+{type === 'article' && section && (
+  <meta property="article:section" content={section} />
+)}
+{type === 'article' && tags?.map((tag) => (
+  <meta property="article:tag" content={tag} />
+))}
+
 <meta name="twitter:card" content={image ? 'summary_large_image' : 'summary'} />
 <meta name="twitter:title" content={`${title} | ${siteName}`} />
 <meta name="twitter:description" content={description} />
-{image && <meta name="twitter:image" content={new URL(image, Astro.site)} />}
+<meta name="twitter:image" content={ogImage} />
+
+<script type="application/ld+json" set:html={JSON.stringify(websiteJsonLd)} />
+{articleJsonLd && (
+  <script type="application/ld+json" set:html={JSON.stringify(articleJsonLd)} />
+)}
+<script type="application/ld+json" set:html={JSON.stringify(breadcrumbJsonLd)} />
 
 <meta name="generator" content={Astro.generator} />
 

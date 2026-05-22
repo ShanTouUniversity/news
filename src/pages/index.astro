@@ -36,6 +36,7 @@ const categoryIcons: Record<string, string> = {
 ---
 
 <BaseLayout title={t(lang, 'home')} description={t(lang, 'siteDescription')} lang={lang}>
+  <h1 class="sr-only">{t(lang, 'siteName')} - {t(lang, 'siteDescription')}</h1>
   {featured && (
     <section class="mb-10">
       <NewsCard

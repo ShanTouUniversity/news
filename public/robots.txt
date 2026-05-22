@@ -2,3 +2,6 @@ User-agent: *
 Allow: /
 
 Sitemap: https://news.shantou.university/sitemap.xml
+
+User-agent: *
+Disallow: /api/
