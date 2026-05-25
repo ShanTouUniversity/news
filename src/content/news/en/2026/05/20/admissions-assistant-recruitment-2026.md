@@ -2,7 +2,7 @@
 title: "Admissions Office Recruiting 2026 Consultation Assistants — Apply by May 24"
 description: "The Admissions and Employment Office is hiring undergraduate students as admissions consultation assistants for June 15 – July 4. Compensation follows the university work-study rate. Applications close May 24."
 pubDate: 2026-05-20
-category: 'Campus News'
+category: 'Notices'
 tags: ['Admissions Office', 'Recruitment', 'Consultation', 'Work-Study']
 author: 'STU News'
 heroImage: ''

@@ -2,7 +2,7 @@
 title: 'STU Party Committee Appoints Seven Residential College Deans'
 description: 'The STU Party Committee has appointed seven faculty members as deans of Siyuan, Zhicheng, Gezhi, Mingde, Xiuyuan, Zhixing, and Shanhai residential colleges.'
 pubDate: 2026-05-21
-category: 'Campus News'
+category: 'Notices'
 tags: ['Appointments', 'Residential College', 'Party Committee']
 author: 'STU News'
 heroImage: ''

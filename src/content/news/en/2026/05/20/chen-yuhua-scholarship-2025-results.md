@@ -2,7 +2,7 @@
 title: "2025 Chen Yuhua Care Bursary Selection Results Now Under Public Review"
 description: "The Student Affairs Office publicly announces the proposed recipients of the 2025 Chen Yuhua Care Bursary. Objections may be submitted by May 22, 5:00 PM."
 pubDate: 2026-05-20
-category: 'Campus News'
+category: 'Notices'
 tags: ['Bursary', 'Student Affairs', 'Chen Yuhua', 'Public Notice']
 author: 'STU News'
 heroImage: ''

@@ -2,7 +2,7 @@
 title: "CILL Offers HDIIME One-on-One English Support for End-of-Term Success"
 description: "The How Do I Improve My English room in CILL provides trained teachers for one-on-one help with English skills and study planning."
 pubDate: 2026-05-22
-category: 'Campus News'
+category: 'Notices'
 tags: ['English learning', 'CILL', 'tutoring']
 author: 'College of Arts'
 heroImage: ''

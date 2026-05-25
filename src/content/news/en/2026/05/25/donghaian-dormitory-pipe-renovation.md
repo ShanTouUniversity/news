@@ -2,7 +2,7 @@
 title: "Donghai'an Campus Dormitories C, D, E to Undergo Drainage Pipe Renovation"
 description: "Donghai'an Campus dormitory buildings C, D, and E will undergo balcony drainage pipe renovation from May 25 to 30, with brief water outages expected."
 pubDate: 2026-05-25
-category: 'Campus News'
+category: 'Notices'
 tags: ["Donghai'an Campus", 'Construction Notice', 'Dormitory', 'Infrastructure']
 author: 'STU News'
 heroImage: ''

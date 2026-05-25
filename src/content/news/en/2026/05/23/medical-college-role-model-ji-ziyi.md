@@ -2,7 +2,7 @@
 title: 'STU Medical College Student Profile: Excellence in Research, Party Building, and Science Outreach'
 description: "Ji Ziyi, a 2023 master's student in Pathology and Pathophysiology at STU Medical College, has published 6 SCI papers, led her party branch to an advanced award, and won first place in Shantou's science popularization competition."
 pubDate: 2026-05-23
-category: 'Campus News'
+category: 'Profiles'
 tags: ['Medical College', 'Role Model', 'Graduate Student', 'Research', 'Science Popularization']
 author: 'STU News'
 heroImage: ''

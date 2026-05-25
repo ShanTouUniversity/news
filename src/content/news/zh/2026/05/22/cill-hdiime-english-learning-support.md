@@ -2,7 +2,7 @@
 title: "CILL 开放 HDIIME 英语辅导服务，助力期末提升"
 description: "英语语言中心 CILL 推出 How Do I Improve My English 一对一辅导服务，帮助学生提升英语听说读写技能，规划学期目标。"
 pubDate: 2026-05-22
-category: '校园新闻'
+category: '通知公告'
 tags: ['英语学习', 'CILL', '辅导服务']
 author: '文学院'
 heroImage: ''

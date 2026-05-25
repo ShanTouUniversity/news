@@ -2,7 +2,7 @@
 title: 'Xingchuan College Recruiting Student Mentors for 2026-2027 Academic Year'
 description: 'Xingchuan College is recruiting student mentors from the 2024 and 2025 cohorts to assist with community management and student services. Applications close May 24.'
 pubDate: 2026-05-20
-category: 'Student Life'
+category: 'Notices'
 tags: ['Mentor Recruitment', 'Xingchuan College']
 author: 'STU News'
 heroImage: ''

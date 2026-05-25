@@ -2,7 +2,7 @@
 title: 'STU Launches 2026 Student Financial Aid Model Selection'
 description: 'Shantou University is accepting nominations for three categories of student financial aid work models: best practices cases, outstanding aid workers, and inspiring student stories. Student applications are due by June 15.'
 pubDate: 2026-05-21
-category: 'Campus News'
+category: 'Notices'
 tags: ['Financial Aid', 'Selection', 'Student Support']
 author: 'STU News'
 heroImage: ''

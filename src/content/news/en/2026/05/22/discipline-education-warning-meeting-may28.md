@@ -2,7 +2,7 @@
 title: "University to Hold Warning Meeting on Proper Performance Outlook and Governance"
 description: "The STU Discipline Inspection Commission will convene a warning meeting on proper performance outlook and a推进会 on addressing prominent issues in higher education on May 28 at 9:00 AM."
 pubDate: 2026-05-22
-category: 'Campus News'
+category: 'Notices'
 tags: ['discipline inspection', 'governance', 'meeting']
 author: 'STU Discipline Inspection Commission'
 heroImage: ''

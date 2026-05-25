@@ -2,7 +2,7 @@
 title: 'Shortlist for 8th STU Young Teachers Teaching Competition Finals Published'
 description: 'The online evaluation phase of the 8th Shantou University Young Teachers Teaching Competition has concluded. The shortlist for the on-site finals is open for public comment from May 21 to 24, 2026.'
 pubDate: 2026-05-21
-category: 'Campus News'
+category: 'Notices'
 tags: ['Teaching Competition', 'Young Teachers', 'Public Notice']
 author: 'STU News'
 heroImage: ''

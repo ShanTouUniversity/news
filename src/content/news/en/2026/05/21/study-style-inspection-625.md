@@ -2,7 +2,7 @@
 title: 'Study Discipline Inspection Report No. 625: No Violations in Week 10'
 description: 'The Week 10 study discipline inspection at East Coast Campus found no violations of university regulations at Building E.'
 pubDate: 2026-05-21
-category: 'Campus News'
+category: 'Notices'
 tags: ['Study Discipline', 'East Coast Campus']
 author: 'STU News'
 heroImage: ''

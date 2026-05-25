@@ -2,7 +2,7 @@
 title: "Research Office Seeks Feedback on Three Revised Research Management Regulations"
 description: "The Research Office is soliciting university-wide feedback on revised versions of the Science Plan Performance Evaluation, Research Project Information Disclosure, and 'Lump Sum' Project Fund management regulations. Feedback due by May 30."
 pubDate: 2026-05-22
-category: 'Campus News'
+category: 'Notices'
 tags: ['Regulations', 'Public Consultation', 'Research Office']
 author: 'STU News'
 heroImage: ''

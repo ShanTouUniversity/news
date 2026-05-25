@@ -2,7 +2,7 @@
 title: "Ministry of Education Calls for 'Two Combinations' Youth Practice Works from Universities"
 description: "The Ministry of Education is collecting themed works on the 'Two Combinations' from university students nationwide. STU students must submit entries by July 1."
 pubDate: 2026-05-22
-category: 'Student Life'
+category: 'Notices'
 tags: ['Works Collection', 'Two Combinations', 'Ministry of Education', 'Cultural Heritage']
 author: 'STU News'
 heroImage: ''

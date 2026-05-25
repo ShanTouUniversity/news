@@ -2,7 +2,7 @@
 title: 'College of Science and Zhicheng College Recruit Full-Time Student Assistant'
 description: 'The College of Science is recruiting one full-time student assistant for June to December 2026, responsible for student management, ideological education, and academic affairs. Apply by May 28.'
 pubDate: 2026-05-25
-category: 'Campus News'
+category: 'Notices'
 tags: ['College of Science', 'Zhicheng College', 'Student Assistant', 'Recruitment']
 author: 'STU News'
 heroImage: ''

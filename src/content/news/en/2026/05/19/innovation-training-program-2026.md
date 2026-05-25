@@ -2,7 +2,7 @@
 title: "2026 College Student Innovation Training Program: 375 Projects Proposed for Funding"
 description: "The Academic Affairs Office announces the evaluation results for the 2026 Innovation Training Program, with 375 university-level projects proposed and 113 recommended for national and provincial levels."
 pubDate: 2026-05-19
-category: 'Academic'
+category: 'Notices'
 tags: ['Academic Affairs', 'Innovation Training', 'Project Funding']
 author: 'STU News'
 heroImage: ''

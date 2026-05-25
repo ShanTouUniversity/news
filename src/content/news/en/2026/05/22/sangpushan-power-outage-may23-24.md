@@ -2,7 +2,7 @@
 title: 'Sangpushan Campus Power Outage Notice: May 23–24'
 description: 'Due to construction, Sangpushan Campus will have two brief power outages (5–15 min each) at 12:00 PM on May 23 and 1:00 PM on May 24. Times adjusted from the original 2:00 PM schedule.'
 pubDate: 2026-05-22
-category: 'Campus News'
+category: 'Notices'
 tags: ['Power Outage', 'Sangpushan Campus', 'Infrastructure']
 author: 'STU News'
 heroImage: ''

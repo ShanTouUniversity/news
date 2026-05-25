@@ -2,7 +2,7 @@
 title: "Science School Opens Recruitment for Ocean Institute Director"
 description: "The School of Science is seeking candidates for the position of Director of the Ocean Institute. Applicants must hold a senior professional title and a doctoral degree within the marine and life sciences disciplines."
 pubDate: 2026-05-22
-category: 'Campus News'
+category: 'Notices'
 tags: ['Personnel', 'Ocean Institute', 'Science School']
 author: 'STU News'
 heroImage: ''

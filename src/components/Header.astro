@@ -12,8 +12,10 @@ const currentPath = Astro.url.pathname;
 const navItems = [
   { label: t(lang, 'home'), href: getLocalizedPath('/', lang) },
   { label: t(lang, 'campusNews'), href: getLocalizedPath('/news/campus/', lang) },
+  { label: t(lang, 'notices'), href: getLocalizedPath('/news/notices/', lang) },
   { label: t(lang, 'academic'), href: getLocalizedPath('/news/academic/', lang) },
   { label: t(lang, 'student'), href: getLocalizedPath('/news/student/', lang) },
+  { label: t(lang, 'profiles'), href: getLocalizedPath('/news/profiles/', lang) },
   { label: t(lang, 'media'), href: getLocalizedPath('/news/media/', lang) },
   { label: t(lang, 'jobs'), href: getLocalizedPath('/news/jobs/', lang) },
   { label: t(lang, 'about'), href: getLocalizedPath('/about/', lang) },

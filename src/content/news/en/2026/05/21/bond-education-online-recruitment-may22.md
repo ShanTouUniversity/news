@@ -2,7 +2,7 @@
 title: 'Bond Education Online Recruitment Presentation (May 22)'
 description: 'Huizhou Bond Warner Culture Communication Co. (Bond Education) will hold an online recruitment presentation on May 22 at 3:00 PM, hiring primary and secondary school teachers with salaries ranging from ¥8K–20K/month.'
 pubDate: 2026-05-21
-category: 'Jobs & Career'
+category: 'Notices'
 tags: ['Recruitment', 'Education', 'Teaching', 'Huizhou']
 author: 'STU News'
 heroImage: ''

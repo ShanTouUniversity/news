@@ -2,7 +2,7 @@
 title: "Prof. Zheng Huaiping's Studio Selected as Guangdong Model Worker Innovation Studio"
 description: 'The "Zheng Huaiping Model Worker and Craftsman Innovation Studio," led by Professor Zheng Huaiping of the Science School, has been selected for provincial support by the Guangdong Federation of Trade Unions.'
 pubDate: 2026-05-22
-category: 'Campus News'
+category: 'Profiles'
 tags: ['Model Worker', 'Innovation Studio', 'Science School', 'Zheng Huaiping']
 author: 'STU News'
 heroImage: ''

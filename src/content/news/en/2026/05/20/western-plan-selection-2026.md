@@ -2,7 +2,7 @@
 title: '60 Students Selected for Western Region Plan and "Hundred-Thousand-Ten Thousand Project" Volunteer Service'
 description: 'Results of the 2026-2027 Western Region Plan selection at STU are now open for public comment, with 60 students passing the qualification review.'
 pubDate: 2026-05-20
-category: 'Student Life'
+category: 'Notices'
 tags: ['Western Region Plan', 'Volunteer Service', 'Hundred-Thousand-Ten Thousand Project']
 author: 'STU News'
 heroImage: ''

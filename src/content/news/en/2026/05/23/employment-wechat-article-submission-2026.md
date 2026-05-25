@@ -2,7 +2,7 @@
 title: 'Admissions and Employment Office Launches "Let‘s Talk Careers" WeChat Article Submission Campaign'
 description: 'STU Admissions and Employment Office invites 2026 graduates and current students to submit WeChat articles on career topics, with a ¥200 prize per selected entry and a June 15 deadline.'
 pubDate: 2026-05-23
-category: 'Campus News'
+category: 'Notices'
 tags: ['Admissions and Employment Office', 'Careers', 'Article Submission', 'Graduates']
 author: 'STU News'
 heroImage: ''

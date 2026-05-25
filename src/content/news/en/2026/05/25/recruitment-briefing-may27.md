@@ -2,7 +2,7 @@
 title: 'Guangdong Province Veterans Recruitment Briefing to Be Held at STU on May 27'
 description: 'The Guangdong Provincial Recruitment Briefing Group will hold a military recruitment session at the Sangpushan Campus Library Lecture Hall on May 27 at 9:30 AM, covering policy Q&A and military career development.'
 pubDate: 2026-05-25
-category: 'Campus News'
+category: 'Notices'
 tags: ['Military Recruitment', 'Briefing', 'Armed Forces Department', 'National Defense Education']
 author: 'STU News'
 heroImage: ''

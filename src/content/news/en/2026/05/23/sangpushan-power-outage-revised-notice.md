@@ -2,7 +2,7 @@
 title: 'Sangpushan Campus Power Outage Rescheduled Again: First Switch Moved to 6:00 PM'
 description: 'Due to construction delays, the first power switch at Sangpushan Campus on May 23 has been rescheduled to 6:00 PM; the second switch on May 24 remains at 1:00 PM, with brief 5–15 minute outages.'
 pubDate: 2026-05-23
-category: 'Campus News'
+category: 'Notices'
 tags: ['Power Outage', 'Sangpushan Campus', 'Infrastructure', 'Schedule Change']
 author: 'STU News'
 heroImage: ''

@@ -2,7 +2,7 @@
 title: 'Student Affairs Office Launches 2026 Student Financial Aid Integrity Education Campaign'
 description: 'STU has launched its 2026 student financial aid integrity education themed activities, covering credit knowledge, financial literacy, and fraud prevention. Colleges must submit reports by June 3.'
 pubDate: 2026-05-20
-category: 'Campus News'
+category: 'Notices'
 tags: ['Integrity Education', 'Financial Aid', 'Student Affairs Office']
 author: 'STU News'
 heroImage: ''

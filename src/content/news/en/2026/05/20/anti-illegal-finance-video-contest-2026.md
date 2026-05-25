@@ -2,7 +2,7 @@
 title: 'Anti-Illegal Finance Short Video Contest Opens Campus Track; STU Students Can Submit by June 14'
 description: 'The 6th "Guard Your Wallet, Protect Your Happiness" anti-illegal finance short video contest has launched a campus track for students. STU students can submit entries through the Student Affairs Office by June 14.'
 pubDate: 2026-05-20
-category: 'Student Life'
+category: 'Notices'
 tags: ['Video Contest', 'Anti-Illegal Finance', 'Student Affairs Office']
 author: 'STU News'
 heroImage: ''

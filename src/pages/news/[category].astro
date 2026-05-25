@@ -12,8 +12,10 @@ const prefix = 'zh/';
 
 const slugToCategoryZh: Record<string, string> = {
   campus: '校园新闻',
+  notices: '通知公告',
   academic: '学术科研',
   student: '学生活动',
+  profiles: '人物风采',
   media: '媒体聚焦',
   jobs: '就业招聘',
 };
@@ -25,8 +27,10 @@ export async function getStaticPaths() {
   const slugsZh: Record<string, string> = {
     '校园新闻': 'campus',
     '校园动态': 'campus',
+    '通知公告': 'notices',
     '学术科研': 'academic',
     '学生活动': 'student',
+    '人物风采': 'profiles',
     '媒体聚焦': 'media',
     '就业招聘': 'jobs',
   };

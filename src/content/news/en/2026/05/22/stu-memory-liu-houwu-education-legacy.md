@@ -2,7 +2,7 @@
 title: "STU Memories: The 'Second Love Letter' Found in a Qiaopi — Three Generations of Educational Dedication"
 description: "A qiaopi (overseas Chinese remittance letter) in the film 'A Letter to Ah Ma' reveals Liu Houwu's unfulfilled dream of founding a Chaoshan university in 1947, and how his grandson Liu Zunyi continued the legacy at STU decades later."
 pubDate: 2026-05-22
-category: 'Media'
+category: 'Profiles'
 tags: ['STU Memories', 'Qiaopi', 'University History', 'Liu Houwu']
 author: 'STU News'
 heroImage: ''

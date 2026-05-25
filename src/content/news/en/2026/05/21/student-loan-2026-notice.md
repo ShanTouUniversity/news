@@ -2,7 +2,7 @@
 title: 'Student Affairs Office Issues 2026 Student Loan Work Notice'
 description: 'The Student Affairs Office and Graduate School have issued guidance on 2026 origin-based student loans, covering graduate confirmation (due June 24), repayment plan changes, and loan renewal procedures.'
 pubDate: 2026-05-21
-category: 'Campus News'
+category: 'Notices'
 tags: ['Student Loan', 'Financial Aid', 'Graduates', 'CDB']
 author: 'STU News'
 heroImage: ''

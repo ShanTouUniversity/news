@@ -2,7 +2,7 @@
 title: 'Engineering Professor Yang Nan: Pioneering Research and Dedicated Teaching'
 description: 'Professor Yang Nan of the Mechanical Engineering Department, a global top 2% scientist with 50+ SCI papers, has made breakthroughs in mechanical metamaterials while mentoring undergraduate researchers.'
 pubDate: 2026-05-25
-category: 'Campus News'
+category: 'Profiles'
 tags: ['Engineering College', 'Faculty Profile', 'Research', 'Mechanical Engineering', 'Education']
 author: 'STU News'
 heroImage: ''

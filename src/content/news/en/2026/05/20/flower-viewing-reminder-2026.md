@@ -2,7 +2,7 @@
 title: 'Lotus and Flowers Bloom Near the Bell of Truth at Sangpoushan Campus; Safety Reminder Issued'
 description: 'Newly planted lotus flowers and Kalsang flowers are blooming near the Bell of Truth at the Sangpoushan Campus. The Resource Management Office reminds visitors to stay safe and enjoy responsibly.'
 pubDate: 2026-05-20
-category: 'Campus News'
+category: 'Notices'
 tags: ['Campus Scenery', 'Flower Viewing', 'Sangpoushan Campus']
 author: 'STU News'
 heroImage: ''

@@ -2,7 +2,7 @@
 title: 'Engineering College Launches Outstanding Student Leader and "Five-Color Navigator" Selection'
 description: 'The College of Engineering opens selection for Outstanding Student Leaders and Five-Color Navigators for the 2025-2026 academic year, with a May 29 deadline for applications.'
 pubDate: 2026-05-22
-category: 'Campus News'
+category: 'Notices'
 tags: ['Engineering College', 'Student Awards', 'Navigator', 'Five-Color']
 author: 'STU News'
 heroImage: ''

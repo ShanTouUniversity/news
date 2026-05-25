@@ -2,7 +2,7 @@
 title: 'Study Discipline Inspection Report No. 624: No Violations in Week 9'
 description: 'The Week 9 study discipline inspection at Sangpushan Campus found no violations of university regulations at Building E.'
 pubDate: 2026-05-21
-category: 'Campus News'
+category: 'Notices'
 tags: ['Study Discipline', 'Sangpushan Campus']
 author: 'STU News'
 heroImage: ''

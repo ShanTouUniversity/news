@@ -2,7 +2,7 @@
 title: 'Tree Pruning Work at Sangpoushan Campus on May 23-24, Detours Expected'
 description: 'Tree pruning and dead tree removal will take place at four locations across the Sangpoushan Campus this weekend, with cranes and large equipment in use.'
 pubDate: 2026-05-20
-category: 'Campus News'
+category: 'Notices'
 tags: ['Campus Maintenance', 'Notice', 'Sangpoushan Campus']
 author: 'STU News'
 heroImage: ''

@@ -12,8 +12,10 @@ const prefix = 'en/';
 
 const slugToCategoryEn: Record<string, string> = {
   campus: 'Campus News',
+  notices: 'Notices',
   academic: 'Academic',
   student: 'Student Life',
+  profiles: 'Profiles',
   media: 'Media',
   jobs: 'Jobs & Career',
 };
@@ -25,8 +27,10 @@ export async function getStaticPaths() {
   const slugsEn: Record<string, string> = {
     'Campus News': 'campus',
     'Campus': 'campus',
+    'Notices': 'notices',
     'Academic': 'academic',
     'Student Life': 'student',
+    'Profiles': 'profiles',
     'Media': 'media',
     'Jobs & Career': 'jobs',
   };

@@ -2,7 +2,7 @@
 title: "Office Phone Bill Verification for March–April 2026"
 description: "All university units are requested to verify office phone bills for March–April 2026 by May 26. Deductions will be processed by the Finance Office on May 28."
 pubDate: 2026-05-22
-category: 'Campus News'
+category: 'Notices'
 tags: ['Phone Bill', 'Financial Notice', 'Network & Information Center']
 author: 'STU News'
 heroImage: ''

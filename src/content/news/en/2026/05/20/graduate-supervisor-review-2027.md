@@ -2,7 +2,7 @@
 title: 'STU Launches 2027 Graduate Supervisor Qualification Review'
 description: 'The Graduate School has announced the 2027 supervisor qualification review. Teachers planning to recruit graduate students must submit applications by May 26.'
 pubDate: 2026-05-20
-category: 'Academic'
+category: 'Notices'
 tags: ['Graduate School', 'Supervisor Qualification', 'Admission Review']
 author: 'STU News'
 heroImage: ''

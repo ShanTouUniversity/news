@@ -2,7 +2,7 @@
 title: '84th Leader-Student Dinner (Engineering & Jingyi College) Reaches Full Capacity'
 description: 'Registration for the 84th Leader-Student Dinner for Engineering College and Jingyi College is now full. The dinner will be held on May 27 at 6:00 PM at the Sangpushan Campus Academic Exchange Center.'
 pubDate: 2026-05-25
-category: 'Campus News'
+category: 'Notices'
 tags: ['Leader-Student Dinner', 'Engineering College', 'Jingyi College', 'Student Affairs']
 author: 'STU News'
 heroImage: ''

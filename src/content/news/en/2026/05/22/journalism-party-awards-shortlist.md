@@ -2,7 +2,7 @@
 title: 'Journalism School Announces "Two Excellence, One Advanced" Award Nominations'
 description: 'The Journalism School Party Committee has published its nominations for the 2026 "Two Excellence, One Advanced" awards, including 1 outstanding grassroots party organization, 1 outstanding party worker, and 4 outstanding party members.'
 pubDate: 2026-05-22
-category: 'Campus News'
+category: 'Notices'
 tags: ['Party Awards', 'Party Building', 'Journalism School']
 author: 'STU News'
 heroImage: ''

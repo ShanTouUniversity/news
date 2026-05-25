@@ -2,7 +2,7 @@
 title: 'Academic Exchange Center Launches 2026 Summer Seasonal Menu and Set Meals'
 description: 'The STU Academic Exchange Service Center has launched its summer seasonal dishes and updated set meal menus (¥600–¥1,800), now available for reservation.'
 pubDate: 2026-05-22
-category: 'Campus News'
+category: 'Notices'
 tags: ['Dining', 'Summer Menu', 'Academic Exchange Center']
 author: 'STU News'
 heroImage: ''
