@@ -1,7 +1,7 @@
 ---
 title: '"Blue Sky Encounter" Creative Study Service Course Recruits Students'
 description: "The Law School's \"Blue Sky Encounter\" creative study service course is recruiting students for multiple projects including a Fengjiang Town summer camp, primary school teaching, autistic children art therapy, middle school reading promotion, and community cultural services, with an experience event on May 27."
-pubDate: 2026-05-02
+pubDate: 2026-05-25
 category: 'Campus News'
 tags: ['Law School', 'Blue Sky Encounter', 'Volunteer Service', 'Course Recruitment', 'Community Service']
 author: 'STU News'
