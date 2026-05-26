@@ -21,13 +21,6 @@ const navItems = [
   { label: t(lang, 'about'), href: getLocalizedPath('/about/', lang) },
 ];
 
-const stuSites = [
-  { label: '导航', href: 'https://nav.shantou.university' },
-  { label: 'Voice', href: 'https://voice.shantou.university' },
-  { label: '空间', href: 'https://space.shantou.university' },
-  { label: '博客', href: 'https://shantou.university' },
-];
-
 const otherLang = lang === 'zh' ? 'en' : 'zh';
 const langSwitchHref = getLocalizedPath(currentPath, otherLang);
 ---
@@ -55,16 +48,6 @@ const langSwitchHref = getLocalizedPath(currentPath, otherLang);
             ]}
           >
             {item.label}
-          </a>
-        ))}
-        <span class="w-px h-5 bg-white/20 mx-1"></span>
-        {stuSites.map((site) => (
-          <a
-            href={site.href}
-            target="_blank" rel="noopener noreferrer"
-            class="px-2.5 py-2 rounded text-xs font-medium text-stu-gold/80 hover:text-stu-gold hover:bg-white/10 transition-colors"
-          >
-            {site.label}
           </a>
         ))}
       </nav>
@@ -119,19 +102,6 @@ const langSwitchHref = getLocalizedPath(currentPath, otherLang);
         >
           {item.label}
         </a>
-      ))}
-      <div class="pt-2 pb-1 border-t border-white/10 mt-2">
-        <div class="px-3 py-1 text-xs text-white/40 font-medium">ST.U 站点</div>
-        {stuSites.map((site) => (
-          <a
-            href={site.href}
-            target="_blank" rel="noopener noreferrer"
-            class="block px-3 py-2 rounded text-sm font-medium text-stu-gold/80 hover:bg-white/10"
-          >
-            {site.label}
-          </a>
-        ))}
-      </div>
       <a
         href={langSwitchHref}
         class="block px-3 py-2 rounded text-sm font-medium text-stu-gold hover:bg-white/10"
