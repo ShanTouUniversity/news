@@ -30,24 +30,92 @@
 - `public/` - 静态资源
 
 ## 内容管理
-添加新闻文章需要在 `src/content/news/zh/` 和 `src/content/news/en/` 下**同时创建**同名 `.md` 文件：
+
+### 创建文章流程
+1. 确定 slug（英文小写，连字符分隔，如 `my-new-article`）
+2. 确定日期文件夹：`YYYY/MM/DD/`，**必须与 `pubDate` 完全一致**
+3. 在 `src/content/news/zh/<YYYY>/<MM>/<DD>/<slug>.md` 创建中文版
+4. 在 `src/content/news/en/<YYYY>/<MM>/<DD>/<slug>.md` 创建英文版（**同 slug、同日期文件夹**）
 
 ```yaml
+# zh frontmatter
 ---
-title: '文章标题'
-description: '文章摘要'
+title: '中文标题'
+description: '中文摘要'
 pubDate: 2026-01-01
-category: '校园新闻'  # zh: 校园新闻 | 学术科研 | 学生活动 | 媒体聚焦
-                      # en: Campus News | Academic | Student Life | Media
+category: '校园新闻'  # 见下方分类表
 tags: ['标签1', '标签2']
-author: '作者'
-heroImage: '/images/example.jpg'
+author: '汕大资讯'
+heroImage: '/images/example.jpg'  # optional
+draft: false
+---
+
+# en frontmatter
+---
+title: 'English Title'
+description: 'English summary'
+pubDate: 2026-01-01
+category: 'Campus News'  # see category table below
+tags: ['tag1', 'tag2']
+author: 'STU News'
+heroImage: '/images/example.jpg'  # same as zh if provided
 draft: false
 ---
 ```
 
+### 写作文体 — 第三方客观报道
+- **不可** 复制或近义改写原始通知文本
+- **应当** 以新闻格式重组信息（何人、何事、何时、何地、为何）
+- 使用中立新闻语言：`据悉` / `It is reported that`、`活动将于...` / `The event will be held...`
+- 将关键信息提取到独立章节，结构化数据使用表格
+- 文末必须注明来源（见下方来源标注）
+- OA 通知 → 改写为关于通知的新闻报道
+- 公众号文章 → 用自己的话总结要点，不可整段照搬
+
+### 分类表
+| zh frontmatter | en frontmatter | nav zh | nav en | slug |
+|----------------|----------------|--------|--------|------|
+| 校园新闻 | Campus News | 校园动态 | Campus | campus |
+| 通知公告 | Notices | 通知公告 | Notices | notices |
+| 学术科研 | Academic | 学术科研 | Academic | academic |
+| 学生活动 | Student Life | 学生活动 | Student Life | student |
+| 人物风采 | Profiles | 人物风采 | Profiles | profiles |
+| 媒体聚焦 | Media | 媒体聚焦 | Media | media |
+| 就业招聘 | Jobs & Career | 就业招聘 | Jobs | jobs |
+
+新增分类需同时更新：`src/i18n/utils.ts` → `categorySlugs`、`src/pages/news/[category].astro` / `src/pages/en/news/[category].astro` 的 `slugsZh`/`slugsEn`、`src/components/Header.astro`（导航栏）、`src/i18n/translations.ts`（UI 文案）。
+
+### 隐私 — 学生姓名
+- **不可** 使用学生完整姓名 → zh 用 `姓 + 名首字`（如 `张同`），en 用 `姓 + 首字母`（如 `Zhang T.`）
+- **教职员工 / 公众人物**（校长、教授、院长等）：可用全名
+- **博士后**：视为教职员工，可用全名
+- `author` 字段用通用署名（`汕大资讯` / `STU News`）
+- 不可包含学生学号、电话、邮箱、宿舍号
+- **官方联系信息**可保留：组织电话/邮箱、教职工联系人姓名
+
+### 来源标注（文末 blockquote）
+- **OA 通知**: `> 来源：汕头大学 OA 通知（xxx处）` / `> Source: STU OA Notice (xxx Office)`
+- **OA 含附件/二维码无法转载**: 加 `> ⚠️ 报名群二维码及活动附件请前往 OA 系统查看原文。` / `> ⚠️ The registration QR code and event attachments are available on the OA system.`
+- **公众号**: `> 来源：xxx公众号` / `> Source: xxx (WeChat Official Account)`
+- **其他公开来源**: `> 来源：xxx` / `> Source: xxx`
+- **不确定来源时**: 询问用户
+
+### YAML 引号规则
+- 单引号字符串不支持反斜杠转义；内容含撇号（如 `master's`、`Donghai'an`）时用双引号
+- 双引号字符串内需用 `\"` 转义内部双引号
+- 标题含 `、`（顿号）时必须用单引号包裹，否则 YAML 解析报错
+- description 用双引号包裹时，内容不可含有未转义的 ASCII 双引号
+
+### 最终 URL
+- 中文: `/news/<YYYY>/<MM>/<DD>/<slug>/`
+- 英文: `/en/news/<YYYY>/<MM>/<DD>/<slug>/`
+
+### 验证
+创建文章后执行 `npm run build` 确认构建无报错。
+
 ## 双语规则
 - 所有新闻必须同时提供中文版和英文版
+- `pubDate`、`heroImage` 必须两版一致
 - UI 文案通过 `src/i18n/translations.ts` 管理
 - 中文在根路径 `/`，英文在 `/en/` 前缀
 - 文章详情页提供跨语言链接
@@ -56,6 +124,7 @@ draft: false
 - 本站为**非官方**汕头大学新闻资讯平台
 - 所有文案需体现非官方性质
 - Logo 使用 shantou.university 社区的 logo.webp
+- 如果一个时间，有多个来源的新闻，可以都保留，比如公众号和OA事件相同的情况。
 
 ## 部署
 推送到 Git 仓库后，Cloudflare Pages 会自动构建部署。域名：news.shantou.university

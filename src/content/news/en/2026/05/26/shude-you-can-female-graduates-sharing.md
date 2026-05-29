@@ -25,28 +25,28 @@ The 9th "You Can" Female Outstanding Graduates Sharing Session invites several o
 
 ### Featured Talks
 
-**Chen Xueqing** (Class of 2022, English)
+**Chen X.** (Class of 2022, English)
 
 - Admitted to Beijing Foreign Studies University for graduate study; recipient of the National Scholarship and STU Commendation Certificate
 - Won a provincial first prize in the Guangdong youth "Hundred, Thousand, and Ten Thousand Project" short-video competition
 - Former captain of the "Wen Si" multilingual outreach team
 - Talk: *Dare to Grow into Your Own Tall Tree and Embrace Unlimited Possibilities*
 
-**Gao Wenwen** (Class of 2022, Law)
+**Gao W.** (Class of 2022, Law)
 
 - Admitted to Nanjing University Law School for a Master of Laws degree and passed the national bar exam
 - Ranked second in GPA and first in overall evaluation for 2024–2025
 - Received the STU Outstanding Student Scholarship for 2024–2025
 - Talk: *Before All Things Grow, There Is Quiet Rooting*
 
-**He Meibei** (Class of 2022, New Media)
+**He M.** (Class of 2022, New Media)
 
 - Admitted to Northwest University for graduate study; exchange student at Waseda University, Japan
 - Signed outdoor photographer for the "Mountain Image Makers" project
 - Traveled to more than 60 cities across China and overseas over four years
 - Talk: *Don't Be a Standard-Answer Potted Plant, Be a Tree That Grows Wild*
 
-**Zhang Jiayi** (Class of 2022, Business Administration)
+**Zhang J.** (Class of 2022, Business Administration)
 
 - Recipient of the STU Comprehensive First-Class Scholarship; national first prize in the Business Elite Challenge
 - Won first prize in Tencent Cloud Agent Application (Beijing stop) TradeMate, Douyin AI Creator Intuition X, and the DIIS Hardware Hackathon Most Incubation Value Award
@@ -54,18 +54,18 @@ The 9th "You Can" Female Outstanding Graduates Sharing Session invites several o
 
 ### Roundtable Forum
 
-**Jian Xiaotong** (Class of 2022, Optoelectronics)
+**Jian X.** (Class of 2022, Optoelectronics)
 
 - Admitted to the School of Physics, Northeast Normal University
 - Former head of the STU Student Union Office, now a part-time counselor at the College of Science
 
-**Wen Simin** (Class of 2022, Nursing)
+**Wen S.** (Class of 2022, Nursing)
 
 - Admitted to Southern Medical University
 - Recipient of an STU Excellent Volunteer award and a bronze award in the National Blood Donation Contribution Program
 - Shared volunteer service experience at the Lanzhou University First Hospital hospicе and served as a youth backbone in the community
 
-**Zhang Jinglan** (Class of 2023, Chemistry)
+**Zhang J.** (Class of 2023, Chemistry)
 
 - Admitted to Beijing University of Chemical Technology for doctoral study
 - Recipient of the National Scholarship for Undergraduate Students and Graduate Students
