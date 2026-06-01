@@ -13,10 +13,10 @@ draft: false
 
 The Library and EBSCO jointly hosted the "**Reading Month, Read the World**" database search contest from March 23 to May 15. Based on test scores, the following students received awards:
 
-| Prize | Name | College |
-|-------|------|---------|
-| Second Prize | Wei Q. | School of Mathematics and Computer Science |
-| Third Prize | Chen Y. | Cheung Kong School of Journalism and Communication |
+| Prize | College |
+|-------|---------|
+| Second Prize | School of Mathematics and Computer Science |
+| Third Prize | Cheung Kong School of Journalism and Communication |
 
 Prizes have been shipped by EBSCO. For inquiries, contact EBSCO at (010) 6501-8771 or ebscochina@ebsco.com.
 
