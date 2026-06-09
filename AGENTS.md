@@ -93,7 +93,7 @@ draft: false
 新增分类需同时更新：`src/i18n/utils.ts` → `categorySlugs`、`src/pages/news/[category].astro` / `src/pages/en/news/[category].astro` 的 `slugsZh`/`slugsEn`、`src/components/Header.astro`（导航栏）、`src/i18n/translations.ts`（UI 文案）。
 
 ### 隐私 — 学生姓名
-- **不可** 使用学生完整姓名 → zh 用 `姓 + 名首字`（如 `张同`），en 用 `姓 + 首字母`（如 `Zhang T.`）
+- **不可** 使用学生完整姓名 → zh 用 `姓 + 名的每个字拼音首字母`（如 `刘美美` → `刘MM`，`刘美` → `刘M`），en 用 `姓 + 名的每个字拼音首字母`（如 `刘美美` → `Liu MM`，`刘美` → `Liu M`）
 - **教职员工 / 公众人物**（校长、教授、院长等）：可用全名
 - **博士后**：视为教职员工，可用全名
 - `author` 字段用通用署名（`汕大资讯` / `STU News`）
