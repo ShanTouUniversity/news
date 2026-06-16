@@ -14,9 +14,9 @@
 - 奶油色 `#FDF8F3` (浅色背景)
 
 ## 常用命令
-- `npm run dev` - 本地开发
-- `npm run build` - 构建静态站点
-- `npm run preview` - 预览构建结果
+- `pnpm dev` - 本地开发
+- `pnpm build` - 构建静态站点
+- `pnpm preview` - 预览构建结果
 
 ## 项目结构
 - `src/content/news/zh/` - 中文新闻文章 (Markdown)
@@ -118,7 +118,7 @@ draft: false
 - 英文: `/en/news/<YYYY>/<MM>/<DD>/<slug>/`
 
 ### 验证
-创建文章后执行 `npm run build` 确认构建无报错。
+创建文章后执行 `pnpm build` 确认构建无报错。
 
 ## 双语规则
 - 所有新闻必须同时提供中文版和英文版
