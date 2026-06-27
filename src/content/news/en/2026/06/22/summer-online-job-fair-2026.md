@@ -9,7 +9,7 @@ heroImage: ''
 draft: false
 ---
 
-It is reported that the Admissions and Employment Office will hold the "STU 2026 Graduates Summer Online Job Fair" from July 1 to August 31. Participating companies include Guangzhou Nuoding Intelligent Technology, Shenzhen Baiyiyi Technology, Zhuhai Xinghuo Education, ICBC Guangdong Branch, Guangdong Nanguang Film Equipment, and others.
+It is reported that the Admissions and Employment Office will hold the "STU 2026 Graduates Summer Online Job Fair" from July 1 to August 31. Participating companies include Guangzhou Nuoding Intelligent Technology, Shenzhen Baiyiyi Technology, Zhuhai Xinghuo Education, ICBC Guangdong Branch, Guangdong Nanguang Film Equipment, Guangdong Yifu Cosmetics, Shantou Daogu Culture Media, and Shantou Ultrasound Instruments Research Institute.
 
 Graduates can visit the STU Student Employment Information website for details and to submit applications.
 

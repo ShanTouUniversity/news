@@ -17,7 +17,7 @@ The competition features two main categories: Calligraphy Works and Calligraphy 
 
 ## Requirements
 
-Entries must reflect traditional Chinese culture and positive spirit, be newly created in 2026, and completed independently. Hard-tip pen works should not exceed A3 size. Brush pen works require six-foot xuan paper (95cm×180cm) in vertical format without mounting. Creative design entries may use various materials and载体, with one载体 per entry.
+Entries must reflect traditional Chinese culture and positive spirit, be newly created in 2026, and completed independently. Hard-tip pen works should not exceed A3 size. Brush pen works require six-foot xuan paper (95cm×180cm) in vertical format without mounting. Creative design entries may use various materials and formats, with one format per entry.
 
 Participants must submit both an image of their work and a calligraphy video showing the creation process.
 

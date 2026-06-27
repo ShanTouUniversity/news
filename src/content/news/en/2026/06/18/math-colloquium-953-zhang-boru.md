@@ -21,6 +21,10 @@ It is reported that the Institute of Mathematics hosted the 953rd "Toward Modern
 | Time | June 18, 2026, 11:00 |
 | Venue | Donghai'an Campus, Room D-Shi 209 |
 
+## Abstract
+
+Let A and G be finite groups of coprime order, with A acting on G via automorphisms. This talk investigates the embedding properties of maximal A-invariant subgroups of Sylow subgroups of G, and obtains several conclusions regarding solvability and p-nilpotency.
+
 ## About the Speaker
 
 Dr. Zhang Boru is an associate professor and master's supervisor at Guangxi Normal University. His research focuses on finite groups and their representations. He has led projects funded by the National Natural Science Foundation and published over 20 SCI papers.

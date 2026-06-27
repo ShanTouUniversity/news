@@ -17,6 +17,6 @@ It is reported that the Party and Administration Office has released the schedul
 
 **Academics** — On June 22, an AI-empowered teaching training program for key faculty began in Guangzhou. A meeting on proposed new doctoral degree authorization points was held on June 26 afternoon. The New Quality Productive Forces International Joint Research Institute Think Tank Forum will take place on June 28.
 
-**University Meetings** — The President's Office Meeting and Party Standing Committee Meeting were held on June 24. Other events included high-level talent recruitment meetings, procurement工作会议, volunteering座谈会, and a brain-computer interface clinical transformation ceremony.
+**University Meetings** — The President's Office Meeting and Party Standing Committee Meeting were held on June 24. Other events included high-level talent recruitment meetings, procurement work meeting, volunteer symposium, a Western Plan (西部计划) and "百千万工程" volunteer symposium, and a brain-computer interface clinical transformation ceremony.
 
 > Source: STU OA Notice (Party and Administration Office)

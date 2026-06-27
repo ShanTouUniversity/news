@@ -11,6 +11,6 @@ draft: false
 
 It is reported that the College of Chemistry and Chemical Engineering and Zhixing College jointly held the 2025-2026 academic year commendation ceremony and graduate farewell event on June 24 at the Zhixing College lecture hall.
 
-The event featured college leadership addresses, award presentations, a graduation祝福 video screening, distribution of commemorative gift boxes, and a faculty-student chorus. Participants wore college uniforms.
+The event featured college leadership addresses, award presentations, a graduation blessing video screening, distribution of commemorative gift boxes, and a faculty-student chorus. Participants wore college uniforms.
 
 > Source: STU OA Notice (College of Chemistry and Chemical Engineering, Zhixing College)

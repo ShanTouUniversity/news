@@ -20,6 +20,10 @@ It is reported that the Key Laboratory of Intelligent Manufacturing Technology, 
 | Time | June 23, 2026, 14:00 |
 | Venue | Electronic Engineering Dept. Meeting Room (Admin Center 213) |
 
+## Abstract
+
+The rendezvous problem and the treasure hunt problem are classic research topics in mathematics and computer science. This talk explores deterministic rendezvous and treasure hunt problems, which have driven the development of strongly universal exploration sequence theory — a core topic in mobile agent computing. For both explicit and implicit construction models of deterministic rendezvous, treasure hunt problems, and strongly universal exploration sequences, a series of near-optimal algorithms and construction methods are presented.
+
 ## About the Speaker
 
 Professor Xin Qin received his PhD in Computer Science from the University of Liverpool in 2004. He is now a tenured professor and PhD supervisor at the University of the Faroe Islands. His research covers wireless communication network algorithms, cryptography and digital currency (including quantum money), and combinatorial optimization. He has published over 230 papers and serves on the editorial boards of numerous international journals.

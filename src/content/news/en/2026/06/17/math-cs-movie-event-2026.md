@@ -9,6 +9,6 @@ heroImage: ''
 draft: false
 ---
 
-It is reported that the College of Mathematics and Computer Science, together with Shanhai College, held a graduate movie screening event on June 23 at Shantou Hesheng Cinema, where graduates watched "A Letter to Grandma." The activity aimed to help graduates appreciate family bonds and responsibility through cinematic art.
+It is reported that the College of Mathematics and Computer Science, together with Shanhai College, held a graduate movie screening event on June 23 at Shantou Hesheng Cinema under the theme "光影寄情，青春启航" (Light and Shadow with Sentiment, Youth Sets Sail), where graduates watched "A Letter to Grandma." The activity aimed to help graduates appreciate family bonds and responsibility through cinematic art.
 
 > Source: STU OA Notice (College of Mathematics and Computer Science)

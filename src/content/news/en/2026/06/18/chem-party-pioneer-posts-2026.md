@@ -9,6 +9,6 @@ heroImage: ''
 draft: false
 ---
 
-It is reported that the Party Committee of the College of Chemistry and Chemical Engineering has launched the "Party Member Pioneer Post" and "Party Member Responsibility Area" initiative. Each branch must establish at least one Pioneer Post, while Responsibility Areas require at least three full Party members and may cover research, academic integrity, lab safety, and career development.
+It is reported that the Party Committee of the College of Chemistry and Chemical Engineering has launched the "Party Member Pioneer Post" and "Party Member Responsibility Area" initiative. Each branch must establish at least one Pioneer Post, with the total number not exceeding 15% of branch Party members. Responsibility Areas require at least three full Party members, may be formed across branches, and may cover research, academic integrity, lab safety, and career development.
 
 > Source: STU OA Notice (CPC College of Chemistry Committee)
