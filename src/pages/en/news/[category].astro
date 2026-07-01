@@ -1,9 +1,11 @@
 ---
 import BaseLayout from '../../../layouts/BaseLayout.astro';
 import NewsCard from '../../../components/NewsCard.astro';
+import Pagination from '../../../components/Pagination.astro';
 import { getCollection } from 'astro:content';
 import { t } from '../../../i18n/translations';
 import { getCategorySlug } from '../../../i18n/utils';
+import { NEWS_PAGE_SIZE } from '../../../lib/newsPagination.mjs';
 
 export const prerender = true;
 
@@ -55,6 +57,9 @@ const filtered = isAll
 const sorted = filtered.sort(
   (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
 );
+const currentPage = 1;
+const lastPage = Math.max(1, Math.ceil(sorted.length / NEWS_PAGE_SIZE));
+const pageNews = sorted.slice(0, NEWS_PAGE_SIZE);
 ---
 
 <BaseLayout title={category} description={`${category} - STU News unofficial platform, browse Shantou University ${category} coverage`} lang={lang}>
@@ -67,9 +72,9 @@ const sorted = filtered.sort(
     <h1 class="text-3xl font-bold text-stu-dark dark:text-gray-100">{category}</h1>
   </section>
 
-  {sorted.length > 0 ? (
+  {pageNews.length > 0 ? (
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-      {sorted.map((post) => (
+      {pageNews.map((post) => (
         <NewsCard
           title={post.data.title}
           href={`/en/news/${post.id.replace(prefix, '')}/`}
@@ -87,4 +92,11 @@ const sorted = filtered.sort(
       <a href="/en/" class="mt-4 inline-block text-stu-gold-dark hover:text-stu-gold">{t(lang, 'backToHome')} &rarr;</a>
     </div>
   )}
+
+  <Pagination
+    currentPage={currentPage}
+    lastPage={lastPage}
+    basePath={`/en/news/${Astro.params.category}/`}
+    labels={{ previous: 'Previous', next: 'Next', page: 'Page', of: 'of' }}
+  />
 </BaseLayout>

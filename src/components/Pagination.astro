@@ -1,0 +1,47 @@
+---
+interface Props {
+  currentPage: number;
+  lastPage: number;
+  basePath: string;
+  labels: {
+    previous: string;
+    next: string;
+    page: string;
+    of: string;
+  };
+}
+
+const { currentPage, lastPage, basePath, labels } = Astro.props;
+
+const firstPagePath = basePath.endsWith('/') ? basePath : `${basePath}/`;
+const pagePath = (page: number) => (page === 1 ? firstPagePath : `${firstPagePath}page/${page}/`);
+---
+
+{lastPage > 1 && (
+  <nav class="mt-10 flex flex-col items-center gap-4 border-t border-stu-cream-dark pt-6 dark:border-white/10" aria-label="Pagination">
+    <div class="text-sm text-gray-500 dark:text-gray-400">
+      {labels.page} {currentPage} {labels.of} {lastPage}
+    </div>
+    <div class="flex items-center gap-3">
+      {currentPage > 1 ? (
+        <a class="rounded border border-stu-gray-dark px-4 py-2 text-sm font-medium text-stu-dark transition-colors hover:border-stu-gold hover:text-stu-gold-dark dark:border-white/10 dark:text-gray-100 dark:hover:text-stu-gold" href={pagePath(currentPage - 1)}>
+          {labels.previous}
+        </a>
+      ) : (
+        <span class="rounded border border-stu-gray-dark px-4 py-2 text-sm font-medium text-gray-300 dark:border-white/10 dark:text-gray-600">
+          {labels.previous}
+        </span>
+      )}
+
+      {currentPage < lastPage ? (
+        <a class="rounded border border-stu-gold bg-stu-gold px-4 py-2 text-sm font-medium text-white transition-colors hover:bg-stu-gold-dark" href={pagePath(currentPage + 1)}>
+          {labels.next}
+        </a>
+      ) : (
+        <span class="rounded border border-stu-gray-dark px-4 py-2 text-sm font-medium text-gray-300 dark:border-white/10 dark:text-gray-600">
+          {labels.next}
+        </span>
+      )}
+    </div>
+  </nav>
+)}

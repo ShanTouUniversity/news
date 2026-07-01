@@ -1,8 +1,10 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import NewsCard from '../../components/NewsCard.astro';
+import Pagination from '../../components/Pagination.astro';
 import { getCollection } from 'astro:content';
 import { t } from '../../i18n/translations';
+import { NEWS_PAGE_SIZE } from '../../lib/newsPagination.mjs';
 
 const lang = 'zh';
 const prefix = 'zh/';
@@ -11,6 +13,10 @@ const allNews = await getCollection('news', ({ data, id }) => !data.draft && id.
 const sortedNews = allNews.sort(
   (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
 );
+
+const currentPage = 1;
+const lastPage = Math.max(1, Math.ceil(sortedNews.length / NEWS_PAGE_SIZE));
+const pageNews = sortedNews.slice(0, NEWS_PAGE_SIZE);
 ---
 
 <BaseLayout title={t(lang, 'allNews')} description={t(lang, 'siteDescription')} lang={lang}>
@@ -23,9 +29,9 @@ const sortedNews = allNews.sort(
     <h1 class="text-3xl font-bold text-stu-dark dark:text-gray-100">{t(lang, 'allNews')}</h1>
   </section>
 
-  {sortedNews.length > 0 ? (
+  {pageNews.length > 0 ? (
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-      {sortedNews.map((post) => (
+      {pageNews.map((post) => (
         <NewsCard
           title={post.data.title}
           href={`/news/${post.id.replace(prefix, '')}/`}
@@ -43,4 +49,11 @@ const sortedNews = allNews.sort(
       <a href="/" class="mt-4 inline-block text-stu-gold-dark hover:text-stu-gold">{t(lang, 'backToHome')} &rarr;</a>
     </div>
   )}
+
+  <Pagination
+    currentPage={currentPage}
+    lastPage={lastPage}
+    basePath="/news/"
+    labels={{ previous: '上一页', next: '下一页', page: '第', of: '页 / 共' }}
+  />
 </BaseLayout>

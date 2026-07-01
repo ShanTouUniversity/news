@@ -1,0 +1,92 @@
+---
+import BaseLayout from '../../../../../layouts/BaseLayout.astro';
+import NewsCard from '../../../../../components/NewsCard.astro';
+import Pagination from '../../../../../components/Pagination.astro';
+import { getCollection } from 'astro:content';
+import { t } from '../../../../../i18n/translations';
+
+export const prerender = true;
+
+const lang = 'en';
+const prefix = 'en/';
+
+export async function getStaticPaths() {
+  const pageSize = 24;
+  const categoryToSlugEn: Record<string, string> = {
+    'Campus News': 'campus',
+    Campus: 'campus',
+    Notices: 'notices',
+    Academic: 'academic',
+    'Student Life': 'student',
+    Profiles: 'profiles',
+    Media: 'media',
+    'Jobs & Career': 'jobs',
+  };
+  const allNews = await getCollection('news', ({ data, id }) => !data.draft && id.startsWith('en/'));
+  const categories = [...new Set(allNews.map((n) => n.data.category))];
+  const targets = [
+    { slug: 'all', category: 'All News', posts: allNews },
+    ...categories.map((category) => ({
+      slug: categoryToSlugEn[category] || category.toLowerCase().replace(/\s+/g, '-'),
+      category,
+      posts: allNews.filter((post) => post.data.category === category),
+    })),
+  ];
+
+  return targets.flatMap(({ slug, category, posts }) => {
+    const sorted = posts.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+    const lastPage = Math.max(1, Math.ceil(sorted.length / pageSize));
+
+    return Array.from({ length: Math.max(0, lastPage - 1) }, (_, index) => {
+      const currentPage = index + 2;
+      const start = (currentPage - 1) * pageSize;
+
+      return {
+        params: { category: slug, page: String(currentPage) },
+        props: {
+          category,
+          currentPage,
+          lastPage,
+          pageNews: sorted.slice(start, start + pageSize),
+        },
+      };
+    });
+  });
+}
+
+const { category, currentPage, lastPage, pageNews } = Astro.props;
+---
+
+<BaseLayout title={`${category} - ${currentPage}`} description={`${category} - STU News unofficial platform, browse Shantou University ${category} coverage`} lang={lang}>
+  <section class="mb-8">
+    <nav class="text-sm text-gray-400 dark:text-gray-500 mb-4">
+      <a href="/en/" class="hover:text-stu-gold">{t(lang, 'home')}</a>
+      <span class="mx-2">/</span>
+      <a href={`/en/news/${Astro.params.category}/`} class="hover:text-stu-gold">{category}</a>
+      <span class="mx-2">/</span>
+      <span>Page {currentPage}</span>
+    </nav>
+    <h1 class="text-3xl font-bold text-stu-dark dark:text-gray-100">{category}</h1>
+  </section>
+
+  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+    {pageNews.map((post) => (
+      <NewsCard
+        title={post.data.title}
+        href={`/en/news/${post.id.replace(prefix, '')}/`}
+        pubDate={post.data.pubDate}
+        description={post.data.description}
+        heroImage={post.data.heroImage}
+        category={post.data.category}
+        lang={lang}
+      />
+    ))}
+  </div>
+
+  <Pagination
+    currentPage={currentPage}
+    lastPage={lastPage}
+    basePath={`/en/news/${Astro.params.category}/`}
+    labels={{ previous: 'Previous', next: 'Next', page: 'Page', of: 'of' }}
+  />
+</BaseLayout>

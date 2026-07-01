@@ -5,6 +5,7 @@ import AdBanner from '../components/AdBanner.astro';
 import { getCollection } from 'astro:content';
 import { t } from '../i18n/translations';
 import { getLocalizedPath, getCategorySlug } from '../i18n/utils';
+import { getHomepageNewsGroups } from '../lib/newsPagination.mjs';
 
 const lang = 'zh';
 const prefix = 'zh/';
@@ -14,9 +15,7 @@ const sortedNews = allNews.sort(
   (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
 );
 
-const featured = sortedNews[0];
-const latestNews = sortedNews.slice(1, 7);
-const restNews = sortedNews.slice(7);
+const { featured, latestNews, restNews } = getHomepageNewsGroups(sortedNews);
 
 const categories = [...new Set(sortedNews.map((n) => n.data.category))];
 
