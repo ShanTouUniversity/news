@@ -1,0 +1,166 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { t } from '../i18n/translations';
+
+export const prerender = true;
+
+const lang = 'zh';
+const indexPath = '/search-index.json';
+
+const categoryColors: Record<string, string> = {
+  '校园新闻': 'bg-amber-500',
+  '校园动态': 'bg-amber-500',
+  '学术科研': 'bg-emerald-600',
+  '学生活动': 'bg-sky-500',
+  '媒体聚焦': 'bg-rose-500',
+};
+---
+
+<BaseLayout title={t(lang, 'searchTitle')} description={t(lang, 'siteDescription')} lang={lang}>
+  <section class="mb-8">
+    <nav class="text-sm text-gray-400 dark:text-gray-500 mb-4">
+      <a href="/" class="hover:text-stu-gold">{t(lang, 'home')}</a>
+      <span class="mx-2">/</span>
+      <span>{t(lang, 'searchTitle')}</span>
+    </nav>
+    <h1 class="text-3xl font-bold text-stu-dark dark:text-gray-100 mb-2">{t(lang, 'searchTitle')}</h1>
+    <p class="text-sm text-gray-400 dark:text-gray-500">{t(lang, 'searchHint')}</p>
+  </section>
+
+  <div class="mb-6 sticky top-16 z-30 -mx-4 px-4 py-3 bg-stu-cream/80 dark:bg-stu-dark/80 backdrop-blur border-b border-stu-cream-dark dark:border-white/10">
+    <div class="relative max-w-2xl">
+      <svg class="absolute left-3 top-1/2 -translate-y-1/2 w-5 h-5 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+      </svg>
+      <input
+        id="search-input"
+        type="search"
+        autocomplete="off"
+        autofocus
+        placeholder={t(lang, 'searchPlaceholder')}
+        class="w-full pl-10 pr-4 py-3 rounded-xl border border-stu-gray-dark dark:border-white/10 bg-white dark:bg-stu-dark-light text-stu-dark dark:text-gray-100 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-stu-gold focus:border-transparent transition-shadow"
+      />
+    </div>
+  </div>
+
+  <div id="search-meta" class="text-sm text-gray-400 dark:text-gray-500 mb-4 min-h-[1.25rem]"></div>
+
+  <div id="search-results" class="divide-y divide-stu-cream-dark dark:divide-white/10"></div>
+
+  <div id="search-empty" class="hidden text-center py-20 text-gray-400">
+    <p class="text-xl mb-2">{t(lang, 'searchNoResults')}</p>
+    <p class="text-sm">{t(lang, 'searchNoResultsHint')}</p>
+  </div>
+
+  <div id="search-loading" class="text-center py-20 text-gray-400">
+    <p>{t(lang, 'searchLoading')}</p>
+  </div>
+</BaseLayout>
+
+<script is:inline define:vars={{ lang, indexPath, categoryColors, i18n: {
+  results: t(lang, 'searchResults'),
+  noResults: t(lang, 'searchNoResults'),
+  noResultsHint: t(lang, 'searchNoResultsHint'),
+  countTemplate: t(lang, 'searchCount'),
+} }}>
+  type Entry = { title: string; description: string; category: string; tags: string[]; date: string; url: string };
+
+  const input = document.getElementById('search-input') as HTMLInputElement | null;
+  const resultsEl = document.getElementById('search-results');
+  const metaEl = document.getElementById('search-meta');
+  const emptyEl = document.getElementById('search-empty');
+  const loadingEl = document.getElementById('search-loading');
+
+  let index: Entry[] | null = null;
+  let debounceTimer: number | undefined;
+
+  const escapeHtml = (s: string) =>
+    s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+
+  const locale = lang === 'en' ? 'en-US' : 'zh-CN';
+  const formatDate = (dateStr: string) => {
+    try {
+      return new Date(dateStr).toLocaleDateString(locale, { year: 'numeric', month: 'long', day: 'numeric' });
+    } catch {
+      return dateStr;
+    }
+  };
+
+  const renderEntry = (entry: Entry, query: string) => {
+    const accent = categoryColors[entry.category] || 'bg-stu-gold';
+    const tagsHtml = entry.tags && entry.tags.length
+      ? entry.tags.map((tag) => `<span class="px-2 py-0.5 bg-stu-cream dark:bg-stu-dark-light text-gray-500 dark:text-gray-400 text-xs rounded">${escapeHtml(tag)}</span>`).join('')
+      : '';
+    return `<a href="${entry.url}" class="group flex flex-col gap-2 py-4 first:pt-0 hover:bg-stu-cream/50 dark:hover:bg-stu-dark-light/50 -mx-3 px-3 rounded-lg transition-colors">
+      <div class="flex items-center gap-2 text-xs text-gray-400 dark:text-gray-500">
+        <span class="inline-block w-1.5 h-1.5 rounded-full ${accent}"></span>
+        <span class="font-medium">${escapeHtml(entry.category)}</span>
+        <span class="ml-auto">${formatDate(entry.date)}</span>
+      </div>
+      <h3 class="text-base font-bold text-stu-dark dark:text-gray-100 group-hover:text-stu-gold-dark dark:group-hover:text-stu-gold transition-colors">${escapeHtml(entry.title)}</h3>
+      ${entry.description ? `<p class="text-sm text-gray-400 dark:text-gray-500 line-clamp-2">${escapeHtml(entry.description)}</p>` : ''}
+      ${tagsHtml ? `<div class="flex flex-wrap gap-1.5 mt-1">${tagsHtml}</div>` : ''}
+    </a>`;
+  };
+
+  const score = (entry: Entry, q: string) => {
+    const hayTitle = entry.title.toLowerCase();
+    const hayDesc = entry.description.toLowerCase();
+    const hayCat = entry.category.toLowerCase();
+    const hayTags = (entry.tags || []).join(' ').toLowerCase();
+    let s = 0;
+    if (hayTitle.includes(q)) s += 10;
+    if (hayTitle.startsWith(q)) s += 5;
+    if (hayTags.includes(q)) s += 4;
+    if (hayCat.includes(q)) s += 3;
+    if (hayDesc.includes(q)) s += 2;
+    return s;
+  };
+
+  const runSearch = (query: string) => {
+    if (!index || !resultsEl || !metaEl || !emptyEl || !loadingEl) return;
+
+    loadingEl.classList.add('hidden');
+
+    const q = query.trim().toLowerCase();
+    if (!q) {
+      resultsEl.innerHTML = '';
+      metaEl.textContent = '';
+      emptyEl.classList.add('hidden');
+      return;
+    }
+
+    const matched = index
+      .map((entry) => ({ entry, s: score(entry, q) }))
+      .filter((x) => x.s > 0)
+      .sort((a, b) => b.s - a.s || new Date(b.entry.date).valueOf() - new Date(a.entry.date).valueOf())
+      .map((x) => x.entry);
+
+    if (matched.length === 0) {
+      resultsEl.innerHTML = '';
+      metaEl.textContent = '';
+      emptyEl.classList.remove('hidden');
+      return;
+    }
+
+    emptyEl.classList.add('hidden');
+    metaEl.textContent = i18n.countTemplate.replace('{n}', String(matched.length));
+    resultsEl.innerHTML = matched.map((entry) => renderEntry(entry, q)).join('');
+  };
+
+  input?.addEventListener('input', () => {
+    window.clearTimeout(debounceTimer);
+    debounceTimer = window.setTimeout(() => runSearch(input.value), 120);
+  });
+
+  fetch(indexPath)
+    .then((r) => r.json())
+    .then((data: Entry[]) => {
+      index = data;
+      loadingEl?.classList.add('hidden');
+      runSearch(input?.value || '');
+    })
+    .catch(() => {
+      if (loadingEl) loadingEl.textContent = i18n.noResults;
+    });
+</script>
