@@ -72,11 +72,11 @@ const categoryColors: Record<string, string> = {
   let index = null;
   let debounceTimer;
 
-  const escapeHtml = (s: string) =>
+  const escapeHtml = (s) =>
     s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 
   const locale = lang === 'en' ? 'en-US' : 'zh-CN';
-  const formatDate = (dateStr: string) => {
+  const formatDate = (dateStr) => {
     try {
       return new Date(dateStr).toLocaleDateString(locale, { year: 'numeric', month: 'long', day: 'numeric' });
     } catch {
