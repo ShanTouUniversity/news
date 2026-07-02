@@ -63,16 +63,14 @@ const categoryColors: Record<string, string> = {
   noResultsHint: t(lang, 'searchNoResultsHint'),
   countTemplate: t(lang, 'searchCount'),
 } }}>
-  type Entry = { title: string; description: string; category: string; tags: string[]; date: string; url: string };
-
-  const input = document.getElementById('search-input') as HTMLInputElement | null;
+  const input = document.getElementById('search-input');
   const resultsEl = document.getElementById('search-results');
   const metaEl = document.getElementById('search-meta');
   const emptyEl = document.getElementById('search-empty');
   const loadingEl = document.getElementById('search-loading');
 
-  let index: Entry[] | null = null;
-  let debounceTimer: number | undefined;
+  let index = null;
+  let debounceTimer;
 
   const escapeHtml = (s: string) =>
     s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
@@ -86,7 +84,7 @@ const categoryColors: Record<string, string> = {
     }
   };
 
-  const renderEntry = (entry: Entry, query: string) => {
+  const renderEntry = (entry, query) => {
     const accent = categoryColors[entry.category] || 'bg-stu-gold';
     const tagsHtml = entry.tags && entry.tags.length
       ? entry.tags.map((tag) => `<span class="px-2 py-0.5 bg-stu-cream dark:bg-stu-dark-light text-gray-500 dark:text-gray-400 text-xs rounded">${escapeHtml(tag)}</span>`).join('')
@@ -103,7 +101,7 @@ const categoryColors: Record<string, string> = {
     </a>`;
   };
 
-  const score = (entry: Entry, q: string) => {
+  const score = (entry, q) => {
     const hayTitle = entry.title.toLowerCase();
     const hayDesc = entry.description.toLowerCase();
     const hayCat = entry.category.toLowerCase();
@@ -117,7 +115,7 @@ const categoryColors: Record<string, string> = {
     return s;
   };
 
-  const runSearch = (query: string) => {
+  const runSearch = (query) => {
     if (!index || !resultsEl || !metaEl || !emptyEl || !loadingEl) return;
 
     loadingEl.classList.add('hidden');
@@ -155,7 +153,7 @@ const categoryColors: Record<string, string> = {
 
   fetch(indexPath)
     .then((r) => r.json())
-    .then((data: Entry[]) => {
+    .then((data) => {
       index = data;
       loadingEl?.classList.add('hidden');
       runSearch(input?.value || '');
