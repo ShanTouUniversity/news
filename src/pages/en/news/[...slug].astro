@@ -1,6 +1,5 @@
 ---
 import BaseLayout from '../../../layouts/BaseLayout.astro';
-import AdBanner from '../../../components/AdBanner.astro';
 import SharePoster from '../../../components/SharePoster.astro';
 import { getEntry, render } from 'astro:content';
 import { t } from '../../../i18n/translations';
@@ -117,8 +116,6 @@ const zhSlug = post.id.replace('en/', '');
       prose-strong:text-stu-dark dark:prose-strong:text-gray-100">
       <Content />
     </div>
-
-    <AdBanner lang={lang} class="mt-8" />
 
     <footer class="mt-12 pt-8 border-t border-stu-cream-dark dark:border-white/10">
       <a href="/en/" class="text-stu-gold-dark dark:text-stu-gold hover:text-stu-gold transition-colors">

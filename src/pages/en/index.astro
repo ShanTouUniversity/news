@@ -1,7 +1,6 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import NewsCard from '../../components/NewsCard.astro';
-import AdBanner from '../../components/AdBanner.astro';
 import { getCollection } from 'astro:content';
 import { t } from '../../i18n/translations';
 import { getLocalizedPath, getCategorySlug } from '../../i18n/utils';
@@ -74,8 +73,6 @@ const categoryIcons: Record<string, string> = {
       </div>
     </section>
   )}
-
-  <AdBanner lang={lang} class="mb-12" />
 
   {categories.length > 0 && (
     <section class="mb-12">

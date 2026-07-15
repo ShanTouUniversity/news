@@ -3,6 +3,7 @@
 .env
 .env.*
 .kilo/
+.wrangler/
 .wrangler/public/.DS_Store
 dist/
 node_modules/
