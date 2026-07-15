@@ -1,6 +1,7 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import NewsCard from '../../components/NewsCard.astro';
+import AdBanner from '../../components/AdBanner.astro';
 import { getCollection } from 'astro:content';
 import { t } from '../../i18n/translations';
 import { getLocalizedPath, getCategorySlug } from '../../i18n/utils';
@@ -49,6 +50,10 @@ const categoryIcons: Record<string, string> = {
       />
     </section>
   )}
+
+  <section class="mb-10">
+    <AdBanner adId="webagentloop" />
+  </section>
 
   {latestNews.length > 0 && (
     <section class="mb-12">

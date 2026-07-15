@@ -1,6 +1,6 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
-
+import AdBanner from '../../components/AdBanner.astro';
 import SharePoster from '../../components/SharePoster.astro';
 import { getEntry, render } from 'astro:content';
 import { t } from '../../i18n/translations';
@@ -118,7 +118,11 @@ const enSlug = post.id.replace('zh/', '');
       <Content />
     </div>
 
-    <footer class="mt-12 pt-8 border-t border-stu-cream-dark dark:border-white/10">
+    <div class="mt-10 mb-6">
+      <AdBanner adId="webagentloop" variant="card" />
+    </div>
+
+    <footer class="pt-8 border-t border-stu-cream-dark dark:border-white/10">
       <a href="/" class="text-stu-gold-dark dark:text-stu-gold hover:text-stu-gold transition-colors">
         &larr; {t(lang, 'backToHome')}
       </a>

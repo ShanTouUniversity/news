@@ -1,0 +1,104 @@
+---
+import { ads, type AdConfig } from '../ads'
+
+interface Props {
+  adId?: keyof typeof ads
+  ad?: AdConfig
+  variant?: 'horizontal' | 'card'
+}
+
+const { adId, ad: adProp, variant = 'horizontal' } = Astro.props
+const config = adProp || (adId ? ads[adId] : null)
+
+if (!config) {
+  return Astro.frontmatter as any
+}
+---
+
+{variant === 'card' ? (
+  <a
+    href={config.url}
+    target="_blank"
+    rel="noopener noreferrer"
+    class="group block bg-gradient-to-br from-white to-stu-cream dark:from-stu-dark dark:to-stu-dark-light rounded-xl border border-stu-gray-dark dark:border-white/10 hover:shadow-lg hover:-translate-y-0.5 transition-all duration-300 overflow-hidden"
+  >
+    <div class="p-5">
+      <div class="flex items-center gap-4 mb-3">
+        <img
+          src={config.logo}
+          alt={config.name}
+          class="w-10 h-10 rounded-lg bg-stu-dark dark:bg-white/10 p-1.5 flex-shrink-0"
+          width="40"
+          height="40"
+          loading="lazy"
+        />
+        <div>
+          <div class="flex items-center gap-2">
+            <span class="font-bold text-stu-dark dark:text-gray-100 group-hover:text-stu-gold-dark dark:group-hover:text-stu-gold transition-colors">
+              {config.name}
+            </span>
+            <span class="px-1.5 py-0.5 text-[10px] font-semibold rounded bg-stu-gold/10 text-stu-gold dark:bg-stu-gold/20 whitespace-nowrap">
+              {config.tagline}
+            </span>
+          </div>
+          <p class="text-xs text-gray-500 dark:text-gray-400 mt-0.5">{config.slogan}</p>
+        </div>
+      </div>
+      <div class="flex items-center justify-between gap-3">
+        <span class="text-xs text-stu-gold-dark dark:text-stu-gold font-medium truncate">
+          {config.feature}
+        </span>
+        <span class="flex-shrink-0 inline-flex items-center gap-1 px-3 py-1.5 bg-stu-gold text-white text-xs font-semibold rounded-lg hover:bg-stu-gold-dark transition-colors group-hover:shadow-md">
+          了解详情 →
+        </span>
+      </div>
+    </div>
+  </a>
+) : (
+  <a
+    href={config.url}
+    target="_blank"
+    rel="noopener noreferrer"
+    class="group relative block bg-gradient-to-br from-white to-stu-cream dark:from-stu-dark dark:to-stu-dark-light rounded-2xl border border-stu-gray-dark dark:border-white/10 hover:shadow-xl transition-all duration-300 overflow-hidden"
+  >
+    <div class="flex flex-col sm:flex-row items-center sm:items-stretch gap-4 p-5 sm:p-6">
+      <div class="flex items-center gap-4 sm:gap-5 flex-1 min-w-0">
+        <div class="flex-shrink-0 w-14 h-14 sm:w-16 sm:h-16 rounded-xl bg-stu-dark dark:bg-white/10 p-2.5 flex items-center justify-center ring-1 ring-stu-gold/20 dark:ring-white/10">
+          <img
+            src={config.logo}
+            alt={config.name}
+            class="w-full h-full object-contain"
+            width="64"
+            height="64"
+            loading="lazy"
+          />
+        </div>
+        <div class="min-w-0">
+          <div class="flex items-center gap-2 flex-wrap">
+            <span class="font-bold text-base sm:text-lg text-stu-dark dark:text-gray-100 group-hover:text-stu-gold-dark dark:group-hover:text-stu-gold transition-colors truncate">
+              {config.name}
+            </span>
+            <span class="px-1.5 py-0.5 text-[10px] font-semibold rounded bg-stu-gold/10 text-stu-gold dark:bg-stu-gold/20 whitespace-nowrap">
+              {config.tagline}
+            </span>
+          </div>
+          <p class="text-sm text-gray-500 dark:text-gray-400 mt-0.5 truncate">{config.slogan}</p>
+          <p class="text-xs text-stu-gold-dark dark:text-stu-gold font-medium mt-1 hidden sm:block truncate">
+            {config.feature}
+          </p>
+        </div>
+      </div>
+      <div class="flex sm:flex-col items-center sm:items-end justify-center gap-2 flex-shrink-0">
+        <p class="text-xs text-stu-gold-dark dark:text-stu-gold font-medium sm:hidden truncate max-w-full">
+          {config.feature}
+        </p>
+        <span class="inline-flex items-center gap-1.5 px-4 py-2 bg-stu-gold text-white text-xs sm:text-sm font-semibold rounded-xl hover:bg-stu-gold-dark transition-colors shadow-sm group-hover:shadow-md whitespace-nowrap">
+          了解详情
+          <svg class="w-3.5 h-3.5 group-hover:translate-x-0.5 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+          </svg>
+        </span>
+      </div>
+    </div>
+  </a>
+)}
