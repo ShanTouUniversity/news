@@ -11,7 +11,7 @@ draft: false
 
 The party committees of Shantou University, Hanshan Normal University, and Meigang University plan to jointly host the 2026 Eastern Guangdong Three Universities Party Building Research Forum in Shantou in December 2026. A call for academic papers has been issued to faculty and students across the three institutions.
 
-The forum aims to deepen the study and interpretation of Xi Jinping\'s Party Building Thought, implement the general requirements for Party building in the new era and the Party\'s organizational line, and strengthen Party building research and exchange among the three universities. It seeks to highlight the leading role of Party organizations in promoting high-quality university development.
+The forum aims to deepen the study and interpretation of Xi Jinping's Party Building Thought, implement the general requirements for Party building in the new era and the Party's organizational line, and strengthen Party building research and exchange among the three universities. It seeks to highlight the leading role of Party organizations in promoting high-quality university development.
 
 ## Forum Overview
 
@@ -26,11 +26,11 @@ The forum aims to deepen the study and interpretation of Xi Jinping\'s Party Bui
 
 ## Themes and Topics
 
-The forum\'s overarching theme is "Deeply Study and Implement Xi Jinping\'s Party Building Thought, and Pioneer a New Chapter in the Modernization of Eastern Guangdong Universities with a Correct View of Achievement." Twenty reference topics have been outlined, covering the following areas:
+The forum's overarching theme is "Deeply Study and Implement Xi Jinping's Party Building Thought, and Pioneer a New Chapter in the Modernization of Eastern Guangdong Universities with a Correct View of Achievement." Twenty reference topics have been outlined, covering the following areas:
 
 | Category | Topic Areas |
 |----------|-------------|
-| Theory and Practice |Xi Jinping\'s Party Building Thought in local universities, long-term mechanisms for deepening and applying innovative Party theories |
+| Theory and Practice |Xi Jinping's Party Building Thought in local universities, long-term mechanisms for deepening and applying innovative Party theories |
 | Ideology and Governance | Ideological阵地 construction and risk prevention, normalized and refined comprehensive strict governance of the Party |
 | Party-led Development | Integrated coordination of education, science and technology, and talent under high-quality Party building leadership |
 | Correct View of Achievement | Cultivation of grassroots Party branch leaders, optimization of assessment systems, capacity building for Party affairs cadres |
