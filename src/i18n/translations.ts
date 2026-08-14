@@ -67,7 +67,7 @@ export const translations = {
     searchNoResults: '未找到相关资讯',
     searchNoResultsHint: '换个关键词试试',
     searchCount: '找到 {n} 条结果',
-    searchLoading: '正在加载索引…',
+    searchLoading: '正在搜索…',
     searchHint: '在标题、摘要、分类和标签中搜索',
   },
   en: {
@@ -131,7 +131,7 @@ export const translations = {
     searchNoResults: 'No articles found',
     searchNoResultsHint: 'Try a different keyword',
     searchCount: '{n} results found',
-    searchLoading: 'Loading index…',
+    searchLoading: 'Searching…',
     searchHint: 'Search across titles, descriptions, categories and tags',
   },
 } as const;
