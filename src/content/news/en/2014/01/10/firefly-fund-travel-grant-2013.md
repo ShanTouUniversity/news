@@ -1,17 +1,28 @@
 ---
-title: "15 Volunteers Awarded 2013 Firefly Foundation 'Love Companion Home' Winter Break Travel Grant"
-description: "The Firefly Love Foundation received 20 applications for the winter break travel grant program, and after review by the foundation's board and a public notification period, 15 students were selected as recipients."
+title: 'STU "Firefly" Charity Fund Names 15 Recipients of Winter Break Travel Grants'
+description: 'It is reported that the "Firefly" charity fund of Shantou University has completed the review of its winter break travel grant program, selecting 15 students as grant recipients from 20 applications.'
 pubDate: 2014-01-10
-category: 'Campus News'
-tags: ['volunteers', 'Firefly Foundation', 'Love Companion Home', 'Youth League', 'student life']
+category: 'Student Life'
+tags: ['Firefly Charity Fund', 'Youth Volunteers', 'Winter Travel Grant']
 author: 'STU News'
-heroImage: ''
 draft: false
 ---
 
-It is reported that the Firefly Love Foundation, an initiative of Shantou University's Youth Volunteer Association, completed its review process for the 2013 "Love Companion Home" (爱伴归程) winter break travel grant program. A total of 20 applications were received for the grant, which provides travel subsidies to student volunteers facing financial difficulties during the winter break. After evaluation by the foundation's board members and a public notification period, 15 students were ultimately selected as recipients.
+It is reported that the "Firefly" charity fund of Shantou University's young volunteers has completed the review of its 2013 "Love Accompanies the Journey Home" winter break travel grant program, with 15 students confirmed as recipients in a list published on January 10.
 
-The "Love Companion Home" project was established to support university student volunteers returning home for the holidays and to encourage ongoing participation in community service and public welfare activities.
+## Program Overview
 
-> Source: STU OA Notice (Youth League Committee of Shantou University, Shantou University Youth Volunteer Association, Firefly Love Foundation)
-> ⚠️ The complete list of grant recipients is available on the OA system.
+| Item | Details |
+| ---- | ------- |
+| Program name | "Love Accompanies the Journey Home" winter travel grant |
+| Organizers | STU Committee of the Communist Youth League; STU Young Volunteers Association; "Firefly" charity fund |
+| Applications received | 20 |
+| Recipients | 15 students |
+| Review process | Assessment by the fund's council members, followed by public notice |
+
+The program was carried out in line with an earlier notice on the launch of the activity. According to the organizers, the "Firefly" charity fund received a total of 20 application forms. After assessment by the fund's council members and a round of public notice, 15 students were finally confirmed as recipients of this year's grants.
+
+The "Love Accompanies the Journey Home" program is designed to provide financially disadvantaged students with support for their travel home during the winter break, helping them reunite with their families. The full list of recipients can be found in the attachment released by the fund.
+
+> Source: STU OA Notice (Committee of the Communist Youth League of Shantou University)
+> ⚠️ The registration QR code and event attachments are available on the OA system.
