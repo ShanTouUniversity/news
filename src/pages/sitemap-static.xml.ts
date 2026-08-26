@@ -1,3 +1,4 @@
+export const prerender = true;
 import type { APIRoute } from 'astro';
 
 const STATIC_PAGES_ZH = [

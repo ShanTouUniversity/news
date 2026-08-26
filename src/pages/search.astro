@@ -5,7 +5,7 @@ import { t } from '../i18n/translations';
 export const prerender = true;
 
 const lang = 'zh';
-const apiUrl = '/api/search.json?lang=zh';
+const apiUrl = '/api/search/zh.json';
 
 const categoryColors: Record<string, string> = {
   '校园新闻': 'bg-amber-500',
@@ -70,6 +70,7 @@ const categoryColors: Record<string, string> = {
   const loadingEl = document.getElementById('search-loading');
 
   let searchTimer;
+  let searchIndexCache = null;
 
   const escapeHtml = (s) =>
     s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
@@ -112,7 +113,7 @@ const categoryColors: Record<string, string> = {
   const runSearch = (query) => {
     if (!resultsEl || !metaEl || !emptyEl) return;
 
-    const q = query.trim();
+    const q = query.trim().toLowerCase();
     if (!q) {
       resultsEl.innerHTML = '';
       metaEl.textContent = '';
@@ -121,22 +122,50 @@ const categoryColors: Record<string, string> = {
       return;
     }
 
+    const search = (index) => {
+      const scored = index
+        .map((entry) => {
+          let s = 0;
+          const hayTitle = entry.title.toLowerCase();
+          const hayDesc = (entry.description || '').toLowerCase();
+          const hayCat = entry.category.toLowerCase();
+          const hayTags = (entry.tags || []).join(' ').toLowerCase();
+          if (hayTitle.includes(q)) s += 10;
+          if (hayTitle.startsWith(q)) s += 5;
+          if (hayTags.includes(q)) s += 4;
+          if (hayCat.includes(q)) s += 3;
+          if (hayDesc.includes(q)) s += 2;
+          return { entry, s };
+        })
+        .filter((x) => x.s > 0)
+        .sort((a, b) => b.s - a.s || b.entry.date.localeCompare(a.entry.date))
+        .slice(0, 200)
+        .map((x) => x.entry);
+
+      showLoading(false);
+      if (scored.length === 0) {
+        resultsEl.innerHTML = '';
+        metaEl.textContent = '';
+        emptyEl.classList.remove('hidden');
+      } else {
+        emptyEl.classList.add('hidden');
+        metaEl.textContent = i18n.countTemplate.replace('{n}', String(scored.length));
+        resultsEl.innerHTML = scored.map((entry) => renderEntry(entry)).join('');
+      }
+      history.replaceState(null, '', `${window.location.pathname}?q=${encodeURIComponent(query.trim())}`);
+    };
+
+    if (searchIndexCache) {
+      search(searchIndexCache);
+      return;
+    }
+
     showLoading(true);
-    fetch(`${apiUrl}&q=${encodeURIComponent(q)}`)
+    fetch(apiUrl)
       .then((r) => r.json())
       .then((data) => {
-        showLoading(false);
-        const matched = data.results || [];
-        if (matched.length === 0) {
-          resultsEl.innerHTML = '';
-          metaEl.textContent = '';
-          emptyEl.classList.remove('hidden');
-        } else {
-          emptyEl.classList.add('hidden');
-          metaEl.textContent = i18n.countTemplate.replace('{n}', String(data.total));
-          resultsEl.innerHTML = matched.map((entry) => renderEntry(entry)).join('');
-        }
-        history.replaceState(null, '', `${window.location.pathname}?q=${encodeURIComponent(q)}`);
+        searchIndexCache = data.index || [];
+        search(searchIndexCache);
       })
       .catch(() => {
         showLoading(false);

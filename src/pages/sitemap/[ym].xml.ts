@@ -1,6 +1,13 @@
+export const prerender = true;
+
 import type { APIRoute } from 'astro';
 import type { CollectionEntry } from 'astro:content';
 import { getPublishedNews, getMonthChunks } from '../../lib/sitemap.mjs';
+
+export async function getStaticPaths() {
+  const chunks = await getMonthChunks(await getPublishedNews());
+  return chunks.map((c) => ({ params: { ym: c.key } }));
+}
 
 export const GET: APIRoute = async ({ site, params }) => {
   const baseUrl = site!.origin;
