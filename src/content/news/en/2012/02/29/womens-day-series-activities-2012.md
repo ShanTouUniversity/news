@@ -1,9 +1,9 @@
 ---
-title: 'STU Labor Union Organizes International Women\'s Day Series Events'
-description: 'The STU Labor Union announced a series of events for International Women\'s Day, including an ecological park outing on March 7 and an essay and photography competition.'
+title: "STU Labor Union Organizes International Women's Day Series Events"
+description: "The STU Labor Union announced a series of events for International Women's Day, including an ecological park outing on March 7 and an essay and photography competition."
 pubDate: 2012-02-29
 category: 'Student Life'
-tags: ['International Women\'s Day', 'labor union', 'female staff', 'campus events']
+tags: ["International Women's Day", "labor union", "female staff", "campus events"]
 author: 'STU News'
 heroImage: ''
 draft: false
