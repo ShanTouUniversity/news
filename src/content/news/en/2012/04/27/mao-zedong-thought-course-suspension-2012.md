@@ -1,25 +1,16 @@
 ---
-title: 'Mao Zedong Thought Course Suspended on April 28, Field Trip Rescheduled to May 5'
-description: 'The Academic Affairs Office has announced that two sections of Introduction to Mao Zedong Thought and Socialism with Chinese Characteristics will be suspended on April 28 due to instructor leave, with the field trip set for May 5.'
+title: 'STU Announces Suspension of "Introduction to Mao Zedong Thought and the Theoretical System of Socialism with Chinese Characteristics"'
+description: Class on April 28 canceled; make-up time TBD; social practice on May 5
 pubDate: 2012-04-27
-category: 'Notices'
-tags: ['course suspension', 'Mao Zedong Thought', 'Academic Affairs Office', 'Chen Jianping']
+category: 'Campus News'
+tags: ['Academic Affairs', 'Mao Zedong Thought', 'Class Cancellation']
 author: 'STU News'
 heroImage: ''
 draft: false
 ---
 
-It is reported that the Academic Affairs Office issued a notice on April 27, 2012, regarding adjustments for the course *Introduction to Mao Zedong Thought and the Theoretical System of Socialism with Chinese Characteristics* (classes 52217 and 52218) due to instructor Chen Jianping’s leave.
+It is reported that the Academic Affairs Office of Shantou University recently issued a notice that, due to a leave taken by Professor Chen Jian Ping of the Social Sciences Department, the course "Introduction to Mao Zedong Thought and the Theoretical System of Socialism with Chinese Characteristics" (course numbers 52217 and 52218), normally held during periods 34 and 89 on Saturdays in Week 9 (April 28) in Rooms E-407 and E-202 respectively, is canceled. The make-up class time will be announced separately.
 
-## Arrangements
-
-| Item | Details |
-| --- | --- |
-| Course | Introduction to Mao Zedong Thought and the Theoretical System of Socialism with Chinese Characteristics (classes 52217, 52218) |
-| Originally scheduled | Week 9, Saturday, April 28, periods 3–4 in E407 and periods 8–9 in E202 |
-| Adjustment | Suspended; make-up time to be announced |
-| Field trip | Classes 52217 and 52218 will hold their social practice activity on May 5, gathering at 07:50 at the motto monument for departure |
-
-Note: Due to the May Day holiday adjustment, classes originally on April 30 have been moved to April 28; the above times reflect the adjusted schedule. Students concerned are asked to inform each other.
+The social practice activity for classes 52217 and 52218 is scheduled for May 5. Students are requested to gather at the University Motto Stele at 7:50 AM on May 5 for group transportation. Note: Due to the university's unified holiday schedule adjustment for Labor Day, the April 30 classes have been moved to April 28; the times stated above reflect the adjusted schedule. Students enrolled in this course are requested to inform one another.
 
 > Source: STU OA Notice (Academic Affairs Office)

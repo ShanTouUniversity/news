@@ -1,26 +1,16 @@
 ---
-title: "STU Nominates Candidates for China Overseas Chinese Contribution Award"
-description: "The All-China Federation of Returned Overseas Chinese has launched a new round of the Contribution Award, covering innovation teams, research achievements and talents. Nominations are due at the Research Affairs Office by April 19."
+title: 'STU Research Office Forwards China Overseas Chinese Contribution Award Nomination Notice'
+description: Nomination materials due by April 19 at the Research Office
 pubDate: 2012-04-10
 category: 'Academic'
-tags: ['China Overseas Chinese Contribution Award', 'Research Affairs Office', 'Award Nomination', 'Innovation']
+tags: ['Research Office', 'Overseas Chinese Contribution Award', 'Nomination']
 author: 'STU News'
+heroImage: ''
 draft: false
 ---
 
-It is reported that the Research Affairs Office of Shantou University has circulated a notice from the General Office of the All-China Federation of Returned Overseas Chinese on nominations for the "China Overseas Chinese Contribution Award." Relevant campus units are invited to recommend individuals, achievements and teams, with nomination materials due at the Research Affairs Office by April 19.
+It is reported that the Research Office of Shantou University recently issued a notice forwarding the China Oversea Chinese Foundation Office's "Notice on Doing a Good Job in the Recommendation and Selection of the China Oversee Chinese Contribution Award." STU was awarded the title of "Demonstration Base for Revitalizing the Nation through Science and Education" by the China Oversee Chinese Foundation Plenary Conference in 2005. Important independent innovation achievements in scientific research development and technological transformation, as well as newly returned overseas Chinese scientific and technological personnel and innovation and entrepreneurship teams that have made significant contributions, are eligible to participate in the "China Oversee Chinese Contribution Award" selection.
 
-Shantou University was named an "S&T-Based National Rejuvenation Demonstration Base" by the federation's plenary session in 2005. Under the award criteria, science and technology personnel who have achieved important independent innovations in research development and the commercialization of research results, outstanding new-generation overseas Chinese researchers, and entrepreneurship and innovation teams from the university are all eligible for this year's awards.
+The award includes categories for outstanding innovation teams, outstanding innovation achievements, and outstanding innovation talents. Each unit is encouraged to actively recommend relevant individuals, achievements, and teams for nomination. Nomination materials must be submitted to the Research Office by April 19. Contacts: Luo Yingguang, Deng Yong; Tel: 82903271.
 
-## Award Categories
-
-| Category | Description |
-| --- | --- |
-| Innovation Team Award | For entrepreneurship and innovation teams |
-| Innovation Achievement Award | For independent innovations in research development and commercialization |
-| Innovation Talent Award | For new overseas Chinese researchers with outstanding contributions |
-
-The Research Affairs Office has encouraged units to actively nominate eligible individuals, achievements and teams. Detailed selection criteria are available in the notice attachments.
-
-> Source: STU OA Notice (Research Affairs Office)
-> ⚠️ The registration QR code and event attachments are available on the OA system.
+> Source: STU OA Notice (Research Office)
