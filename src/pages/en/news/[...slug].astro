@@ -1,6 +1,5 @@
 ---
 import BaseLayout from '../../../layouts/BaseLayout.astro';
-import AdBanner from '../../../components/AdBanner.astro';
 import SharePoster from '../../../components/SharePoster.astro';
 import { getEntry, getCollection, render } from 'astro:content';
 import { t } from '../../../i18n/translations';
@@ -116,10 +115,6 @@ const zhSlug = post.id.replace('en/', '');
       prose-blockquote:border-stu-gold
       prose-strong:text-stu-dark dark:prose-strong:text-gray-100">
       <Content />
-    </div>
-
-    <div class="mt-10 mb-6">
-      <AdBanner adId="webagentloop" variant="card" />
     </div>
 
     <footer class="pt-8 border-t border-stu-cream-dark dark:border-white/10">
