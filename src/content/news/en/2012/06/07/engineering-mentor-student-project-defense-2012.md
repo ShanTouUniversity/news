@@ -1,6 +1,6 @@
 ---
-title: 'Engineering School’s “Family Together, Mentor Face-to-Face” Projects to Hold Defenses'
-description: 'Twenty-six STU Engineering School projects have applied for approval under the “Family Together, Mentor Face-to-Face” program; project defenses will be held on June 8 in Room D503.'
+title: 'Engineering School Announces Review Results for “Happy Family, Face-to-Face with Mentors” Projects'
+description: 'Twenty-six projects applied for approval under STU Engineering School’s 2012 “Happy Family, Face-to-Face with Mentors” program, and the school has completed the project-review defenses and announced the results.'
 pubDate: 2012-06-07
 category: 'Student Life'
 tags: ['Mentor Guidance', 'Project Defense', 'Engineering School']
@@ -9,10 +9,10 @@ heroImage: ''
 draft: false
 ---
 
-It is reported that 26 projects have applied for approval under STU Engineering School’s 2012 “Family Together, Mentor Face-to-Face” program, in which undergraduate teams work with academic mentors. To follow up on and supervise the projects, the Engineering School Youth League Committee will hold project-review defenses from 15:00 to 17:30 on June 8 in Room D503 of the Teaching Building.
+It is reported that 26 projects applied for approval under STU Engineering School’s 2012 “Happy Family, Face-to-Face with Mentors” program. To follow up on and supervise the projects, the Engineering School Youth League Committee held project-review defenses on June 8 and has now announced the review results. Projects that passed the review will proceed under the guidance of academic mentors.
 
-Each project must give a five-minute PowerPoint presentation. At least two members from each project must attend and dress appropriately. Projects that fail to attend as required will be treated as having voluntarily withdrawn. Project arrangements and defense procedures should follow the original OA attachment.
+Each project was required to give a five-minute PowerPoint presentation. At least two members from each project had to attend and dress appropriately. Projects that failed to attend as required were treated as having voluntarily withdrawn. Detailed project results, work arrangements, and defense procedures are provided in the original OA attachment; student project members are not identified here.
 
 > Source: STU OA Notice (Engineering School)
 >
-> ⚠️ Please consult the original notice in the OA system for project arrangements and defense procedures.
+> ⚠️ Please consult the original notice in the OA system for project results and work arrangements.
