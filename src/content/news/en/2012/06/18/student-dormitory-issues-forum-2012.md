@@ -13,4 +13,6 @@ In response to recent student feedback about accommodation conditions and the al
 
 Students who wish to attend must register through the [activity registration system](http://activity.stu.edu.cn) by 17:00 on June 19. Because seating is limited, the first 50 students to register successfully may attend.
 
+Registration has closed, with 69 students signing up. The first 50 successful registrants are invited to attend and should bring their campus cards or student IDs and arrive on time.
+
 > Source: STU OA Notice (Party and Administrative Office and Student Affairs Office)
