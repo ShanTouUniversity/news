@@ -13,7 +13,7 @@ STU’s fourth “China Public-Welfare Lecture” will be held from 15:00 to 16:
 
 The lecture connects higher-education educators, policymakers, university students, and public-welfare practitioners. It will examine the development and standardization of public-welfare practice, international service initiatives, and poverty-reduction experience, using cross-disciplinary and multi-perspective discussion to share reflections on grassroots service, poverty reduction, and community improvement.
 
-Students and staff may register through the [STU Activity Booking System](http://activity.stu.edu.cn) by 15:00 on June 26. Questions for the discussion may be sent to the University Youth League Committee at `o_tw@stu.edu.cn`.
+Students and staff may register through the [STU Activity Booking System](http://activity.stu.edu.cn) by 15:00 on June 26. Questions for the discussion may be sent to the University Youth League Committee at `o_tw@stu.edu.cn`. A total of 95 students and staff successfully registered by the deadline. Successful registrants should enter 15 minutes before the lecture begins; the individual list is not reproduced here.
 
 > Source: STU OA Notice (Communist Youth League Committee and Student Affairs Office)
 >
