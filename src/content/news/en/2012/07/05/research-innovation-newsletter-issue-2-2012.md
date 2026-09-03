@@ -1,0 +1,16 @@
+---
+title: "STU Publishes Research and Innovation Newsletter Issue 2 (2012)"
+description: "STU's Research Affairs Office published Issue 2 (No. 24 overall) of its Research and Innovation Newsletter, covering NSFC social science funding, research achievements, academic exchanges and industry-university-research cooperation."
+pubDate: 2012-07-05
+category: 'Academic'
+tags: ['research newsletter', 'research news', 'academic exchange']
+author: 'STU News'
+draft: false
+---
+
+It is reported that Shantou University's Research Affairs Office has published Issue 2 (No. 24 overall) of its Research and Innovation Newsletter, reporting on recent research developments at the university.
+
+Key content of this issue includes: research funding, with coverage of the 2012 National Social Science Fund project approvals; research achievements and awards, including the provincial appraisal of the achievement "Research and Application of Cultivating New Strains of the Noble Scallop (Chlamys nobilis)," the highest national average citation count per paper among Chinese universities for papers published by STU professors in Nature, the approval of three Guangdong Province "12th Five-Year" key medical disciplines and key laboratories at the Medical College, the recognition of the university's judicial appraisal center as the most influential forensic institution in eastern Guangdong, awards for an STU machine group and an individual in the 2011 Guangzhou Instrument Collaboration Network, and new research results from the integrated media laboratory of the Cheung Kong School of Journalism and Communication; academic exchange and activities, including a lecture by Dr. Chen Honglin of the University of Hong Kong Li Ka Shing Faculty of Medicine, academic lectures by two internationally renowned designers teaching a graphic-design book design course, the participation of Professor Peng Wenhao, dean of the School of Law, in the Chinese University of Hong Kong MPA tenth-anniversary celebration and seminar, a sand-painting performance titled "Love Sand" by Hong Kong artist Haichao, visits and lectures by scholars from the University of California, Berkeley, Michigan State University and the University of Calgary, a visit by Professor Judith P. Klinman of the University of California, Berkeley, and visits by representatives from Xiamen University, Florida Institute of Technology and other institutions; and local services and industry-university-research cooperation, including the midterm review and acceptance of two demonstration bases and projects, and an inspection of the Shantou comprehensive test station by the national shellfish industry technology system expert group. The issue also reported the first technical committee meeting of a provincial university engineering technology research center for soft packaging printing equipment, a seminar on administrative culture and local cultural development, an academic discussion with Academician Chen Jia'er on the national "2011 Plan," and a philosophy and social sciences collaborative-innovation seminar and annual meeting in Hezhou, Guangxi.
+
+> ⚠️ The full newsletter is available as a PDF attachment on the OA system.
+> Source: STU OA Notice (Research Affairs Office)

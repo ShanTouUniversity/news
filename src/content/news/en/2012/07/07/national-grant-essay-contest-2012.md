@@ -30,7 +30,7 @@ Organized by the provincial department, the contest aims to publicize national a
 | --- | --- |
 | Awards | Outstanding Essay Awards: 10 first, 20 second and 30 third prizes per category (four categories); Outstanding Organization Awards |
 | Review | Tiered submission and review, final evaluation by provincial experts, with selected works recommended nationally |
-| How to submit | Complete the recommendation form and send the Word manuscript to the designated email with subject “Grant Essay + Name + College” |
+| How to submit | Complete the recommendation form and send the Word manuscript to the designated email with subject “助我成才征文” + Name + College |
 | Deadline | August 26, 2012 |
 | Organizers | Provincial Student Aid Center and Guangdong Education Magazine |
 
