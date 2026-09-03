@@ -18,6 +18,8 @@ It is reported that STU’s Academic Affairs Office will hold a series of “Edu
 | June 6 | Design and Implementation of a Peer Classroom Observation System | Terry Bodenhorn | Chinese and English |
 | June 20 | General-education curriculum reform | Cai Yinghui | Chinese; may count as continuing education |
 
+The June 20 session will be held in Room G306 of the Teaching Building. It will cover the meaning and goals of general education, curriculum goals and content, curriculum organization and implementation, curriculum evaluation, and reflections and discussion on STU’s general-education curriculum reform.
+
 The original OA attachments provide the venues, registration method, and detailed schedules.
 
 > ⚠️ Detailed workshop arrangements and related materials are available in the original OA attachments.
