@@ -19,6 +19,8 @@ Undergraduates in other main-campus cohorts may arrange recharges by class. Stud
 
 The regulations of the former Ministry of Railways and Ministry of Education on student discount tickets are provided in the original notice attachments.
 
+**Subsequent reminder**: On December 26, Academic Affairs Office announced that 2011 and 2012 cohort students who still needed a new discount card had to complete data entry and purchase by December 28. The university’s deadline for importing the relevant information into the Ministry of Education’s CHSI system was December 31, and this round of processing would not be available afterward.
+
 > Source: STU OA Notice (Academic Affairs Office)
 >
 > ⚠️ Please consult the original OA attachments for the student discount-ticket rules and detailed processing schedule.

@@ -14,6 +14,8 @@ The university will set up an information booth at the Golden Triangle from 11:0
 
 The Shantou division competition will take place from 7:00 to 9:00 p.m. on December 25 in the Science Lecture Hall. The registration post with the highest repost count will advance directly, while a judging panel will select seven additional entries, creating an eight-contestant field. Under the theme “Show the Best Future Self,” each contestant will have eight minutes for a self-introduction, themed presentation, and expert questions. Three contestants will advance to the provincial final.
 
+**Subsequent result**: As of December 21, 26 students had registered for the Shantou division. The preliminary review advanced eight contestants to the live competition and designated two alternates. The detailed list appears in a later notice attachment; student personal information is not reproduced here.
+
 ### Awards and on-site gifts
 
 The extension notice says that the top three contestants in the Shantou division will receive a wireless-internet-card package valued at RMB 580 and collective training from an expert mentor group. The top eight will receive a Wopai card package and phone credit, as well as opportunities to intern at the WO University Student Practice Base and receive priority consideration in Guangdong Unicom recruitment. Registrants may also enter a prize draw, and the career presentation will include experience cards and interactive gifts for attendees, subject to the organizer’s on-site arrangements.

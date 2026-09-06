@@ -21,6 +21,8 @@ The university will provide buses to take students to the shooting range. Partic
 
 Groups will board buses in the scheduled order. Students whose group has not yet been called should wait at the meeting point. All participants must arrive at the designated point on time and follow on-site management and safety requirements throughout the activity.
 
+**Subsequent adjustment**: On December 18, 2012, People’s Armed Forces Department announced that the live-fire assessment originally scheduled for December 19 had been postponed because of a temporary work adjustment by the training unit. A new assessment date would be announced later.
+
 | Item | Information |
 | --- | --- |
 | Activity | 2012 military-training live-fire shooting assessment |

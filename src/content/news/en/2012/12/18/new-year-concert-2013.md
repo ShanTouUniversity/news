@@ -34,4 +34,6 @@ The concert will be hosted by Wang Shouzhi, Dean of the Cheung Kong School of Ar
 
 Further details on concert etiquette are available on the Center for Art Education website.
 
+**Subsequent reminder**: On December 21, Cheung Kong School of Art and Design announced that all concert tickets had been distributed. Ticket holders should be seated 10 minutes before the performance; if seats remain unoccupied at 7:30 p.m., people waiting outside without tickets may be seated subject to on-site arrangements.
+
 > Source: STU OA Notice (Cheung Kong School of Art and Design)
