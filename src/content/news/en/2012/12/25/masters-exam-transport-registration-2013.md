@@ -8,7 +8,7 @@ author: 'STU News'
 draft: false
 ---
 
-To assist main-campus candidates taking the 2013 master’s entrance examination, Shantou University will arrange vehicles on the examination days for candidates who need transportation to the Shantou test center.
+To assist main-campus candidates taking the 2013 master’s entrance examination, Shantou University will arrange vehicles on the examination days for candidates who need transportation to the old campus of Shantou No. 1 Middle School, the Shantou test center. The venue is at 64 Zhongshan Road, Shantou, and candidates should arrive by 5:00 p.m. on January 4, 2013, to familiarize themselves with the examination venue.
 
 ### Transportation arrangements
 
@@ -21,7 +21,7 @@ Candidates who need university-arranged transportation should confirm their requ
 
 | Item | Information |
 | --- | --- |
-| Eligible users | Main-campus candidates who need transportation to the Shantou test center for the 2013 master’s entrance examination |
+| Eligible users | Main-campus candidates who need transportation to the old campus of Shantou No. 1 Middle School for the 2013 master’s entrance examination |
 | Registration deadline | 5:30 p.m., December 30, 2012 |
 | Cancellation telephone | 82902424 |
 | Organizer | Graduate School |

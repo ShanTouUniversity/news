@@ -14,7 +14,7 @@ The STU Student Affairs Office announced that the university had coordinated wit
 
 Under the trial “no-waiting ticket purchase” arrangement, a pre-registered student should write the requested train number and travel time on the number card, place the card, identification document, and sufficient cash in an envelope, and write the purchaser’s name, amount, and campus short number on the front. After receiving the envelope, staff would notify students 10 minutes before their number was due. Students could return to the window and purchase the ticket themselves or authorize staff to purchase it according to the card.
 
-If a ticket could not be issued or the cash was insufficient, or if a student missed the notified number order, make-up purchasing would be arranged from 2:30 to 4:30 p.m. on January 2, 2013, with students queuing independently.
+The original notice scheduled make-up purchasing from 2:30 to 4:30 p.m. on January 2, 2013. Because of ticket-machine problems, Student Affairs later cancelled that time slot and revised the arrangement: students who neither joined the university pre-registration nor bought tickets online, as well as students whose trial “no-waiting purchase” failed or who missed their original queue position, may queue at the window on a first-come, first-served basis with their identity and student cards. Students who successfully booked tickets through 12306 and need to collect them at the university window must submit their identity card, student card, and ticket order number by 4:00 p.m. on January 2, and register a telephone number.
 
 ### Important notes
 
