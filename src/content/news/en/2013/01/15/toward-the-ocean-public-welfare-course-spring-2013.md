@@ -10,6 +10,8 @@ draft: false
 
 The Shantou University School of Science opened registration for the spring offering of “Toward the Ocean,” a public-service course formally titled “Marine Territorial Awareness and Marine-Ecosystem Conservation Outreach.” The course will run from March through May 2013, offer two classes for 60 undergraduates across the university, and carry one credit for 48 hours of study and service after successful assessment.
 
+The follow-up enrollment notice later reported that 20 places had been added to the original 60-place plan, bringing the confirmed cohort to 80 students. The final roster was published separately; students should follow the credit-based academic system and the latest course-group notice for arrangements.
+
 The course will include polar topics connected with STU’s Antarctic expedition project. It is designed to build understanding of the ocean and marine conservation while giving students experience communicating marine knowledge to the public. Sun Zewei is the course coordinator; the course has seven instructors and two student assistants.
 
 ### Course plan
