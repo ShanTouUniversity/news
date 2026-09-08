@@ -1,6 +1,6 @@
 ---
-title: 'STU selects 10 students for the 2013 CUHK International Summer School'
-description: 'With support from the Li Ka-shing Foundation and donation from Texhong Enterprises, STU will select 10 full-time undergraduate students from the 2010 and 2011 cohorts, excluding the Medical College, for the CUHK International Summer School.'
+title: 'STU confirms 10 students for the 2013 CUHK International Summer School'
+description: 'After interviewing 15 eligible applicants, STU has selected 10 students for the 2013 Chinese University of Hong Kong International Summer School. The roster is available in the original OA attachment.'
 pubDate: 2013-02-22
 category: 'Student Life'
 tags: ['Chinese University of Hong Kong', 'Summer Courses', 'International Exchange']
@@ -8,7 +8,7 @@ author: 'STU News'
 draft: false
 ---
 
-With support from the Li Ka-shing Foundation and a donation from Texhong Enterprises, Shantou University will continue sending students to the Chinese University of Hong Kong International Summer School. STU will select **10 students** for the 2013 program.
+With support from the Li Ka-shing Foundation and a donation from Texhong Enterprises, Shantou University will continue sending students to the Chinese University of Hong Kong International Summer School. The university received applications from **15 eligible students** and, after interviews by a university review panel, confirmed **10 students** for the 2013 program.
 
 ### Program details
 
@@ -22,6 +22,10 @@ Applicants must submit an application form and an English essay of no more than 
 
 Printed and electronic materials are due by **11:00 a.m. on March 1** at the Student Financial Aid Management Center, Room 106 of the Administration Building. Email electronic materials to `xyli@stu.edu.cn`. The university will select final scholarship recipients through a written-materials review and interview.
 
+### Interview arrangements
+
+Shortlisted students will be interviewed from **3:00 to 5:00 p.m. on Wednesday, March 13**, in Administration Center Room 221. The interview uses a leaderless group-discussion format: each student gives a self-introduction in English lasting no more than one minute, followed by two minutes of preparation, a 10-minute group discussion, and a 10-minute panel-question period. Shortlisted students should arrive by **2:40 p.m.** and prepare a name card in advance.
+
 > Source: STU OA Notice (Student Affairs Office)
 >
-> ⚠️ The application form and program details are available in the original attachment on the OA system. More information is available at `www.cuhk.edu.hk/osp/`.
+> ⚠️ The application form, program details, and final selected-student roster are available in the original OA attachment on the OA system. More information is available at `www.cuhk.edu.hk/osp/`. The student roster is not reproduced here.

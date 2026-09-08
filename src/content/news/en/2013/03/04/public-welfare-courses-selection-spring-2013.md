@@ -28,6 +28,10 @@ Beginning with the 2012 cohort, public-service courses became a compulsory gener
 
 Courses are scheduled mainly on Wednesday afternoons or weekends during the spring semester. Service groups, schedules, and assessment requirements vary. Students should read the relevant syllabus before selecting a course and consider whether they can meet the time commitment. The course themes include work with rural children, rural health promotion, educational support, traffic-quality improvement, community services, legal practice, marine conservation, and public-welfare photography.
 
+The first session of **Caring for Rural Left-Behind Children** (`SER0610`) is scheduled for **2:00–5:00 p.m. on March 13** in **D203**.
+
+**Educational Support for Students in Need** (`SER1711`) is divided into two classes: Class `60732` trains in D201 and Class `60883` in D202. Both classes hold training in curriculum design, teaching methods, team development, and teaching plans on **March 16** and **March 23**, begin public-service practice at Aixin School on March 24, and hold summary and evaluation sessions on May 26. The notice body gives the practice period as **March 24 to May 24**, while the attached schedule gives **March 24 to May 19**; follow later instructions from the instructors.
+
 ### Enrollment schedule
 
 - **Initial selection**: 9:00 a.m. March 5 to 9:00 a.m. March 6;

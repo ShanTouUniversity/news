@@ -21,6 +21,8 @@ Current undergraduate or graduate students may form interdisciplinary teams or t
 
 ### Schedule and awards
 
+The two competition briefings will be held from **2:00 to 4:00 p.m. on March 20 (Wednesday) and March 22 (Friday)** in the Library Lecture Hall. All STU students may attend, and interested faculty members are welcome.
+
 | Date | Activity |
 | --- | --- |
 | March 20 and 22 | First and second competition briefings |

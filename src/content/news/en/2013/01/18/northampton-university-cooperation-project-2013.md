@@ -21,6 +21,12 @@ The first 3+1+1 cohort accepts students from the STU Business School to study at
 
 The exchange program selects second-year STU undergraduates each year. Students may apply for courses in UON’s Business, Social Sciences, Science and Technology, Arts, Education, or Health schools. Exchange participants are eligible for tuition reductions under the cooperation program, with details subject to the program materials.
 
+### 2013 application arrangements
+
+Applications close on **March 29**. Applicants must email the electronic University of Northampton application form to STU’s International Exchange and Cooperation Office at `wscicd@stu.edu.cn`, using “Northampton University Exchange Program Application” as the subject. Required materials include an English personal statement, Chinese and English transcripts, Chinese and English proof of enrollment, one recommendation letter, a passport, IELTS or TOEFL results or participation in the University of Northampton’s internal test, and a portfolio for applicants to art, architecture, and related programs.
+
+Items 2–8 that are temporarily unavailable by the deadline may be supplemented according to each applicant’s situation. If STU cannot issue English transcripts or certificates, applicants may translate them during the academic matching stage and arrange the required translation during the visa stage. Applicants are encouraged to plan early for language testing, academic matching, admission, visas, accommodation, and airport pickup.
+
 ### Requirements and estimated costs
 
 Applicants must complete the required courses in China and maintain good academic standing. The stated language requirement is IELTS 6.0 or a pass in UON’s internal language test. Students who do not meet the requirement may take a language course based on their level.
