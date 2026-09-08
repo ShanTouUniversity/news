@@ -1,6 +1,6 @@
 ---
 title: 'STU third student psychological-drama competition final set for March 15'
-description: 'The final of STU’s third student psychological-drama competition will be held on March 15. Five teams advanced through the preliminary round, with first, second, and third prizes to be awarded.'
+description: 'STU’s third student psychological-drama competition recognized five productions. Rebuilding Again won first prize and will represent STU in the Guangdong university student psychological-drama competition.'
 pubDate: 2013-03-11
 category: 'Student Life'
 tags: ['Psychological Drama', 'Mental Health', 'Student Competition']
@@ -12,4 +12,10 @@ Five teams have advanced to the final of Shantou University’s third student ps
 
 The competition will award one first prize of RMB 1,000 and a certificate, two second prizes of RMB 600 and certificates, and two third prizes of RMB 300 and certificates. Audience members who participate in voting may also receive gifts. For details, email `o_xlzx@stu.edu.cn`.
 
+### Competition results
+
+The final recognized five productions: *Rebuilding Again* won first prize; *To Do or Not to Do* and *Nightmare* won second prize; and *To the Beautiful You* and *Searching* won third prize. STU will recommend *Rebuilding Again* for the fourth Guangdong University Student Psychological-Drama Competition. Student names from the award list are not reproduced.
+
 > Source: STU OA Notice (Student Affairs Office)
+>
+> ⚠️ The award list contains student names, which are not reproduced here.

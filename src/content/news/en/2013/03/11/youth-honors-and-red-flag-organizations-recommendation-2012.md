@@ -1,6 +1,6 @@
 ---
 title: 'STU opens recommendations for 2012 Shantou youth honors and Red Flag organizations'
-description: 'STU’s Youth League Committee has opened internal recommendations for Shantou Outstanding Youth League Cadres, Outstanding Youth League Members, and May Fourth Red Flag organizations for 2012. Campus materials are due March 17.'
+description: 'STU has publicized its proposed candidates for the 2012 Shantou honors for outstanding Youth League officials and members and Red Flag organizations. Comments are accepted until 3:00 p.m. on March 25.'
 pubDate: 2013-03-11
 category: 'Student Life'
 tags: ['Youth League Work', 'Honors Selection', 'May Fourth Red Flag Organizations']
@@ -8,7 +8,11 @@ author: 'STU News'
 draft: false
 ---
 
-The Shantou Youth League Committee will recognize outstanding Youth League cadres, outstanding Youth League members, May Fourth Red Flag Youth League committees, and May Fourth Red Flag Youth League branches during the 2013 May Fourth period. STU’s Youth League Committee has forwarded the call and opened internal recommendations through the Youth League committees of its schools and colleges and its directly affiliated branches.
+After its internal recommendation process, STU’s Youth League Committee proposed **two Red Flag Youth League committees, two Red Flag Youth League branches or general branches, two outstanding Youth League officials and seven outstanding Youth League members** for the 2012 Shantou honors. The attachment lists the proposed collectives and individuals; this article reports only the categories and counts and does not reproduce individual names.
+
+The earlier recommendation notice allocated six places for outstanding Youth League members, while the current attachment lists seven proposed candidates. The notice does not explain the difference, so the final number remains subject to the Shantou Youth League Committee’s review.
+
+Comments may be submitted in writing, in person or by telephone to the STU Youth League Committee by **3:00 p.m. on March 25, 2013**. Organizational submissions must carry an official seal, while individual submissions must be signed with the writer’s real name. The contact telephone number is `86502302`.
 
 ### Recommendation scope
 

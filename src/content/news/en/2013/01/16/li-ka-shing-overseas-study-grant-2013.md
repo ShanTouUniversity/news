@@ -1,6 +1,6 @@
 ---
 title: 'Li Ka Shing Foundation-Funded Overseas Study Program Opens with 20 Awards for 2013'
-description: "Shantou University has launched the 2013 round of its Overseas Study Grant Program funded by the Li Ka Shing Foundation, offering up to 80,000 yuan each to 20 graduating undergraduates pursuing master's degrees abroad."
+description: "STU’s 2013 Overseas Study Grant Program received 37 eligible applications and selected 25 students for interviews, scheduled for April 11 in ACC Meeting Room 2."
 pubDate: 2013-01-16
 category: 'Notices'
 tags: ['Li Ka Shing Foundation', 'Overseas Study', 'Scholarship', 'Undergraduates']
@@ -24,5 +24,14 @@ The university reminded students that they may apply to no more than three schoo
 | Tier B | 50,000 yuan/person |
 | Tier C | 30,000 yuan/person |
 
+### Interview selection
+
+The program received **37 applications from eligible students**. A selection committee comprising representatives of the Li Ka Shing Foundation, university leaders and school deans reviewed the application materials and selected **25 students** for interviews.
+
+The interviews will be held at **9:00 a.m. on Thursday, April 11** in ACC Meeting Room 2. The format is a leaderless group discussion: each finalist will give an English self-introduction of no more than one minute, followed by two minutes of preparation, a 10-minute discussion and 10 minutes of questions from the panel. Discussion topics will be drawn before the interview.
+
+Finalists must attend a briefing at **3:00 p.m. on April 9** in Administration Building Room 105 to review arrangements and draw their interview order. The finalist list is in the original OA attachment; student names are not reproduced here.
+
 > Source: STU OA Notice (Student Affairs Office)
-> ⚠️ The registration QR code and event attachments are available on the OA system.
+>
+> ⚠️ The finalist list and application attachments contain student personal information. Consult the original OA system notice; student names are not reproduced here.

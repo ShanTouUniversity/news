@@ -1,6 +1,6 @@
 ---
 title: 'STU selects science and engineering freshmen and sophomores for STU–MIT course'
-description: 'STU will offer the Evolutionary Processes and Systems pilot course with MIT in May 2013. The course will select 20 first- and second-year students from the Schools of Science and Engineering; applications are due March 8 at 5:00 p.m.'
+description: 'STU and MIT have completed selection for the Evolutionary Processes and Systems pilot course. Twenty-five students were selected through English interviews with reference to semester GPAs, and will receive follow-up training in App Inventor and evolutionary algorithms.'
 pubDate: 2013-03-04
 category: 'Academic'
 tags: ['MIT', 'International Exchange', 'Evolutionary Algorithms']
@@ -18,6 +18,10 @@ STU faculty will offer three or four lectures on evolutionary algorithms in Apri
 
 The university will conduct an initial screening, identify candidates for interviews, and make final selections based on interview results. Applications are due by **5:00 p.m. on Friday, March 8**. Interested students must complete the application form and email it to `jzhang@stu.edu.cn`.
 
+### Selection result
+
+Following English interviews and review of students’ semester GPAs, the university selected **25 students** for the exchange course. Selected students will first study App Inventor and evolutionary algorithms and await further training arrangements. The names in the selection list are not reproduced here.
+
 > Source: STU OA Notice (School of Engineering)
 >
-> ⚠️ The application form requests names, student numbers, email addresses, telephone numbers, and course grades and is not reproduced here. Consult the original OA attachment on the OA system.
+> ⚠️ The application form and selection list contain names, student numbers, email addresses, telephone numbers and course grades and are not reproduced. Consult the original OA attachments on the OA system.

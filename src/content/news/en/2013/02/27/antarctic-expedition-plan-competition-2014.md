@@ -1,6 +1,6 @@
 ---
 title: 'STU launches 2014 Antarctic expedition proposal competition and selection'
-description: 'With support from the Li Ka-shing Foundation, STU has launched a proposal competition for its 2014 Antarctic Expedition Project. The university plans to select 16 students and four faculty members; the proposal deadline has been extended to midnight on March 13.'
+description: 'STU’s 2014 Antarctic proposal competition drew 5,893 faculty and student voters. A total of 136 Category A participants advanced to physical-fitness selection, scheduled for April 29 and 30.'
 pubDate: 2013-02-27
 category: 'Student Life'
 tags: ['Antarctic Expedition', 'Proposal Competition', 'Environmental Education']
@@ -26,6 +26,20 @@ A total of **167 faculty members and students** successfully submitted proposals
 An earlier extension notice gave the voting period as **March 14–20**, while this March 15 voting notice specifies **March 15–20**; both dates are recorded here. Voting results will determine the competition winners and serve as an initial screening reference for Category A participants advancing to physical-fitness testing in the Antarctic project selection.
 
 Awards are based on vote totals without separating faculty and students: one first-prize winner receives an iPad Mini (16G), two second-prize winners receive Lenovo LePad A2109 (8G) tablets, three third-prize winners receive iPod nano 7 (16GB) devices, and **10 shortlisted entries** receive two buffet coupons from Shantou Junhua Hotel. One hundred participating voters will also be selected at random to receive RMB 100 in campus-card credit, of which RMB 50 is restricted to purchases at the Library Student Activity Hall.
+
+The vote drew **5,893 faculty and student participants and 11,017 votes**. Based on vote totals, the competition awarded one first prize, two second prizes, three third prizes and 10 shortlisted-entry prizes; 100 voting participants were also selected at random for voter awards. Individual winners and voter-award recipients are not reproduced here.
+
+### Awards ceremony and lecture
+
+The awards ceremony is scheduled for **7:30 p.m. on April 2** in the Library Lecture Hall. Huo Xia, a professor from the Medical College and the first-prize winner, will give a lecture titled “Focus on the Environment, Focus on Health,” covering the relationship between air, soil, marine and agricultural pollution and health, the harm caused by pollution incidents, and public-health awareness.
+
+Award-winning faculty members and students may use their campus cards at the Library Student Activity Hall by **June 10**. After the deadline, the university will reimburse actual spending up to **RMB 50 per person**. Consult the original OA notice for award-collection and spending arrangements.
+
+### Physical-fitness selection
+
+Among Category A entries, **136 participants** advanced, including 110 students and 26 faculty members. Following judging, 98 undergraduates and 26 faculty members entered the physical-fitness selection. The notice schedules testing for **April 29 and 30**. Specific arrangements will be issued through the campus office-information network; the readable scoring attachment lists six tests on April 29, from 9:00 a.m. to noon and from 2:00 to 5:00 p.m.
+
+The tests are a 100-meter swim, two-minute water treading, a weighted 2,400-meter run, one minute of sit-ups, one minute of push-ups and one minute of pull-ups. The 100-meter swim is mandatory; participants who fail to complete it or meet the minimum requirement will not continue to later stages. Swimmers must wear a long-sleeved top, long trousers and sports shoes to simulate an emergency situation.
 
 For questions, email `expedition@stu.edu.cn` or call `0754-86502246`.
 
