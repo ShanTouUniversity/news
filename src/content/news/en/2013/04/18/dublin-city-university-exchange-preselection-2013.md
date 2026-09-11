@@ -1,6 +1,6 @@
 ---
 title: 'Liberal Arts announces 2013 preliminary selections for Dublin City University exchange'
-description: 'STU&apos;s School of Liberal Arts has announced 10 preliminary selections for its exchange-student program with Dublin City University in Ireland, covering the 2011 and 2012 cohorts; names are not reproduced.'
+description: "STU's School of Liberal Arts has announced 10 preliminary selections for its exchange-student program with Dublin City University in Ireland, covering the 2011 and 2012 cohorts; names are not reproduced."
 pubDate: 2013-04-18
 category: 'Student Life'
 tags: ['School of Liberal Arts', 'Dublin City University', 'Exchange Program', 'International Exchange']
@@ -8,7 +8,7 @@ author: 'STU News'
 draft: false
 ---
 
-Shantou University&apos;s School of Liberal Arts has announced the 2013 preliminary results for its exchange-student program with **Dublin City University in Ireland**. **Ten students** from the 2011 and 2012 cohorts were included in the preliminary-selection list, representing English, Chinese Language and Literature, and Teaching Chinese as a Foreign Language.
+Shantou University's School of Liberal Arts has announced the 2013 preliminary results for its exchange-student program with **Dublin City University in Ireland**. **Ten students** from the 2011 and 2012 cohorts were included in the preliminary-selection list, representing English, Chinese Language and Literature, and Teaching Chinese as a Foreign Language.
 
 ### Preliminary-selection summary
 
@@ -20,8 +20,8 @@ Shantou University&apos;s School of Liberal Arts has announced the 2013 prelimin
 
 The original attachment states that the list is not ranked and is arranged by surname in pinyin order. Because it contains student names, the names are not reproduced here. Students should check the preliminary result through the School of Liberal Arts or the OA system.
 
-The database notice is dated **April 18, 2013**, while the footer of the preliminary-results attachment reads **April 28, 2012**. This source-date discrepancy is preserved here without changing or inferring the attachment date.
+The database notice is dated **April 18, 2013**, while the footer of the preliminary-results attachment reads **April 28, 2012**. This source-date discrepancy is preserved here without changing or inferring the attachment date. The college subsequently announced the selection results on May 3, 2013: among the 10 preliminary candidates who sat the written test and completed interviews on April 23, five were proposed as formal nominees and two as reserve candidates. The later public notice contains the individual names, cohorts and majors of the formal and reserve candidates; those names are not reproduced here.
 
-> Source: STU OA Notice (School of Liberal Arts)
+> Sources: STU OA notices (School of Liberal Arts)
 >
-> ⚠️ The preliminary-results attachment contains student names. Check the original notice through the School of Liberal Arts or OA system; the student list is not reproduced here.
+> ⚠️ The preliminary-results and later proposed-nominee attachments contain student names. Check the original notices through the School of Liberal Arts or OA system; the student lists are not reproduced here.

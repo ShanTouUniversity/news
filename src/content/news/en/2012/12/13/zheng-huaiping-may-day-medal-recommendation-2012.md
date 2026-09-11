@@ -25,6 +25,10 @@ Zheng Huaiping holds a doctorate and postdoctoral training in marine biology and
 
 Units with comments may submit a written statement bearing their official seal. Individuals submitting comments must sign their real names. Comments should reach the Labor Union by the deadline.
 
-> Source: STU OA publicity notice and Shantou Federation of Trade Unions Document No. 79 of 2012 (Labor Union)
+### Subsequent result
+
+On **May 3, 2013**, the STU Labor Union reported that Zheng Huaiping had attended Shantou's conference marking International Workers' Day and promoting the “One Million Workers Building a Beautiful and Happy Shantou” initiative on the afternoon of **April 28**, where he received the Shantou May 1 Labor Medal from municipal leaders. The earlier campus recommendation had subsequently resulted in this public recognition.
+
+> Sources: STU OA notices and Shantou Federation of Trade Unions Document No. 79 of 2012 (Labor Union)
 >
 > ⚠️ The recommendation form contains sensitive personal information, including an identity-card number, birth date, and native place. These details are not reproduced here.

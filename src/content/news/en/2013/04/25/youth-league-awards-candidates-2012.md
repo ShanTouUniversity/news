@@ -24,8 +24,8 @@ The announcement follows the *Notice on the Selection of 2012 Outstanding Youth 
 | Phone | 86502302 |
 | Issued by | Youth League Committee of Shantou University |
 
-The full list is available in the OA attachment.
+After the public-notice period, the Youth League Committee issued STU Youth League Document [2013] No. 10 on May 2, formally recognizing 27 Outstanding Youth League Branches (General Branches), 46 Outstanding Youth League Cadres and 244 Outstanding Youth League Members. This article records the proposed-award stage published on April 25; the later decision is the final result.
 
 > ⚠️ The full list of proposed awardees is available on the OA system.
 >
-> Source: STU OA Notice (Youth League Committee)
+> Sources: STU OA notices (Youth League Committee)

@@ -1,6 +1,6 @@
 ---
 title: 'STU Administrative Center recruits student reception assistants'
-description: 'STU&apos;s General Office is recruiting enrolled students as reception assistants for the Administrative Center information desk. Applications run from April 19 to 24, with work-study pay set at RMB 10 per hour.'
+description: "STU's General Office is recruiting enrolled students as reception assistants for the Administrative Center information desk. Applications run from April 19 to 24, with work-study pay set at RMB 10 per hour."
 pubDate: 2013-04-17
 category: 'Jobs & Career'
 tags: ['Work-Study', 'Student Reception Assistant', 'Administrative Center', 'Student Recruitment']
@@ -16,7 +16,7 @@ Reception assistants will answer questions from faculty, staff, students and vis
 
 ### Application and training
 
-Interested students must apply through the [Student Work-Study Application System](http://qgjx.stu.edu.cn/) between **April 19 and April 24**. Interviews are tentatively scheduled for **April 25**, and training is tentatively scheduled for **April 28**.
+Interested students must apply through the [Student Work-Study Application System](http://qgjx.stu.edu.cn/) between **April 19 and April 24**. A subsequent notice scheduled interviews for the **afternoons of April 26 and April 27**; training remains tentatively scheduled for **April 28**.
 
 Training will cover sitting and standing posture, guiding visitors, telephone etiquette, the locations of offices in the Administrative Center, and the preparation of equipment, refreshments and materials for meetings and receptions. It will use presentation slides, on-site visits and demonstrations.
 
@@ -25,15 +25,15 @@ Training will cover sitting and standing posture, guiding visitors, telephone et
 | Position | Student reception assistant, Administrative Center first-floor information desk |
 | Application period | April 19–24 |
 | Application method | Student Work-Study Application System |
-| Interview | Tentatively April 25 |
+| Interview | Afternoons of April 26 and 27; individual slots follow the subsequent schedule |
 | Training | Tentatively April 28 |
 | Pay | RMB 10 per hour under the student work-study standard |
 | Contact | Ms. Lin |
 | Telephone | 86502305 (882305) |
 | Email | `o_jdk@stu.edu.cn` |
 
-The application form requests student personal information and is not reproduced here. The General Office will issue any final interview arrangements separately.
+The application form requests student personal information and is not reproduced here. A subsequent General Office notice scheduled the interviews for the afternoons of April 26 and 27; individual time slots follow the interview schedule.
 
-> Source: STU OA Notice (General Office)
+> Sources: STU OA notices (General Office)
 >
 > ⚠️ Applications require student personal information. Submit through the official work-study system; the application form and personal data are not reproduced here.

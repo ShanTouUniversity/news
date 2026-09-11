@@ -14,6 +14,10 @@ The full lists are provided in the public-notice attachments. To avoid reproduci
 
 Organizations and individuals with differing opinions may submit written feedback stating specific facts and views to the Human Resources Office in Room 315 of the New Administration Building by noon on January 15, 2013. Organizational submissions must bear the official seal, and individual submissions must include the signatory’s real name.
 
-> Source: STU OA Notice (University Performance Assessment Leading Group Office and Human Resources Office)
+### Physical Education Department re-assessment
+
+The Office of the University Performance Assessment Leading Group reported on **May 6, 2013** that, following a decision by the Shantou University Faculty and Staff Appeals Committee, the original performance-assessment results for some Physical Education Department teachers in the 2011–2012 academic year had been revoked. The university agreed that the department should conduct a re-assessment. Following the re-assessment, the department recommended **Zhang Xiaohong and Li Yuejin** for the annual excellence rating. Written appeals or complaints under the university's performance-assessment measures were due by **5:30 p.m. on May 10**.
+
+> Sources: STU OA notices (University Performance Assessment Leading Group Office and Human Resources Office)
 >
 > ⚠️ Consult the original OA attachments through the OA system for the complete lists of employees proposed for the 2011–2012 excellence rating.

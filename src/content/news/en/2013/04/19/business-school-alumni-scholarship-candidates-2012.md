@@ -1,6 +1,6 @@
 ---
 title: 'Business School publicizes 38 candidates for the 2011–2012 alumni scholarship'
-description: 'STU&apos;s Business School has publicized 38 candidates for its 2011–2012 alumni scholarship. Feedback on the publicity is due by April 25.'
+description: "STU's Business School has publicized 38 candidates for its 2011–2012 alumni scholarship. Feedback on the publicity is due by April 25."
 pubDate: 2013-04-19
 category: 'Student Life'
 tags: ['Business School', 'Alumni Scholarship', 'Publicity', 'Student Aid']
@@ -23,8 +23,14 @@ During the publicity period, comments may be submitted in writing, in person or 
 
 - Telephone: 86502725
 
-The original publicity list contains student names. This article provides only the cohort and major totals; the Business School&apos;s original notice governs the detailed candidate results.
+The original publicity list contains student names. This article provides only the cohort and major totals; the Business School's original notice governs the detailed candidate results.
 
-> Source: STU OA Notice (Business School)
+### Subsequent result
+
+The Student Affairs Office issued Document No. 4 [2013] on **May 3, 2013**, reporting that, following review by the Business School review committee, awardees of the Business School Alumni Scholarship for the 2011–2012 academic year would receive **RMB 2,500 each**. The notice states that there were **38 awardees**.
+
+The decision notice lists 38 name entries when counted individually by cohort and major: 12 in the 2009 cohort, 15 in the 2010 cohort and 11 in the 2011 cohort. The breakdown therefore matches the notice's stated total of 38 and the summary table in this earlier publicity article. This article does not reproduce the individual awardee list.
+
+> Sources: STU OA notices (Business School and Student Affairs Office)
 >
-> ⚠️ The publicity list contains student names and scholarship-selection information. This article publishes only cohort and major totals and does not reproduce the personal list.
+> ⚠️ The publicity and awardee lists contain student names. This article does not reproduce the personal lists.

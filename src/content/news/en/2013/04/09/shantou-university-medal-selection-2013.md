@@ -16,6 +16,12 @@ Applicants must submit an application form, an article of no more than 1,200 Chi
 
 Each school or college may recommend no more than four graduating undergraduates. Recommendations and supporting materials are due at the Student Affairs Office Student Aid Management Center, Administration Building Room 106, by **4:00 p.m. on April 22**; consolidated electronic materials should be sent to `xyli@stu.edu.cn`. A university selection committee will review the recommendations and determine the final recipients.
 
-> Source: STU OA Notice (Student Affairs Office)
+### Interview arrangements
+
+In a notice issued on **May 6, 2013**, the Student Affairs Office reported that the selection committee had completed its preliminary review of recommendations from the schools and colleges and selected 13 of the 20 applicants for interviews. Those shortlisted had to draw their interview order at **3:00 p.m. on Wednesday, May 8** in Administration Building Room 105. Interviews were scheduled for **9:00 a.m. on Thursday, May 9** in Administration Building Room 221.
+
+The interview consisted of a Chinese self-introduction of no more than one minute followed by up to nine minutes of questions from the judges. Each interview was limited to 10 minutes. The shortlist contains student information and is not reproduced here.
+
+> Sources: STU OA notices (Student Affairs Office)
 >
-> ⚠️ Application essays, recommendation letters, award certificates and recommendation lists contain student information and are not reproduced.
+> ⚠️ Application essays, recommendation letters, award certificates, recommendation lists and interview shortlists contain student information and are not reproduced.

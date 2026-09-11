@@ -13,15 +13,8 @@ It is reported that the "Yi Xiu" computer repair service, a community caring pro
 
 Launched in October 2012 at the committee's office C411, the program has provided free computer repair support to students and received broad participation. All repair sessions for the current semester were completed in Week 16.
 
-## What's Next
+## Subsequent arrangements
 
-| Item | Details |
-|------|---------|
-| This semester's service | Completed in Week 16 |
-| Current status | Suspended with immediate effect |
-| Next semester | Start date to be announced |
-| Urgent needs | Students in need of urgent repair can book an appointment via Sina Weibo @汕大宿委会 (@STU Dormitory Committee) |
+In a follow-up notice issued on May 6, 2013, the Office of Student Affairs changed the appointment hours to **8:00–10:00 p.m. every Thursday, Friday and Saturday**, at the same location: the Dormitory Self-Management Committee office in Building C, Room 411. Major national holidays are excluded; the committee's notices govern the schedule during the activity period. Laptops booked for repair earlier had all been serviced, and students who had not collected them could contact the committee's official Weibo account to arrange a pickup time.
 
-The Office of Student Affairs and the Dormitory Self-Management Committee thanked students for their support throughout the semester.
-
-> Source: STU OA Notice (Office of Student Affairs)
+> Sources: STU OA notices (Student Affairs Office)

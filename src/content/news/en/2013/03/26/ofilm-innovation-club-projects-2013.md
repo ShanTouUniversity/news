@@ -21,6 +21,12 @@ Applications close on **April 12**. The themed-project process includes registra
 
 Project funds are earmarked and may not be repurposed. Teams must submit an expenditure list and explanation at completion; delayed projects receive no additional funding, and projects terminated midway will not receive remaining funds.
 
-> Source: STU OA Notice (School of Engineering)
+### Initial review result
+
+On **May 6, 2013**, the School of Engineering reported that the OFILM Innovation Club project-improvement plans and themed projects had completed their initial defenses and review by the judging panel. The final results are provided in the notice attachment. Selected teams were asked to proceed according to their plans, and a midterm defense was scheduled for **September**.
+
+Because the results attachment contains student names and individual or team mappings, this article does not reproduce the detailed list.
+
+> Sources: STU OA notices (School of Engineering)
 >
-> ⚠️ Registration forms and project proposals may contain student names, programs, years and contact details and are not reproduced. Obtain the forms and submission channel from the original OA notice.
+> ⚠️ The registration forms, project proposals and initial-review attachments may contain student names, programs, years, contact details and project mappings. These materials are not reproduced here; consult the original OA notices for registration and result details.

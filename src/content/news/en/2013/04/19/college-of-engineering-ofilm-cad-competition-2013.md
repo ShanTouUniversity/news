@@ -23,6 +23,10 @@ It is reported that the O-Film Innovation Club of the College of Engineering wil
 
 Details on awards and the registration email are available in the OA attachment and are withheld here for privacy.
 
-> ⚠️ The registration form and contacts are available on the OA system.
+### Contest result
+
+The School of Engineering reported on **May 6, 2013** that the second CAD Mechanical Drawing Contest had concluded. The final result included one first-prize winner, three second-prize winners and 10 third-prize winners. The first-prize recipient's name is corrupted in the result notice and is not reconstructed here; the names of the other student winners are also not reproduced.
+
+> Sources: STU OA notices (School of Engineering)
 >
-> Source: STU OA Notice (College of Engineering)
+> ⚠️ Registration forms, contact details and contest-result lists are available in the original OA attachments. These materials may contain student personal information and are not reproduced here.
