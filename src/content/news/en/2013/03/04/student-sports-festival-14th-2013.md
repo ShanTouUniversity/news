@@ -22,6 +22,25 @@ The top three places in each event will receive awards, as will the top eight de
 
 Participating units should organize registration according to the detailed rules for each event issued by the Physical Education Department.
 
-> Source: STU OA Notice (Physical Education Department)
+## Team Results
+
+The Physical Education Department released the final scorebook on **June 3, 2013**. The notice said that **10 units** had entered **12 events** and that the more-than-one-month festival had concluded. The team rankings were:
+
+| Rank | Unit | Total points |
+| ---: | --- | ---: |
+| 1 | Medical College | 297.5 |
+| 2 | School of Engineering | 162 |
+| 3 | School of Science | 123 |
+| 4 | Business School | 104.5 |
+| 5 | School of Law | 84.5 |
+| 6 | Zhicheng College | 73 |
+| 7 | Art School | 65 |
+| 8 | Journalism School | 60.5 |
+| 9 | Graduate School | 41 |
+| 10 | School of Liberal Arts | 38 |
+
+The scorebook's athlete names, individual event results and other personal information are not reproduced here.
+
+> Source: STU OA Notice (Physical Education Department; competition arrangements dated March 4 and final scorebook notice dated June 3, 2013)
 >
-> ⚠️ The general regulations, individual-event rules, and registration form are available in the original OA attachments.
+> ⚠️ Please consult the original OA system for the complete scorebook and individual-event tables. Student athletes' names and individual results are not reproduced here.

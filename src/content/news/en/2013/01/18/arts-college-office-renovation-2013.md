@@ -12,4 +12,10 @@ Renovation of the Shantou University Arts College office area is scheduled to be
 
 The work may generate noise, vibration, and dust. The university asks pedestrians to take care near the site, avoid entering the construction area without authorization from the relevant university office and contractor, and minimize time spent near the site.
 
-> Source: STU OA Notice (Infrastructure Office, Resource Management Office)
+## Public Notice on Additional Work
+
+On June 7, 2013, the Infrastructure Office of the Resource Management Office issued a supplementary public notice on additional costs for the project. Actual construction needs, including removing a publicity board and a roller shutter, removing and reinstalling washbasins, and adding electrical conduits, led to extra costs. The initial estimate was approximately **RMB 12,500**, and the additional cost was below the university's prescribed 10% threshold. Written comments could be submitted to the Discipline Inspection and Audit Office or the Infrastructure Office by **17:30 on June 9**.
+
+> Source: STU OA Notice (Infrastructure Office, Resource Management Office, January 18, 2013)
+>
+> Source: STU OA Notice (Infrastructure Office, Resource Management Office, June 7, 2013)

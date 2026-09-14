@@ -10,6 +10,16 @@ draft: false
 
 STU Human Resources Office has publicized the 2012 review results for faculty and related professional and technical qualifications. The results were reviewed or recognized by the First Guangdong Higher-Education Teachers Senior Professional-Qualification Review Committee, the STU review committee for intermediate and senior qualifications in the teacher series, the Second Guangdong Library and Information Materials Senior Professional-Qualification Review Committee, and the relevant intermediate-qualification committees. A total of 39 people received promotion to a professional and technical qualification.
 
+On June 7, 2013, Shantou University issued Document Shanda〔2013〕No. 74, formally confirming that **42 faculty and staff members** had obtained professional and technical qualifications: 39 received senior qualifications and 3 received intermediate qualifications. In addition to the 39 people listed below, the document confirmed the following three qualifications:
+
+| Qualification | Person |
+| --- | --- |
+| Senior publishing editor | Tong Qunying |
+| Chief physician in traditional Chinese medicine | Yang Fengxia |
+| Senior economist | Qiu Jingfeng |
+
+The document records that 25 of the 42 qualifications took effect in November 2012, Qiu Jingfeng's took effect in December 2012, and the remaining 16 took effect in September 2012. It also states that professional qualifications and professional positions are subject to separate review and appointment, and that a professional qualification is not tied to salary or other benefits.
+
 The publicity period runs from 8:00 a.m. on December 13, 2012, to 5:30 p.m. on December 19. Anyone with objections to the qualifications awarded to the listed candidates may contact the Guangdong Department of Education’s faculty-management office, the STU Human Resources Office, or the STU Office of Supervision and Audit.
 
 ### Review results
@@ -36,6 +46,6 @@ The following list is organized from the attachment by declared field and qualif
 
 Statements submitted by units must bear the unit’s official seal. Individuals are encouraged to sign or disclose their real names, and all comments should be factual. The university will proceed with qualification recognition under the relevant procedures after the publicity period.
 
-> Source: STU OA publicity notice and attached list of 2012 professional-qualification review results (Human Resources Office)
+> Sources: STU OA publicity notice and attached list of 2012 professional-qualification review results (Human Resources Office); STU Document Shanda〔2013〕No. 74 (June 7, 2013)
 >
 > ⚠️ Only faculty and professional staff qualification results and declared fields are reproduced here. Other internal personnel materials from the attachment are not republished.

@@ -10,6 +10,8 @@ draft: false
 
 The **Colorful Arts Season: Spring 2013** will feature the Shakespeare’s Wild Sisters Group from Taiwan. The group’s founder, Wei Yingjuan, directed and wrote the new work “ai ai il,” which would be presented at the **STU Grand Auditorium at 7:30 p.m. on May 30**.
 
+The group had arrived at STU and begun setting up on May 29. In a pre-performance message, it described a production combining the body, music, clothing, film, installations and collage to create a stage experience different from a conventional auditorium performance. Audience members were invited to participate through cosplay-style dress, and the organizers indicated that interaction between audience members and performers might also take place. These details come from the group’s performance notice.
+
 ## The Production
 
 “ai ai il” is set against technological globalization and reflects on the human condition when virtual and physical realities become misaligned, as well as on the ways digital culture reshapes thought and identity. Drawing on cosplay and anime aesthetics, the work explores the dilemma of “love-love” (iI) through costumed character types, satire and extension, using comedy to reconsider human subjectivity and the tension between the individual and the collective self. The title’s “il” is retained as it appeared in the performance materials.
@@ -44,8 +46,12 @@ Born in Taipei, Wei Yingjuan holds a master’s degree in educational theater fr
 - **Distribution policy:** First come, first served, while supplies lasted
 - **Age requirement:** Admission was open to people aged 12 and above; the attached etiquette guide also stated that children shorter than 1.2 meters could not enter
 
-Audience members were asked to arrive 10 minutes early, dress neatly and wear formal clothing. Food, smoking and items likely to create noise were prohibited. Once the performance began, phones and other sound-producing devices had to be switched off, and audience members were asked not to move around or make unnecessary noise. Photography, video and audio recording were prohibited unless approved in advance by the organizers. Late arrivals might not be admitted, and people who left during the performance could not re-enter.
+## Additional Tickets
 
-> Source: STU OA Notice (Cheung Kong School of Arts and Design and Arts Education Center)
+Because the originally allocated tickets were quickly distributed after the performance notice was released, the organizers arranged an additional ticket distribution. Faculty and students who were unable to obtain tickets but wished to attend could collect them from **9:30–11:30 a.m. and 2:30–4:30 p.m. on Tuesday, May 28** in Room 309 of the Arts Education Center, while supplies lasted. The later ticket notice shortened the title to “Ai Ai,” whereas the earlier performance notice and program materials used “ai ai il.”
+
+ Food, smoking and items likely to create noise were prohibited. Once the performance began, phones and other sound-producing devices had to be switched off, and audience members were asked not to move around or make unnecessary noise. Photography, video and audio recording were prohibited unless approved in advance by the organizers. Late arrivals might not be admitted, and people who left during the performance could not re-enter.
+
+> Sources: STU OA notices (Cheung Kong School of Arts and Design and Arts Education Center; follow-up ticket-distribution notice); the group’s May 29 arrival and stage-setup update
 >
 > ⚠️ The program description and audience etiquette are available in the original OA notice through the OA system.

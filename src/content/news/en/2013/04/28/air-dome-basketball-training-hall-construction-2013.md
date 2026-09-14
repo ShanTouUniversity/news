@@ -32,6 +32,12 @@ The construction site will be fully enclosed, and construction vehicles will ent
 
 Students, faculty, staff and other people may not enter the construction site or remain nearby without permission from Resource Management Office personnel and the construction contractor. The arrangement is intended to protect safety and limit the project's impact on nearby teaching and residential activities.
 
-> Source: STU OA Notice (Resource Management Office and Key Construction Projects Office)
+## Road Arrangements During the Foundation Pour
+
+The Key Construction Projects Office issued a construction notice on **June 7, 2013**. The air-supported basketball training hall project planned its **second foundation concrete pour** for **June 9**, with one day of construction. That day, concrete-pump trucks and transport vehicles would follow the route “campus gate → Old Administration Building → Engineering Building → Structures and Wind Tunnel Laboratory (Medical Teaching Building)” and stop on the road northwest of **G Dormitory** for the work.
+
+The road northwest of G Dormitory would be temporarily closed for one day. Vehicles and pedestrians would need to use an alternative route.
+
+> Sources: STU OA Notices (Resource Management Office and Key Construction Projects Office; April 28 construction notice; June 7 foundation-concrete-pour notice from the Key Construction Projects Office)
 >
 > ⚠️ The attachment is a site-layout drawing for the air-supported basketball training hall. Consult on-site management and the original OA notice for the detailed construction boundary and access arrangements.

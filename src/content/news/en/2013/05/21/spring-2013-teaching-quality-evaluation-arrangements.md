@@ -19,6 +19,12 @@ Shantou University’s Academic Affairs Office deployed the spring 2013 classroo
 
 The course-assessment attachment and student personal information in the course schedules are not reproduced here. Readers should follow the original Academic Affairs Office notice for the detailed operation.
 
-> Source: STU OA Notice (Academic Affairs Office)
+## Student Assessment Window
+
+After the preparatory work was completed, all students enrolled in courses had to log in to the credit-system website and complete their course assessments between **May 31 and June 14**. Students were expected to evaluate their instructors carefully, objectively and fairly. The assessment entry was `http://credit.stu.edu.cn`; after logging in, students selected “Course Assessment.” Assessment arrangements for public-welfare courses were to be announced separately.
+
+Students who did not complete the assessment by the deadline had to submit a written explanation of the reason. Otherwise, they would not be able to view their grades for courses taken in the current term.
+
+> Source: STU OA Notice (Academic Affairs Office; notices dated May 21 and May 31, 2013)
 >
-> ⚠️ The course-assessment attachment is available in the original OA notice through the OA system. Student personal information from course schedules is not reproduced here.
+> ⚠️ Readers should follow the original OA notice in the OA system for the assessment attachment and subsequent procedures. Student personal information from course schedules is not reproduced here.

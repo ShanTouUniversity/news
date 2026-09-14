@@ -26,12 +26,23 @@ Students were asked to select courses carefully according to their study plans a
 
 The notice said that the Academic Affairs Office would issue the official course-opening plan after the fall adjustment period. The Chinese body used the phrase “spring course-opening plan” at this point, which conflicts with the fall-semester context; the discrepancy is retained here rather than silently corrected.
 
+## Additional Core Electives from the Department of Social Sciences
+
+The Department of Social Sciences added two core electives during the selection period. Students could log in to the credit-system platform for details and register during **second-round selection from May 31 to June 2** and **add/drop selection from June 11 to 16**:
+
+| Class | Course | Code | Instructor | Meeting time | Credits/Hours | Capacity |
+| --- | --- | --- | --- | --- | --- | --- |
+| 64776 | Relevant Theories of International Politics | SOC6216A | Xu Yanmin | Thursdays, periods AB | 2/32 | 30 |
+| 64777 | Tang Civilization at Its Height | SOC6215A | Ye Yongdong | Wednesdays, periods 3–4 | 2/32 | 30 |
+
+The core elective **Humanistic Care in the Fables of *Zhuangzi* and the Stories of the Bible**, class 64469, also changed its eligibility. It was originally open to students in the 2010 and 2011 cohorts and was expanded to include the 2012 cohort. Students in the 2012 cohort could select it during the same second-round and add/drop periods; the class meets on Wednesdays during periods 3–4.
+
 ## Textbook Ordering
 
 Textbook ordering would be open from **9 a.m. on May 24 through 5 p.m. on June 2**, alongside the first and second course-selection stages. The textbook system was a separate subsystem. Students had to log in to the credit-based system, confirm whether to order the designated books for selected classes, and review and maintain their orders under the current textbook-order list.
 
 After the ordering deadline, the Academic Affairs Office would generate the order and submit it to the bookstore. No additions, returns or changes to textbook orders would be available during the add/drop or fall adjustment periods. Students had to confirm their lists by 5 p.m. on June 2 and pay for and collect the books in the following semester according to the confirmed orders. Listed prices were estimates; “0.00” meant that a price was pending. Since the summer 2012 semester, books other than the “Two Courses” textbooks had been ordered at **76% of list price**. No university unit, organization or individual other than the Academic Affairs Office was permitted to order student textbooks.
 
-> Source: STU OA Notice (Academic Affairs Office)
+> Sources: STU OA Notice (Academic Affairs Office); STU OA Notice (Department of Social Sciences)
 >
 > ⚠️ The course-selection rules, process and handling rules, and textbook-ordering process are available in the original OA notice through the OA system. Student accounts and individual textbook orders are not reproduced here.

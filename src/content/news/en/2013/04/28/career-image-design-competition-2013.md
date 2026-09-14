@@ -25,6 +25,10 @@ Preliminary works must be submitted by **May 14** to `imagescdda@163.com`. The e
 
 The **final round** is scheduled for **late May**, with eight teams advancing to the final presentation. The final will include presentations of design concepts, etiquette questions and answers, and questions exchanged among contestants. The venue has not been announced.
 
+### Final-Round Arrangements
+
+A follow-up notice issued by the Student Affairs Office on **May 31** set the final round for **7:30–9:30 p.m. that evening** in **Lecture Classroom E201**. Eight teams advanced after review by the judges. Finalists were asked to attend on time, and faculty and students across the university were welcome to observe. The follow-up attachment lists the finalist teams and their members; student names are not reproduced here.
+
 ### Awards
 
 | Award | Number | Prize |
@@ -38,4 +42,6 @@ Further details are available through the Sina Weibo account “@汕大职协官
 
 The registration form requests entrants' academic year, major, names, campus extension and short numbers, dormitories and email addresses. Student registration information and personal contact details are not reproduced here.
 
-> Source: STU OA Notice (Student Affairs Office)
+> Source: STU OA Notice (Student Affairs Office; notices dated April 28 and May 31, 2013)
+>
+> ⚠️ Please consult the original OA attachments for the finalist list and registration form. Student registration information, personal contact details and finalist names are not reproduced here.

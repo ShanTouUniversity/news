@@ -25,4 +25,33 @@ The appointed leaders are:
 
 The notice also lists committee members. Several member names contain character corruption in the source file, so names that cannot be confirmed are not reconstructed here.
 
-> Source: STU OA Notice (Academic Degrees Evaluation Committee)
+## 2013 Membership Adjustment
+
+Because of institutional and personnel changes, STU's Academic Degrees Evaluation Committee adjusted the eighth subcommittees for the Changjiang School of Arts and Design, Science School, Engineering School and Medical College on **May 30, 2013**. The public membership information is as follows:
+
+### Changjiang School of Arts and Design
+
+- Chair: Wang Shouzhi
+- Members: Han Ran, Chen Zhimin, Wu Yong, Zhang Yu, Wu Xiangyong, Li Haoyu, Yang Hua and Kuang Zhiwen
+
+### Science School
+
+- Chair: Lou Zengjian
+- Vice chair: Li Youyuan
+- Members: Wulan Hasi, Li Dan, Li Shaohui, Chen Changjin, Tong Qingxiao, Wu Ping, Yang Zengming, Yang Shouzhi, Lin Furong, Hu Zhong, Huang Xiaochun, Mei Zhiping and Wen Xiaobo
+
+### Engineering School
+
+- Chair: Chen Yan
+- Vice chair: Xiong Guangjing
+- Members: Niu Xiaodong, Yan Jingwen, Lin Peng, Jiang Yongquan, Zhao Xiaohua, Cheng Xiyun, Cai Hao and Cai Weihong, among others. One additional member's name is corrupted in the original notice and cannot be confirmed; it is not reconstructed here.
+
+### Medical College
+
+- Chair: Bian Junhui
+- Vice chair: Shi Ganggang
+- Members: Wang Changzhi, Zhang Guojun, Zhang Mingzhi, Li Ke, Li Enmin, Li Kangsheng, Su Min, Luo Wenhong, Qin Danian, Huang Dongyang, Huang Qingjun, Tan Xuerui and Huo Xia
+
+The membership of the other academic-degree subcommittees was not adjusted.
+
+> Sources: STU OA Notices (2012 notice establishing the eighth subcommittees and May 30, 2013 membership-adjustment notice)

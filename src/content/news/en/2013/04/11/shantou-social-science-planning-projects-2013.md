@@ -47,6 +47,23 @@ Applicants should download and complete the *Shantou 2013 Social Science Project
 
 The application form requests personal information about project leaders and team members, including contact details, education, research history and previous results. The form and personal application materials are not reproduced here.
 
+## Project Results
+
+After Shantou announced the approved 2013 philosophy and social sciences planning projects, **eight STU projects** were approved, including **five funded projects**. STU had submitted 17 projects, representing 34% of all submissions in Shantou. The city approved 25 projects in total, including 13 funded projects, for a citywide funding rate of 52%. Eight of STU's 17 submissions were approved, and five of its eight approved projects were funded, a rate of 62.5% among STU's approved projects.
+
+| No. | Project | Leader | Title | Expected result | Unit | Funding status |
+| --- | --- | --- | --- | --- | --- | --- |
+| 1 | Organizational Innovation of Teochew Merchant Associations in the Context of Economic Globalization | Xie Shunlong | Associate professor | Article | Business School | Funded |
+| 2 | Innovating Shantou's Urbanization Model through Reform of Land-Transfer Mechanisms | Cao Qiong | Associate professor | Research report | Business School | Funded |
+| 3 | Prioritizing an E-Commerce O2O Model in Shantou in the Context of Building the Shantou–Chaozhou–Jieyang City Cluster and an Eastern Guangdong Growth Pole | Zeng Qiang | Professor | Research report | Business School | Not marked as funded |
+| 4 | Establishing and Improving Shantou's Market-Supervision Mechanism and Regulatory System | Li Guanghui | Professor | Article | School of Law | Funded |
+| 5 | Development Paths for Coordinated Urban–Rural Integration and New Urbanization in Shantou | Fan Yaodeng | Associate professor | Article | School of Law | Funded |
+| 6 | Theoretical and Empirical Research on Deepening the Cooperation Mechanism for Shantou–Chaozhou–Jieyang Integration | Chen Jianping | Associate professor | Research report | Department of Social Sciences | Not marked as funded |
+| 7 | Teochew Charitable Organizations and Innovative Social Governance | Shen Yiyong | Associate professor | Article | Department of Social Sciences | Funded |
+| 8 | Cultural-Tourism Industry Development in the Three Cities of Shantou, Chaozhou and Jieyang Based on Collaborative Theory | Yang Xiaoyan | Economist | Article | School of Medicine | Not marked as funded |
+
+The project leaders were asked to organize the research and ensure the quality of the completed projects. The university also encouraged faculty members to continue applying for research projects.
+
 ### Differences between the notice and form
 
 The main notice requires two full-senior-title peer recommendations for leaders without the required senior title, while the attached form says that the two recommenders should hold associate-senior or higher titles. The two documents also differ on the number of printed copies, six versus five. Applicants should follow the latest requirements confirmed by the Research Office.

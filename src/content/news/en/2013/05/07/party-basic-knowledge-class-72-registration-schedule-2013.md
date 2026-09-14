@@ -25,8 +25,14 @@ Participants were required to register with their group leaders from **May 9 to 
 
 Written assignments were due on May 19, while the study summary and Participant Registration Form were due on May 26. Unexcused absences or failure to take the examination, or approved leave exceeding one-third of the scheduled teaching hours, meant that no completion certificate would be issued. Final results combined the theory examination, assignments and study summary, discussion, study attitude, Party conduct and attendance.
 
+### Examination Notice
+
+A follow-up notice on May 29 specified that the theory examination would take place from **7:30 to 9:00 p.m. on Sunday, June 2** in **Lecture Hall 3**. In addition to Class 72 participants, Class 71 participants approved for a deferred examination or make-up examination were required to attend. Participants unable to attend for special reasons had to obtain approval from their Party general branch or directly affiliated branch and complete the deferral procedure with the Party School office. An unexcused absence would result in cancellation of participant status. Students who failed or were granted a deferral could take one make-up examination in the next study class.
+
+The May 7 course schedule listed Lecture Halls 1 and 3 for the examination, while the later examination notice specified Lecture Hall 3. This article preserves that change in the source record.
+
 The class lists and the group leaders' names and telephone numbers contain personal information and are not reproduced here.
 
-> Source: STU OA Notice (Organization and United Front Department of the Party Committee)
+> Sources: STU OA Notice (Organization and United Front Department of the Party Committee, May 7 course schedule); STU OA Notice (Organization and United Front Department of the Party Committee, May 29 examination notice)
 >
 > ⚠️ The class list, course schedule, participant rules and leave-approval form are available in the original OA attachments through the OA system.

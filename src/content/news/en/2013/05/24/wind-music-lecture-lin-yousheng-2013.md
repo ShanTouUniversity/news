@@ -20,4 +20,4 @@ He has received awards at the Shanghai Arts Festival and the Shanghai Spring Int
 
 Lin has also recorded six symphonic wind-band CDs and led wind bands at international festivals and competitions. The bands received awards at international music festivals in Poland, Austria and Switzerland, among other locations.
 
-> Source: STU OA Notice (Cheung Kong School of Art and Design and Art Education Center)
+> Source: STU OA Notices (Cheung Kong School of Art and Design and Art Education Center; later notice from the Cheung Kong School of Art and Design)

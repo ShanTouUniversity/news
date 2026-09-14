@@ -45,4 +45,10 @@ The attachment lists 27 competitions scheduled from January through November 201
 
 The calendar describes the Business School's 2014 undergraduate competition program. Specific eligibility, training and team arrangements will follow subsequent Business School notices.
 
-> Source: STU OA Notice (Business School)
+### Training and Mock-Competition Selection
+
+The Business School announced the selection results on **June 5, 2013**. After an initial application screening and a second-round interview, the Business Case Competition Steering Committee selected **29 students** for participant training and mock competitions. They will seek to form a team representing the Business School at the spring 2014 undergraduate international case competition. Students not selected were encouraged to follow subsequent Business School case-competition activities.
+
+> Note: The selected-student list contains personal information and is not reproduced here.
+
+> Source: STU OA Notices (Business School; May 8 selection notice and June 5 selection-results notice)

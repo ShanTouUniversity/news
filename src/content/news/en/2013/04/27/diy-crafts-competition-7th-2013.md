@@ -46,6 +46,10 @@ The awards are:
 | Third prize | 3 | RMB 200 and a certificate for each winner |
 | Most Popular Award | 1 | RMB 100 and a certificate |
 
+### Final Results
+
+The final was held on **May 25**. The results notice published on May 28 records **one first-prize entry, three second-prize entries and three third-prize entries**. It also lists **two works** under the Most Popular Award. The pre-event notice specified one Most Popular Award place, so the two source notices differ; both figures are retained here. Student names, majors and team-member information are not published.
+
 Participants must prepare a presentation for the on-site display covering team members, materials and production reflections. Technology-creative entries must also explain the principles used in the work.
 
 ### Date discrepancy
@@ -54,6 +58,6 @@ The main notice schedules the preliminary round for May 18 and public voting for
 
 Further information was to be issued through the STU Science and Technology Association website ([kexie.stu.edu.cn](http://kexie.stu.edu.cn/)), Weibo ([weibo.com/stukexie](http://weibo.com/stukexie)), the OA system and the BBS. Names, phone numbers, dormitory details, account information and team-member data from the registration form are not reproduced.
 
-> Source: STU OA Notice (STU Communist Youth League Committee and STU Science and Technology Association)
+> Source: STU OA Notices (STU Communist Youth League Committee and STU Science and Technology Association notices of April 27, May 7 and May 28)
 >
-> ⚠️ The registration form requests personal contact, dormitory and team-member information. Consult the OA system and follow the organizer's registration instructions; no personal registration data is published here.
+> ⚠️ The registration form contains personal contact, dormitory and team-member information, while the results notice contains awardee names, majors and team-member information. Consult the original OA notices; no personal information is published here.

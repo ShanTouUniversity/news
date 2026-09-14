@@ -19,6 +19,10 @@ To help students learn PPT electronic-resume skills, understand the basic conten
 | Preliminary entry submission | By midnight on May 20 |
 | Final | May 31; detailed arrangements to be announced |
 
+## Subsequent Final Arrangements
+
+The Student Affairs Office issued a follow-up notice on May 28 confirming that **15 participants** had reached the final. It scheduled the final for **7:30–9:30 p.m. on May 30, 2013**, in the **New Library Lecture Hall**, and invited students and staff to attend. This date differs from the **May 31** date in the original May 10 notice. Both source dates are retained here; the latest OA arrangement should be used for the event schedule.
+
 The final will include work presentations, participant speeches and judges' questions. Each entry must be created independently by its participant and contain the basic content of a résumé in an innovative format that shows the participant's individuality as an STU student. Entries must be submitted in PPT format, with a playback time of no more than **three minutes** and a file size of no more than **10 MB**.
 
 ### Awards and opportunity
@@ -31,7 +35,11 @@ The final will include work presentations, participant speeches and judges' ques
 | Excellence award | Four awardees; certificate and a gift |
 | Best Popularity award | One awardee; certificate and a gift |
 
-Finalists will have an opportunity to receive internship positions offered by China United Network Communications Group Co., Ltd. Shantou Branch, subject to subsequent arrangements from the relevant organization.
+## Final Results
+
+The Student Affairs Office's result notice states that the final was held on **May 30, 2013**, in the New Library Lecture Hall. The competition awarded one first prize, two second prizes, three third prizes, four excellence awards and one Best Popularity award; **seven students also received company internship positions**. The result notice gives May 30 as the event date, while its OA archive footer is dated **May 31**.
+
+All students receiving internship positions were from the Business School, and the positions were provided by China United Network Communications Group Co., Ltd. Shantou Branch. The student-name lists are not reproduced.
 
 ### Registration
 
@@ -44,12 +52,12 @@ Participants must download the attached registration form. Electronic forms shou
 | Entry format | Individual |
 | Registration deadline | Noon, May 15, 2013 |
 | Preliminary entry deadline | Midnight, May 20, 2013 |
-| Final | May 31, 2013 |
+| Final | May 31, 2013 (a follow-up notice lists May 30, 7:30–9:30 p.m.) |
 | Entry format requirements | PPT; no more than three minutes and no more than 10 MB |
 | Organizer | STU Student Affairs Office |
 | Co-organizers | Renren and China United Network Communications Group Co., Ltd. Shantou Branch |
 | Implementing organization | STU Career Planning and Development Association |
 
-> Source: STU OA Notice (Student Affairs Office)
+> Sources: STU OA Notices (Student Affairs Office notices of May 10 on the competition, May 28 on the final and May 31 on the final results)
 >
-> ⚠️ The registration form contains name, student-number, contact and dormitory fields, which are not reproduced here. Consult the original notice through the OA system for the registration email and submission details.
+> ⚠️ The registration form and final-round list contain names, student numbers, contact and dormitory fields, which are not reproduced here. Consult the original OA notices through the OA system for the registration email, final arrangements and submission details.

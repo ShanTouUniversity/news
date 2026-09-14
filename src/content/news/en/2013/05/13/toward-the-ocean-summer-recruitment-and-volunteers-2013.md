@@ -1,6 +1,6 @@
 ---
 title: 'STU opens summer recruitment and volunteer call for Toward the Ocean service-learning course'
-description: 'The STU School of Science is recruiting 20 undergraduates for the summer Toward the Ocean service-learning course and four student volunteers who have previously taken the course. Applications close on May 25.'
+description: 'The STU School of Science planned to recruit 20 undergraduates and student volunteers for the summer Toward the Ocean service-learning course; a follow-up selected 20 students from 30 interviewees and recruited three volunteers.'
 pubDate: 2013-05-13
 category: 'Student Life'
 tags: ['Toward the Ocean', 'Service-Learning Course', 'Marine Conservation', 'Student Volunteering']
@@ -50,6 +50,14 @@ Students must download and complete the course registration form in the OA attac
 
 This notice and the course syllabus give the dates as July 1–9. The opening paragraph of the earlier collaboration-class notice issued on May 9 stated July 2–9; the source does not explain the difference, so the discrepancy is retained and students should follow subsequent arrangements from the course team.
 
-> Source: STU OA Notice (School of Science)
+### Interview Arrangements
+
+By the time of the follow-up notice, **45 students had applied**, and the course team had selected **30 students for interviews** after an initial review. Interviews were scheduled for **12:30 on Monday, June 3**, in the School of Science conference room. Interviews would begin at 12:30, with each group allotted about 10 minutes; students in the next group were asked to arrive 10 minutes early. Students who did not attend would be considered to have withdrawn. The notice includes an image listing the interview candidates; the list is not reproduced here.
+
+### Interview Results
+
+The School of Science interviewed 30 students who met the application requirements at **12:30 p.m. on June 3** in the Biology Department conference room. The interview consisted of a self-introduction and a leaderless group discussion, with five course instructors scoring each participant. In the end, 20 students were selected for the summer *Toward the Ocean* course, and the course team recruited three student volunteers. The original notice includes lists of the selected students and volunteers; their names, year groups and majors are not reproduced here.
+
+> Source: STU OA Notice (School of Science; notices dated May 13, May 31 and June 4, 2013)
 >
-> ⚠️ The registration form and course syllabus are available in the original OA attachments. Student identity, residence, contact and personal-experience fields from the form are not reproduced here.
+> ⚠️ The registration form, course syllabus, interview list and interview-result lists are available in the original OA attachment or page. Student identity, residence, contact, personal-experience and other personal fields from these materials are not reproduced here.

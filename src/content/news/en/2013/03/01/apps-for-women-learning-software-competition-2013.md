@@ -36,4 +36,10 @@ Each of the 15 finalist teams will receive an RMB 500 finalist award. The Techno
 
 Download the registration form at `http://cws.stu.edu.cn` and email registration materials and proposals to `cws@stu.edu.cn`. Questions may also be directed to that email address or website.
 
-> Source: STU OA Notice (Women’s Studies Center, School of Liberal Arts)
+## Final Showcase and Awards Ceremony
+
+A follow-up notice issued by the School of Liberal Arts on **June 3, 2013** scheduled the final software showcase and awards ceremony for **4:30–6:00 p.m. on Friday, June 14**, in **Meeting Room 3 of the Academic Exchange Center (ACC)**. Invited university leaders, competition judges and advisors, participating teams, and other faculty and students are expected to attend, with approximately **50 people** anticipated. Participating teams will present their mobile software and receive awards.
+
+The follow-up notice lists `cws@stu.edu.cn` and `86503082` (Teacher Lin) for inquiries.
+
+> Source: STU OA Notice (Women’s Studies Center, School of Liberal Arts; competition notice dated March 1 and follow-up arrangements dated June 3, 2013)

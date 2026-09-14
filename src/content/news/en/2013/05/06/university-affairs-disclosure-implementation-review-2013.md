@@ -26,4 +26,14 @@ Departments are asked to verify whether relevant items have been disclosed as re
 
 The University-Affairs Disclosure Oversight Group will consolidate the departmental reports and publish the results on the internal office-information website for review by faculty, staff and students. The attachment is an internal reporting template; this article does not reproduce its form-filler contact or signature fields.
 
-> Source: STU OA Notice (Office of Supervision, Audit and Inspection)
+### Results Published
+
+On May 29, the university published a summary of how functional departments implemented their university-affairs disclosure items for 2012–2013. The summary covers the Party and Administrative Office, Office of International Exchange and Cooperation, Organization and United Front Work Department, Publicity Department, University Labor Union, Office of Supervision, Audit and Inspection, Human Resources Office, Finance Office, Academic Affairs Office, Research Office, Student Affairs Office, University Youth League Committee, Admissions Office, Graduate School and Office of Resource Management.
+
+The table records disclosure scope for students, society and faculty and staff, together with the disclosure method and implementation status. Channels include the university homepage, internal office-information website, departmental websites, office-automation systems, briefings, information-query systems, the campus network, and government procurement and construction-information platforms. Most items are marked as disclosed, while notes identify matters still under approval, not implemented, not submitted for review or newly added.
+
+The disclosed areas cover the university’s basic information and development planning, cadre appointments and recruitment, financial budgets and fees, teaching and student records, research projects, student administration and support, admissions, graduate education, infrastructure projects and bidding. For information related to individual salaries, scholarships and student administration, this article summarizes only the relevant systems and disclosure channels and does not reproduce individual query results or rosters.
+
+Faculty, staff and students may contact the University-Affairs Disclosure Oversight Group with questions at `86502346` or `o_jj@stu.edu.cn`.
+
+> Sources: STU OA Notice (Office of Supervision, Audit and Inspection, May 6 review notice); STU OA Notice (University-Affairs Disclosure Oversight Group, May 29 results publication)

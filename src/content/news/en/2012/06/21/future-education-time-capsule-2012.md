@@ -15,4 +15,10 @@ The cards will be placed underground beneath the plaza in front of the New Admin
 
 Faculty-card contact: Qiu Saiqing, `82302317`; graduating-student-card contact: Zhu Guang, `82902357`.
 
-> Source: STU OA Notice (Student Affairs Office and Party and Administrative Office)
+## 2013 Follow-up
+
+On June 5, 2013, STU continued the same time-capsule activity. The new cards were to be placed underground beneath the plaza in front of the New Administration Center and opened 20 years later, in 2033. This round was intended for all graduating students and newly hired teachers, while other faculty members were also welcome to participate.
+
+Teaching units were asked to consolidate faculty cards and submit them to the Secretariat Section of the Party and Administrative Office in Room 238 of the Administration Center by June 17. Graduating students' cards were to be submitted to the Student Affairs Office's Career Guidance Center. The faculty-card contact was Qiu Saiqing, `86502317`, and the graduating-student-card contact was Zhu Guang, `86502252`.
+
+> Source: STU OA Notices (Student Affairs Office and Party and Administrative Office; related 2012 and 2013 notices)

@@ -27,9 +27,13 @@ The Mid-term Election Secretariat will organize an assessment group to review th
 | First-round interviews | May 15, 2013, Meeting Room 726 |
 | Mid-term election meeting | May 26, 2013, Science Lecture Hall |
 
-The registration form contains personal fields including name, gender, photograph, year and major, school or college, telephone number, email address, skills, work history, awards and penalties, and views on the Student Union. Candidate information is not reproduced here.
+## Mid-Term Election Results
 
-| Item | Details |
+The mid-term election meeting for the 19th Student Union was held on **May 26, 2013**, in the Science Lecture Hall. The meeting had **97 representatives expected and 97 present**. It approved the first-term Student Union work report and used a competitive election to form the second-term presidium.
+
+The results included one chair and three vice-chairs. The names of the elected students are not published here. The result notice and its OA archive are both dated **May 31**.
+
+
 | --- | --- |
 | Election | STU 19th Student Union mid-term election for the second term |
 | Presidium | One chair and three vice-chairs |
@@ -40,6 +44,6 @@ The registration form contains personal fields including name, gender, photograp
 | Issuing organizations | STU Committee of the Communist Youth League and STU Student Union |
 | Document number | 汕大团联字〔2013〕4号 |
 
-> Source: STU OA Notice (STU Committee of the Communist Youth League)
+> Sources: STU OA Notices (May 10 candidate-team recruitment notice and May 31 mid-term election-results notice from the STU Committee of the Communist Youth League)
 >
 > ⚠️ The candidate form contains photographs, academic records, contact details and personal-history fields, which are not reproduced here. Consult the original notice through the OA system for the electronic-submission channel.

@@ -40,6 +40,12 @@ College and residential-college Students’ Unions will also organize group runs
 
 The university will also incorporate long-distance running into physical-education teaching, with a 1,000-meter test for men and an 800-meter test for women accounting for 20 percent of the physical-education course grade. At the end of the program, the selection panel will name four Outstanding Units and 30 Outstanding Individuals, presenting trophies to units and certificates to individuals. Unit selection will consider organization, publicity, participation coverage, completion of running distances, and safety.
 
-> Source: STU OA Notice and “Plan for the Sixth Sunshine Sports Winter Run” (Sports Department)
+## Results Notice
+
+The Sports Department published a results notice on May 31, 2013, confirming that the sixth Sunshine Sports Winter Run had ended in April. A panel comprising the Sports Department, Student Affairs Office and Youth League Committee selected four Outstanding Units, including the Business School, and 29 Outstanding Individuals based on the activity plan, evaluation criteria and recommendations from the colleges and residential colleges. The launch plan had stated that 30 Outstanding Individuals would be selected; the results notice reported 29, and both source figures are retained here.
+
+The comment period ended at **5:00 p.m. on June 2, 2013**. Comments could be submitted by email or in writing to the Sports Department at `86503727` or `o_tyb@stu.edu.cn`. The results attachment contains the names of the awarded students; those names and other personal information are not reproduced here.
+
+> Source: STU OA Notice and “Plan for the Sixth Sunshine Sports Winter Run” (Sports Department); results notice (Sports Department, May 31, 2013)
 >
-> ⚠️ Please consult the original OA attachment in the OA system for the complete calendar and organizational requirements.
+> ⚠️ Please consult the original OA attachments for the complete calendar, organizational requirements and results. The awarded students' names in the results attachment are not reproduced here.

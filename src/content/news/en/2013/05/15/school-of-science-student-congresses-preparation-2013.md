@@ -10,6 +10,8 @@ draft: false
 
 Shantou University’s Science College planned to hold its Sixth Youth League Congress and Eighteenth Student Congress in the Science Lecture Hall on **May 26, 2013**. The congresses would review the work of the college’s fifth Youth League Committee and seventeenth Student Union Executive Committee, elect the sixth Youth League Committee and eighteenth Student Union Executive Committee, and set priorities for the next stage.
 
+A follow-up notice issued on May 24 confirmed that the congresses would take place at **2:00 p.m. on Sunday, May 26**, in the Science Lecture Hall.
+
 ## Representatives and Elections
 
 The congress was expected to have approximately 95 representatives, representing about 15 percent of the college’s student population. Representatives had to be Science College Communist Youth League members or Communist Party members with firm political positions, strong academic and personal records, close ties with their peers, representativeness and the ability to deliberate. Classes were to elect representatives through general student meetings under the democratic-centralism principle. Department Youth League branches were to submit representative lists by 5 p.m. on Monday, May 20, and deliver registration forms to the congress preparatory group.
@@ -29,6 +31,6 @@ The eighteenth Student Union Executive Committee was planned to have nine member
 
 Representative forms and candidate applications contain student personal information and are not reproduced here.
 
-> Source: STU OA Notice (Science College)
+> Source: STU OA Notices (Science College, May 15 and May 24, 2013)
 >
 > ⚠️ Representative forms, candidate applications and related attachments are available in the original OA notice through the OA system.
