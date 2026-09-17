@@ -1,6 +1,6 @@
 ---
 title: 'Advanced Calculus Midterm Exam Scheduled for November 4'
-description: 'The College of Science announced the midterm exam for [MAT2801A] Advanced Calculus, to be held on November 4 during periods 3-4 across three venues: Lecture Hall 4, Lecture Hall 5, and Room 503 in Building D.'
+description: 'The College of Science announced the midterm exam for [MAT2801A] Advanced Calculus, to be held on November 4 during periods 3-4 with 383 students across three venues: Lecture Hall 4, Lecture Hall 5, and Room 503 in Building D.'
 pubDate: 2014-10-31
 category: 'Notices'
 tags: ['Advanced Calculus', 'Midterm Exam', 'College of Science', 'Academic Arrangement']
@@ -21,6 +21,6 @@ The exam covers three class sections, with venues, instructors, and student numb
 | 72617 | Tan Chaoqiang | Lecture Hall 4 | 134 |
 | 72619 | Li Jian | Room 503, Building D | 115 |
 
-Seating in Lecture Hall 5 will be arranged by the instructor on site. Students who have applied for course exemption are also required to attend the exam on time.
+A total of 383 students from the three sections will sit the midterm exam. Seating in Lecture Hall 5 will be arranged by the instructor on site. Students who have applied for course exemption are also required to attend the exam on time.
 
 > Source: STU OA Notice (College of Science)

@@ -2,15 +2,16 @@
 title: "Pipa Performance Class Suspended on April 27 as Instructor Takes Leave"
 description: "Shantou University's Academic Affairs Office announced that the Pipa Performance class scheduled for week 9 was cancelled due to instructor leave, with a make-up session to be arranged."
 pubDate: 2012-04-26
-category: 'Notices'
+category: 'Campus News'
 tags: ['Academic Affairs Office', 'Class Schedule', 'Suspension']
 author: 'STU News'
+heroImage: ''
 draft: false
 ---
 
 It is reported that Shantou University's Academic Affairs Office has announced a class adjustment: the Pipa Performance course, originally scheduled for the 8th and 9th periods on Friday of week 9 (April 27) in classroom STU213, was suspended because the instructor, Yang Qing from the Art Education Center, took leave.
 
-According to the office, the suspension affects class number 52904. The make-up session has not yet been scheduled and will be announced later. Students enrolled in the course are advised to stay tuned for further arrangements.
+According to the office, the suspension affects class number 52904. The make-up session has not yet been scheduled and will be announced separately. Students enrolled in the course are asked to inform one another and to watch for further arrangements.
 
 | Item | Details |
 | --- | --- |

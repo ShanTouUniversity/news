@@ -9,7 +9,7 @@ heroImage: ''
 draft: false
 ---
 
-It is reported that the Student Affairs Office at Shantou University has published the successful registration list for the SLC (Student Learning Center) software introductory courses. Four classes were offered — Photoshop image editing, Illustrator graphic design, PS poster design, and software integration — with eight students admitted to each, totaling 32 selected.
+It is reported that the Student Affairs Office at Shantou University has published the successful registration list for the Fall 2014 SLC (Student Learning Center) software introductory courses. Four classes were offered — Photoshop image editing, Illustrator graphic design, PS poster design, and software integration — with eight students admitted to each, totaling 32 selected.
 
 Each class is taught by a student tutor, and all sessions are held at SLC 105. The schedule is as follows:
 

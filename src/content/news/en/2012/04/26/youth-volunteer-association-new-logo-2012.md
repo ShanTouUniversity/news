@@ -9,9 +9,11 @@ heroImage: ''
 draft: false
 ---
 
-It is reported that the Youth League Committee and the Youth Volunteers Association issued a notice on April 26, 2012, to officially adopt a new logo for the Shantou University Youth Volunteers Association.
+It is reported that the Youth League Committee of Shantou University and the Shantou University Youth Volunteers Association jointly issued a notice on April 26, 2012, officially adopting a new logo for the association.
 
-Founded in 1994, the association upholds the goal of “Everyone a Volunteer” and the spirit of dedication, friendship, mutual help and progress, encouraging youth volunteers to serve society through a service-learning model. After 18 years of development, its organizational structure and service system have continued to improve. The Gold Award work *Convergence* (*Huiju*) from the logo competition has been selected as the association’s new logo and officially put into use. Details of the work are available in the OA attachments.
+Founded in 1994, the association upholds the goal of “Everyone a Volunteer” and the spirit of dedication, friendship, mutual help and progress, encouraging youth volunteers to serve society through a service-learning model. Over 18 years it has kept growing, with its organizational structure, service system and operating mechanisms continuously improved.
+
+The Gold Award work *Convergence* (*Huiju*) from the logo competition has been selected as the association’s new logo and officially put into use. Details of the work are available in the OA attachments.
 
 > ⚠️ Details are available on the OA system.
 >

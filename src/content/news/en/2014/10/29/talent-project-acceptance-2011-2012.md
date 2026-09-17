@@ -1,41 +1,59 @@
 ---
-title: 'Research Office to Organize Acceptance Review for 2011–2012 Talent Funding Projects'
-description: 'The Research Office will organize the acceptance review for talent recruitment funding projects from 2011–2012, covering 13 projects from December 10, 2014 to January 10, 2015.'
+title: 'Shantou University Begins Final Review of 2011–2012 Provincial Talent Funding Projects'
+description: "In response to the Guangdong Provincial Department of Education's notice, the Research Affairs Office will conduct final reviews of talent introduction projects funded in 2011 and 2012, involving 13 project leaders from the Schools of Engineering and Science."
 pubDate: 2014-10-29
 category: 'Academic'
-tags: ['talent projects', 'acceptance review', 'Research Office']
+tags: ['Research Affairs Office', 'Talent Funding Project', 'Project Review', 'High-Level Talent Introduction', 'Provincial Education Department']
 author: 'STU News'
 heroImage: ''
 draft: false
 ---
 
-It is reported that the Research Office issued a notice on October 29, 2014, to organize the acceptance review for projects funded by the 2011–2012 University Talent Recruitment Special Fund.
+It is reported that, in accordance with the Guangdong Provincial Department of Education's "Notice on Conducting Final Reviews of Talent Funding Projects for 2011-2012" (Yue Jiaoshi Han [2014] No. 113), the Research Affairs Office of Shantou University will carry out final reviews of talent introduction special funding projects approved in 2011 and 2012.
 
-Per the Provincial Department of Education’s *Notice on the Acceptance Review for 2011–2012 Talent Funding Projects* (Yue Jiao Shi Han [2014] No. 113), arrangements are as follows:
+## Scope of Review
 
-## Scope
+A total of 13 projects require final review, involving 13 project leaders from the School of Engineering and the School of Science, with funding ranging from 100,000 to 1,500,000 yuan:
 
-13 projects in total, including Provincial “Thousand-Hundred-Ten” projects and New High-Level Talent Recruitment projects, involving faculty members such as Cheng Xiyun (School of Engineering), Zhang Yueling and Zheng Huaiping (School of Science), among 13 in total, with funding ranging from 100,000 to 1,500,000 yuan under documents Yue Cai Jiao [2011] No. 431, No. 430 and Yue Cai Jiao [2012] No. 41, No. 328 (see OA table for details).
+| No. | Unit | Name | Talent Type | Funding (10K RMB) | Document No. |
+|-----|------|------|-------------|-------------------|--------------|
+| 1 | School of Engineering | Cheng Xiyun | Provincial "Thousand-Hundred-Ten Program" | 25 | Yue Cai Jiao [2011] No. 431 |
+| 2 | School of Science | Zhang Yueling | Provincial "Thousand-Hundred-Ten Program" | 25 | Yue Cai Jiao [2011] No. 431 |
+| 3 | School of Science | Zheng Huaiping | Provincial "Thousand-Hundred-Ten Program" | 20 | Yue Cai Jiao [2011] No. 431 |
+| 4 | School of Science | Lu Fushen | Newly Introduced High-Level Talent | 20 | Yue Cai Jiao [2011] No. 430 |
+| 5 | School of Science | Liu Zhu | Newly Introduced High-Level Talent | 20 | Yue Cai Jiao [2011] No. 430 |
+| 6 | School of Science | Yang Zengming | Newly Introduced High-Level Talent | 150 | Yue Cai Jiao [2012] No. 41 |
+| 7 | School of Science | Chen Changjin | Newly Introduced High-Level Talent | 70 | Yue Cai Jiao [2012] No. 41 |
+| 8 | School of Science | Ding Lanping | Newly Introduced High-Level Talent | 50 | Yue Cai Jiao [2012] No. 41 |
+| 9 | School of Engineering | Wang Shuangxi | Newly Introduced High-Level Talent | 20 | Yue Cai Jiao [2012] No. 41 |
+| 10 | School of Science | Yang Weifeng | Newly Introduced High-Level Talent | 40 | Yue Cai Jiao [2012] No. 328 |
+| 11 | School of Science | Song Xiaohong | Newly Introduced High-Level Talent | 20 | Yue Cai Jiao [2012] No. 328 |
+| 12 | School of Science | Xu Fei | Newly Introduced High-Level Talent | 25 | Yue Cai Jiao [2012] No. 328 |
+| 13 | School of Engineering | Zeng Lijuan | Newly Introduced High-Level Talent | 10 | Yue Cai Jiao [2012] No. 328 |
 
-## Review Method and Procedures
+## Review Method and Procedure
 
-1. Review is by meeting, organized by the Research Office; projects may be reviewed individually or jointly by discipline upon agreement, with costs borne by project leaders;
-2. Review period: December 10, 2014 – January 10, 2015;
-3. Each project requires an acceptance panel of at least 5 peer experts from inside and outside the university, with at least one-third from outside;
-4. The panel hears the report, reviews materials, evaluates completion, achievements and rationality of fund use, and issues a written opinion;
-5. Leaders are asked to submit the expert list and dates by November 18, with the overall plan to be approved by the Provincial Department of Education.
+The review will be conducted through meetings organized by the Research Affairs Office. Generally, each project will be reviewed individually; however, if project leaders in the same discipline reach mutual agreement, projects may be combined for review by discipline. Review expenses will be borne or shared by the respective project leaders.
 
-## Materials and Submission
+Each review panel must comprise no fewer than five members, including both internal and external peers. At least one-third of the panel members must be external experts. The expert panel will hear reports from project leaders on implementation progress, examine relevant project materials, and provide written evaluations on task completion, achievements, and the appropriateness of fund usage.
 
-Talent recruitment projects require the *Final Report* and *Fund Use Registration Form*; high-level talent projects additionally require the *Project Contract* and *Young Teacher Training Completion Form* (copies). Materials must be reviewed by the Research Office before the meeting, with three printed copies and an electronic version submitted after passing.
+## Timeline
 
-| Item | Details |
-| --- | --- |
-| Contacts | Hu Yunxiang, Zhu Changsheng |
-| Phone | 86502813 |
+| Item | Date |
+|------|------|
+| Submission of expert list and proposed review dates | Before November 18, 2014 |
+| Meeting review period | December 10, 2014 – January 10, 2015 |
 
-Attachments are available on the OA system.
+The Research Affairs Office is required to draw up an overall review work plan and submit it to the Teacher Affairs Division of the Provincial Department of Education for approval.
 
-> ⚠️ Templates and forms are available on the OA system.
->
+## Material Submission Requirements
+
+For newly introduced talent projects, applicants must submit the "Guangdong Province Higher Education Institution Introduced Talent Project Completion Report" and the "Fund Usage Registration Form." For high-level talent projects, applicants must submit the "Guangdong Province Higher Education Institution High-Level Talent Project Completion Report," the "Fund Usage Registration Form," a copy of the "Project Plan Contract," and a copy of the "Guangdong Province Higher Education Institution Young Teacher Training Completion Assessment Form."
+
+Project leaders must submit all materials to the Research Affairs Office for review prior to the meeting. After successful review, three printed copies should be submitted along with an electronic version to the Research Affairs Office.
+
+Contact persons: Hu Yunxiang, Zhu Changsheng
+Telephone: 86502813
+
 > Source: STU OA Notice (Research Office)
+> ⚠️ Related forms and templates are available on the OA system.
