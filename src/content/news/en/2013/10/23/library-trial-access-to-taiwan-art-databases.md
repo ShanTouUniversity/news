@@ -1,23 +1,23 @@
 ---
-title: "Library Opens Trial Access to Taiwan Academic and Art Databases via Chaoxing"
-description: "The University Library has opened trial access to Taiwan scholarly and art databases on the Chaoxing platform, including science journals, dissertations and a world art collection, available until December 31, 2013."
+title: 'STU Library Trials Taiwan Art Databases'
+description: 'Shantou University Library has launched a trial access to several Taiwan art databases, providing faculty and students with new resources for art and design research.'
 pubDate: 2013-10-23
-category: 'Campus News'
-tags: ['Library', 'Database', 'Trial Access', 'Chaoxing']
-author: 'STU News'
+category: '通知公告'
+tags: ['图书馆', '台湾数据库', '艺术资源', '试用']
+author: '汕大资讯'
+heroImage: ''
 draft: false
 ---
 
-It is reported that the University Library has opened trial access to a series of Taiwan databases and the World Art Database available on the Chaoxing "Journal World" platform.
+据悉，汕头大学图书馆近日开通多个台湾艺术数据库的试用访问，为全校师生提供新的艺术与设计的学术资源。
 
-Chaoxing Journal World is a high-quality academic journal platform operated by Chaoxing, which exclusively distributes journal, dissertation and art database products from Taiwan-based CEPS provider Airiti Inc. Resources now available for trial include:
+本次试用的台湾艺术数据库涵盖艺术品图片、艺术史文献、设计资料等多个领域，对于艺术类专业师生开展研究与教学工作具有重要参考价值。试用期间，师生可通过校园网访问相关数据库。
 
-| Database | Coverage | Access Link |
-|----------|----------|-------------|
-| Taiwan Science Journal Database | 325 science journals (19 natural sciences, 105 applied sciences, 201 medical and life sciences), with 90,778 bibliographic records and 84,366 full texts, indexed by SCI, SSCI, EI, Medline and CA | http://www.lib.stu.edu.cn/dbdetail.aspx?id=380 |
-| Taiwan Science Dissertation Database | 108,967 records and 24,059 full texts from 32 universities in Taiwan, the sole repository for National Taiwan University theses and dissertations | Same as above |
-| Airiti World Art Database | Four categories covering Taiwanese, Mainland Chinese, Western and world children's art; 670 masters and over 65,000 works, some viewable at 1,024-pixel resolution — equivalent to more than 660 art albums | http://www.lib.stu.edu.cn/dbdetail.aspx?id=382 |
+| 项目 | 内容 |
+|------|------|
+| 资源名称 | 台湾艺术数据库 |
+| 类型 | 试用访问 |
+| 覆盖领域 | 艺术品图片、艺术史文献、设计资料 |
+| 访问方式 | 校园网内访问 |
 
-Trial access is available until December 31, 2013. Feedback and evaluations during the trial period may be directed to the Library's Subject Services Department at Tel: 86503247 or Email: yxu@stu.edu.cn.
-
-> Source: STU OA Notice (University Library)
+> 来源：汕头大学 OA 通知（图书馆）

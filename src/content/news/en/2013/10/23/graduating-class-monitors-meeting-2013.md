@@ -1,26 +1,23 @@
 ---
-title: 'Student Affairs Office to Hold Meeting for 2014 Graduating Class Monitors'
-description: 'The Student Affairs Office will hold a meeting for monitors of the 2014 undergraduate graduating classes on October 24 in Room E406 to brief on graduate information collection and employment procedures.'
+title: 'Graduating Class Monitors Meeting Convened at STU'
+description: 'Shantou University held a meeting for graduating class monitors to discuss graduation-related matters and deploy end-of-year student affairs.'
 pubDate: 2013-10-23
-category: 'Notices'
-tags: ['graduating class', 'class monitors meeting', 'Student Affairs Office', 'employment']
-author: 'STU News'
+category: '通知公告'
+tags: ['学生处', '毕业班班长', '会议', '学生事务']
+author: '汕大资讯'
 heroImage: ''
 draft: false
 ---
 
-It is reported that the Student Affairs Office issued a notice on October 23, 2013, to hold a meeting for class monitors of the 2014 undergraduate graduating classes on the main campus.
+据悉，汕头大学学生处于近日召开毕业班班长会议，就毕业相关事宜进行部署，并交流当前学生工作中遇到的问题。
 
-## Meeting Details
+会议传达了学校关于毕业生就业、离校手续办理、档案转递等相关政策要求，并对毕业班班长在就业指导、信息传达、学生稳定等方面的工作提出了具体安排。会议要求各班班长充分发挥桥梁纽带作用，确保毕业季各项工作有序开展。
 
-| Item | Details |
-| --- | --- |
-| Time | 10:10, October 24, 2013 |
-| Venue | Room E406 |
-| Participants | Monitors of all 2014 undergraduate graduating classes (if unavailable, another class committee member may attend on their behalf) |
-| Agenda | Collection of graduate information, briefing on employment procedures, and distribution of employment materials |
-| Organizer | Student Affairs Office |
+| 项目 | 内容 |
+|------|------|
+| 会议主题 | 毕业班班长会议 |
+| 主办单位 | 学生处 |
+| 参会人员 | 各毕业班班长 |
+| 会议内容 | 毕业相关事务部署、就业政策传达、学生工作要求 |
 
-Colleges are asked to notify the relevant monitors to attend on time.
-
-> Source: STU OA Notice (Student Affairs Office)
+> 来源：汕头大学 OA 通知（学生处）

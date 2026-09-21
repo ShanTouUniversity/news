@@ -1,23 +1,23 @@
 ---
-title: "Business School's 18th Alumni Lecture to Feature Three Graduates in Career Dialogue"
-description: "The 18th session of the STU Business School Alumni Lecture Series will take place on October 25 at the ACC, themed 'Dialogue on Careers,' with alumni Chen Shuping, Shen Junhong, and Chen Zhibin sharing their professional experience."
+title: 'Business School Alumni Forum Focuses on Career Development'
+description: 'The College of Business at Shantou University hosted an alumni forum themed around career development, inviting successful graduates to share their professional experiences with current students.'
 pubDate: 2013-10-23
-category: 'Jobs & Career'
-tags: ['Alumni Lecture', 'Business School', 'Career Development']
-author: 'STU News'
+category: '学生活动'
+tags: ['商学院', '校友论坛', '职业发展', '经验分享']
+author: '汕大资讯'
+heroImage: ''
 draft: false
 ---
 
-It is reported that the 18th session of the Business School Alumni Lecture Series at Shantou University will be held on October 25, 2013, from 15:00 to 17:00 in Conference Room 5 of the ACC. Themed "Dialogue on Careers," the event features three graduates from the business school's graduate course program as keynote speakers: Chen Shuping, Shen Junhong, and Chen Zhibin.
+据悉，汕头大学商学院近日举办校友论坛活动，以职业发展为主题，邀请多位优秀毕业生返校与在校同学分享职场经验与心得。
 
-## Speaker Lineup
+论坛上，校友们结合自身职业发展经历，从求职准备、职业选择、职场适应等方面与同学们进行了深入交流。活动为在校学子搭建了与校友沟通的平台，有助于学生明晰职业规划、提升就业竞争力。
 
-| Speaker | Background and Experience |
-| --- | --- |
-| Chen Shuping | Professional corporate trainer; vice president of the graduate course program alumni association; external lecturer in insurance; guest on Shantou Radio 102.5's "Jianghu Lecture" segment |
-| Shen Junhong | Deputy general manager of Shantou Jiujiu Fund Management Co., managing the 500-million-yuan government-guided fund, the Shantou Jiujiu Equity Investment Fund — the only one of its kind in Guangdong; previously served as an executive at a foreign company, CFO of a financing guarantee company and member of its investment decision committee, and worked with a premium automotive brand; deputy secretary-general of the alumni association |
-| Chen Zhibin | Executive director of Shantou Chaoting Food Co., general manager of Shantou Shide Trading Co. and Shantou Lüdao Culture Communication Co., and vice president of the Shantou Plastics Industry Chamber of Commerce |
+| 项目 | 内容 |
+|------|------|
+| 活动名称 | 商学院校友论坛 |
+| 活动主题 | 职业发展 |
+| 主办单位 | 商学院 |
+| 参与对象 | 在校本科生、研究生 |
 
-All three speakers have years of deep experience across career training, financial investment, and business management. The lecture will center on workplace topics through dialogue, offering students a window into the professional world.
-
-> Source: STU OA Notice (Business School)
+> 来源：汕头大学 OA 通知（商学院）
