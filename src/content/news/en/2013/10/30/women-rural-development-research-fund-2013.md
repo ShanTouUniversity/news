@@ -3,7 +3,7 @@ title: "Shantou University Women's Research Center Opens 2013 Special Research F
 description: "The Women's Research Center at Shantou University's College of Liberal Arts, supported by the Li Ka Shing Foundation, is accepting applications for its 2013 Special Research Program on 'Chinese Women's Participation in Rural Development', with up to 20,000 RMB per project."
 pubDate: 2013-10-30
 category: 'Academic'
-tags: ['Women\'s Studies', 'Rural Development', 'Research Fund', 'Li Ka Shing Foundation']
+tags: ["Women's Studies", "Rural Development", "Research Fund", "Li Ka Shing Foundation"]
 author: 'STU News'
 heroImage: ''
 draft: false
