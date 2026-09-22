@@ -1,25 +1,24 @@
 ---
-title: 'Ping An Direct Auto Insurance Consultation Event Set for October 27'
-description: 'A Ping An Direct Auto Insurance promotional consultation will be held on the afternoon of October 27 at the faculty basketball match venue.'
+title: "STU Labor Union Holds Pingan Express Lane Insurance Consultation Event"
+description: "The Labor Union at Shantou University will host an insurance consultation event for the Pingan Express Lane insurance on October 27, offering faculty and staff product information and preferential rates."
 pubDate: 2014-10-23
-category: 'Campus News'
-tags: ['Labor Union', 'Ping An Auto Insurance', 'Faculty Activities', 'Basketball Match']
+category: 'Notices'
+tags: ['Labor Union', 'insurance consultation', 'Pingan Express Lane', 'staff benefits']
 author: 'STU News'
 heroImage: ''
 draft: false
 ---
 
-It is reported that a Ping An Direct Auto Insurance promotional consultation will be held from 16:30 to 18:00 on Monday, October 27, 2014, at the venue of the STU faculty basketball competition, offering faculty and staff information on current insurance discounts.
+It is reported that the Labor Union at Shantou University issued a notice on October 23, 2014, announcing an insurance consultation event for the Pingan Express Lane insurance on the afternoon of October 27, providing product information and preferential rates to all faculty and staff.
 
-Detailed offers are available via on-site or phone consultation.
+## Event Details
 
 | Item | Details |
-|------|---------|
-| Event | Ping An Direct Auto Insurance Consultation |
-| Time | Monday, October 27, 2014, 16:30–18:00 |
-| Venue | Beside the roller rink (near Basketball Court No. 8), at the faculty basketball match |
-| Hotline | 0754-88295512 |
+| --- | --- |
+| Date & Time | Monday, October 27, 2014, 4:30–6:00 PM |
+| Venue | Near the ice skating rink (near Basketball Court No. 8) |
+| Inquiry Phone | 0754-88295512 |
 
-The Labor Union welcomes interested faculty and staff to visit the consultation booth.
+Professional staff will be on hand to introduce the Pingan Express Lane insurance products and preferential plans. Faculty and staff interested in the program are welcome to attend and consult.
 
 > Source: STU OA Notice (Labor Union)

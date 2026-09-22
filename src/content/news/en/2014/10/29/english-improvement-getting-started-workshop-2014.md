@@ -1,27 +1,25 @@
 ---
-title: "STU's ELC to hold 'How Do I Improve My English' getting-started workshop on Nov 3"
-description: "The English Language Center will host a getting-started English improvement workshop on November 3 at CILL, presented by Ms. Nana Wei and Zhou Qian, offering guidance for language learners."
+title: "CILL to Host 'Improving Your English' Getting-Started Workshop on Nov 3"
+description: "The Center for Integrated Language Learning (CILL) at Shantou University will host a 'Improving Your English' getting-started workshop on November 3, with Ms. Nana Wei and Zhou Qian offering guidance for language learners."
 pubDate: 2014-10-29
-category: 'Student Life'
-tags: ['English learning', 'English Language Center', 'workshop', 'getting started']
+category: 'Academic'
+tags: ['CILL', 'English Improvement', 'Language Learning', 'Workshop']
 author: 'STU News'
 heroImage: ''
 draft: false
 ---
 
-It is reported that the English Language Center of Shantou University will hold a getting-started English workshop on November 3, providing guidance for both on-campus and external language learners on planning their language learning journey outside of formal classes.
+It is reported that the Center for Integrated Language Learning (CILL) at Shantou University will host a "Improving Your English" getting-started workshop on the afternoon of November 3, providing learning guidance and strategic advice for students looking to enhance their English proficiency.
 
 ## Workshop Details
 
 | Item | Details |
 | --- | --- |
-| Topic | How Do I Improve My English: Getting Started Workshop |
-| Time | Monday, November 3, 2014, 16:00–18:00 |
-| Venue | CILL |
-| Presenters | Ms. Nana Wei and Zhou Qian |
-| Content | Guidance for language learning journeys and planning extracurricular English study |
-| Reservation | http://fa14gettingstarted.eventbrite.com, seats limited |
-| Note | Please bring your ticket; do not register if you are unsure of your availability — registered attendees must attend |
-| Organizer | English Language Center |
+| Topic | Improving Your English (Getting Started) |
+| Speakers | Ms. Nana Wei, Zhou Qian |
+| Date & Time | Monday, November 3, 2014, 4:00–6:00 PM |
+| Venue | Center for Integrated Language Learning (CILL) |
 
-> Source: STU OA Notice (English Language Center)
+The workshop focuses on the foundational stages of English language learning, with the speakers offering guidance throughout the language-learning journey, including study method planning and daily practice strategies. It is suitable for students seeking to systematically improve their English skills.
+
+> Source: STU OA Notice (Center for Integrated Language Learning)
