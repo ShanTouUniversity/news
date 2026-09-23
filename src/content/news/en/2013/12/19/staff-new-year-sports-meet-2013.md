@@ -1,8 +1,8 @@
 ---
 title: "STU Staff New Year Fun Sports Meet Was Planned for December 31, 2013"
-description: "The university labor union planned a New Year fun sports meet for December 31, 2013, and revised the iron-ring and jumping-ball relay events on December 24."
+description: "The university labor union planned a New Year fun sports meet for December 31, 2013, revised relay events and added a prize drawing."
 pubDate: 2013-12-19
-updatedDate: 2013-12-24
+updatedDate: 2013-12-31
 category: 'Campus News'
 tags: ['Labor Union', 'Fun Sports Meet', 'New Year']
 author: 'STU News'
@@ -17,5 +17,7 @@ Teams will be formed by departmental unions, with ten teams registered: the Libe
 On December 24, 2013, the labor union replaced the “Rolling Iron Rings” event with a “Crab-Ball Relay.” Each team has 12 participants divided into four groups of three. Group members carry a ball held between their backs, navigate around an obstacle and return for a relay handoff in the designated zone. If the ball falls, they continue from that spot; teammates may help position it. The team’s time ends when its final group member crosses the finish line.
 
 The union also asked teams in the “Galloping Horses” jumping-ball relay to collect training balls and return them by the end of the morning on Friday, December 27, 2013. The recorded time was to be the moment the first member of the fourth group crossed the finish line.
+
+The union later announced a drawing with 15 prizes: one grand prize, one first prize, three second prizes and 10 third prizes. Prizes included water-purification equipment and shopping vouchers. Participants were to receive and submit a drawing ticket upon arrival; the ticket could also be used as a shopping voucher. The prizes were sponsored by Shantou Hanchao Environmental Technology Co., Ltd.
 
 > Source: STU OA Notice and subsequent event update (Labor Union)
