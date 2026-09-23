@@ -13,6 +13,8 @@ It is reported that the Law School issued a notice on October 10, 2013, to annou
 
 The times and venues for the theoretical sessions of each group have been set. Details are available in the OA attachment.
 
+On December 14, the Law School also opened course reservations. Students could complete the reservation information form and send it to the course’s designated email address by 2 p.m. on December 22.
+
 > ⚠️ The schedule is available on the OA system.
 >
 > Source: STU OA Notice (Law School)
