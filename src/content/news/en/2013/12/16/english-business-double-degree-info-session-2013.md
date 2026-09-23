@@ -13,4 +13,6 @@ Shantou University’s Academic Affairs Office planned to hold a briefing for th
 
 Topics were to include the purpose of the program, its implementation rules, and the study requirements for the English and Business Administration programs, followed by a question-and-answer session. Interested students in the 2013 cohort were invited to attend.
 
+On December 18, the Academic Affairs Office issued detailed rules. Students could pursue only one double degree or minor while enrolled. At registration, they could not have failed two or more courses in the same semester; after registration, failing two or more courses in a semester—including courses in the primary program—would void eligibility for the free program. Courses in both programs counted toward the student’s GPA. The rules took effect in fall 2014 and applied to the free English or Business Administration options approved for the 2013 cohort.
+
 > Source: STU OA Notice (Academic Affairs Office)

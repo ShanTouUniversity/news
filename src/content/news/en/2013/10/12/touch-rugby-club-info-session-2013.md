@@ -15,6 +15,8 @@ According to the association, its faculty advisor will attend the session and sh
 
 The session is organized by the Touch Rugby Association of Shantou University, and students are welcome to take part on site. Those who wish to make further inquiries or sign up may contact the association by email; the contact details are available in the original OA notice.
 
+The Sports Department circulated another recruitment notice on November 29. At that time, the association scheduled activities from 4 to 5:30 p.m. every Wednesday and Friday at the stadium/running track and welcomed interested students. Student email addresses and phone numbers in the notice are not reproduced.
+
 ## Key Information
 
 | Item | Details |
