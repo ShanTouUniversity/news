@@ -35,7 +35,7 @@ AIESEC is a global, non-political, independent and non-profit organization run b
 
 | Method | Details |
 | --- | --- |
-| Method 1: Dormitory drop-off points | Cai M (AB), Huang M (CD), Li M (EF), Chu M (G), Zhu M (Zhicheng), Xiao M (L), plus file pockets under posters at dorm entrances and at the 2nd and 4th canteens |
+| Method 1: Drop-off points | File pockets beneath posters outside dormitories and at the 2nd and 4th canteens |
 | Method 2: Self-pick form | Pick up blank forms from file pockets at canteen poster boards |
 | Method 3: On-site | Collect and submit forms at the JinSanJiao booth, December 7, 11:00–15:00 |
 | Method 4: Email | Send Chinese and English resumes or completed application form (see attachment) to aiesec.volunteer.stu@gmail.com |
@@ -43,10 +43,8 @@ AIESEC is a global, non-political, independent and non-profit organization run b
 | Item | Details |
 | --- | --- |
 | Deadline | 18:00, December 7, 2013 |
-| Contacts | Lin M, Cai M |
 | Official Weibo | @AIESEC STU |
 | Official WeChat | AIESEC-STU |
-| Q&A QQ Group | 295986463 |
 
 > ⚠️ The application form and other attachments are available on the OA system.
 >
